@@ -1,0 +1,3 @@
+- [ ] A weekly timeline from what I do now till the end of August
+- [ ] 6 more pieces of secondary research
+- [ ] Source Tracker

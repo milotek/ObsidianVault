@@ -1,0 +1,1 @@
+Vector graphics are actually used very often in our lives. While [[Bitmap Graphics]] are often used more in our day to day life admittedl, things such as logos

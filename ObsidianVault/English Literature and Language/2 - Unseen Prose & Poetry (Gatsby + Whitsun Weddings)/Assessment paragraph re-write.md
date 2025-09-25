@@ -1,0 +1,1 @@
+Fitzgerald "The Great Gatsby" and Phillip Larkin's work both present differing individuals struggling with their 

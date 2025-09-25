@@ -1,0 +1,2 @@
+- **One character - one monologue**
+- **Use of stage directions (as necessary):** depending on your dramatist

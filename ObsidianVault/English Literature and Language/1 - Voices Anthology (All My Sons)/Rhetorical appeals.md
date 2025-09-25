@@ -1,0 +1,5 @@
+- Logos - appeals to logic.
+- Pathos - appeals to emotion.
+- Ethos - appeals to ethics.
+- Kairos - appeals to time/timeliness of the arguement
+- Bathos  - creates an anticlimactic effect within your speech

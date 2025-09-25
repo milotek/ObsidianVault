@@ -1,0 +1,3 @@
+EXIF (Exchangeable Image File Format) files **store important data about photographs**. Almost all digital cameras create these data files each time you snap a new picture. An EXIF file holds all the information about the image itself — such as the exposure level, where you took the photo, and any settings you used.
+
+**EXIF data is used in iPhones, for example, to hold precious data about where and when it was taken!** 

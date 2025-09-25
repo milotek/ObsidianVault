@@ -1,0 +1,1 @@
+> There are some important characteristics to be aware of when using [[Local Variables]] and [[Global Variables]].

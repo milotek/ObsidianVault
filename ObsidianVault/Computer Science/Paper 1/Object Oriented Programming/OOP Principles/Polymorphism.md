@@ -1,0 +1,1 @@
+Polymorphism is the other side of [[Subclasses + Inheritance|inhereitance]]. I can override any of the methods that I _do_ want to change in the subclass. 

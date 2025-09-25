@@ -1,0 +1,2 @@
+- A function, in terms of functional programming, is a rule that relates each element in set A to exactly one element from the set B.
+- Function rule: for every element ae A

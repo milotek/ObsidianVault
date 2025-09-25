@@ -1,0 +1,1 @@
+When variables are declared within a  [[Subroutines#Functions|function]]

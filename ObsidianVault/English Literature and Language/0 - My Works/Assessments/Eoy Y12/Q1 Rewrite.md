@@ -1,0 +1,1 @@
+Both Doninger's interview and Chris Rainer's account employ a use of a similar, informed voice 

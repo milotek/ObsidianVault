@@ -1,0 +1,4 @@
+The movement refers to a group of English only writers, [[Phillip Larkin]] included, of whom were all concerned in regards to english poetry. These people focused on shifting poetry back to its more traditional roots - which to them meant, good, meaningful and simple, and most of all conventional.
+Their main objective was to prove the importance of the traditional english language and literature as opposed to the more modern and had less depth, as they argued.
+
+It is important to note that they were opposed to the modern literature, instead choosing to write in an older manner which is definitely noticeable in their works!

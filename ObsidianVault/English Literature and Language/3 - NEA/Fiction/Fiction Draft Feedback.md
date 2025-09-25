@@ -1,0 +1,9 @@
+- In the opening, set up the 1980's scene, include more detail in which it feels like it's stuck in time, or of a bygone era
+- Include more detail after the "...albeit the technology, or lack thereof..."
+- Could add more details like a fair, or real-world 20th century events.
+- More focus on my thoughts and feelings in the meetup scene - to make it more understandable to the reader.
+- "At one point someone said" - would be better if I specified a name.
+- Include an extract from the newspaper itself 
+	- "Here I departed from the stimulus text as it seemed to be the most effective way of telling the narritive"
+- When I describe the librarian as old - talk about how frail she is then, to juxtapose the supernatural strength later.
+- "I looked back forward" - change to make more clear?

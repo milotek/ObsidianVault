@@ -1,0 +1,1 @@
+Any data type which can be constructed using the programming language's primitive data types and other composite types.

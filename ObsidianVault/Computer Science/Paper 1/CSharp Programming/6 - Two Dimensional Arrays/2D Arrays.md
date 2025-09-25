@@ -1,0 +1,1 @@
+>A 2D array is an array organized in rows and columns. It's easy to think of them like tables

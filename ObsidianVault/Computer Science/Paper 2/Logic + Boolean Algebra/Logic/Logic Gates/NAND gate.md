@@ -1,0 +1,1 @@
+The NAND gate is a gate which works similarly to an [[AND gate]] but 

@@ -1,0 +1,3 @@
+Larkin and Fitzgerald ️present love as something bound to fail, holding the same cynical view towards it. Larkins poems such as self's the man and talking in bed reveal his skeptical attitude to a lasting relationship yet Fitzgerald explores the nature of humans and almost the shallowness in some people towards their supposed partner 
+
+An object, typically an [inscribed](https://www.google.com/search?sca_esv=584594592&rlz=1C5CHFA_enGB1074GB1074&sxsrf=AM9HkKk_fE4a84JsfirgPQ_uNo6SkfKEWA:1700666177412&q=inscribed&si=ALGXSlYl_e3TsZvERASNGAvnwCgjkk7XvYvSybLAtYdbKwzTdSzTJ7xN3elYU0nNGF_ma_JvOwa_NAlq9L0J1SozRSQXRkFxjLsh0u1DIm5OgLa-LC9wNGw%3D&expnd=1) ring or stone, that is thought to have magic powers and to bring good luck.

@@ -1,0 +1,3 @@
+- A flip-flop is a sequential logic circuit, where data is captured to memory at a specific moment in time.
+- Time in a computer is provided by a master clock
+- Master clock delivers a continuous wave 

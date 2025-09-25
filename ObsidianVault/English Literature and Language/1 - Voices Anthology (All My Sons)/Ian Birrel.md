@@ -1,0 +1,5 @@
+Ian Birrel is a columnist and writer for the British "i" newspaper - and likes to give the readers the facts towards injustices in society, not only in the UK! His website, located at https://www.ianbirrell.com/, showcases all of the countries he has written in regard to - and by this you could say he's a very international person, not only limiting his concerns to Britain, but the rest of the world from, Serbia all the way to Kenya.
+
+He tries to write in a very persuading manner to his audience, try to sway their views using facts and presenting solely information to the reader to let them form their own unbiased view.
+
+In this article Ian Birrel talks about two topics - although he uses the former to illustrate and contrast his point, and as a convention to segue into the second topic. This overall creates an arc which ends ultimately in a bittersweet tone, as he talks about both the bad and the good, what we can do better and what we already are. To talk about both sides of the coin is what Ian Birrel excels in. He is not too much of a political person, more so informative and this is reflected within this article.

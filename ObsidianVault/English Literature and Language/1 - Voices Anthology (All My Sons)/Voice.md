@@ -1,0 +1,1 @@
+Voice refers to the tone and register and in essence, style of writing in reference to how something is written and addressed towards the reader. The way the writer speaks, or "writes" towards his audience is important. For an example, you could write in a jokey, satirical manner and slip jokes in here or there or you would

@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"id":"cd2ac6aaaa0be232","type":"file","file":"Computer Science/NEA/3 - Research/3 - Interviewing.md","x":-960,"y":-102,"width":400,"height":228},
+		{"id":"9dea7d7ac72a81e9","type":"file","file":"Computer Science/NEA/3 - Research/2 - Websites and Books.md","x":-960,"y":-380,"width":400,"height":208},
+		{"id":"ddca4cd29a8eafc3","type":"file","file":"Computer Science/NEA/3 - Research/1 - Existing Solutions.md","x":-960,"y":-680,"width":400,"height":234},
+		{"id":"1f9f1a48a37bad54","type":"file","file":"Computer Science/NEA/3 - Research/4 - Surveys.md","x":-960,"y":180,"width":400,"height":220},
+		{"id":"f77c4fa9148da887","type":"file","file":"Computer Science/NEA/3 - Research/5 - Prototyping.md","x":-960,"y":460,"width":400,"height":220},
+		{"id":"30569908acdac87e","type":"file","file":"Computer Science/NEA/1 - Project Proposal/Project Proposal.md","x":-2160,"y":-188,"width":400,"height":400},
+		{"id":"92e05da2b52e69f5","type":"file","file":"Computer Science/NEA/3 - Research/0 - Research Overview.md","x":-1560,"y":-188,"width":400,"height":400},
+		{"id":"6355d2de04e84abb","type":"file","file":"Other/Attachments/CleanShot 2024-09-23 at 23.36.23@2x.png","x":-400,"y":327,"width":779,"height":486},
+		{"id":"81279f1a3c5d9f06","type":"file","file":"Computer Science/NEA/Analysis/Analysis.md","x":-2160,"y":-1360,"width":1000,"height":980}
+	],
+	"edges":[
+		{"id":"8e0adf36be003b7c","fromNode":"92e05da2b52e69f5","fromSide":"right","toNode":"f77c4fa9148da887","toSide":"left"},
+		{"id":"59767ff24de02b04","fromNode":"92e05da2b52e69f5","fromSide":"right","toNode":"ddca4cd29a8eafc3","toSide":"left"},
+		{"id":"cb77315fdf569b89","fromNode":"92e05da2b52e69f5","fromSide":"right","toNode":"9dea7d7ac72a81e9","toSide":"left"},
+		{"id":"420c5e8d074a09b0","fromNode":"92e05da2b52e69f5","fromSide":"right","toNode":"cd2ac6aaaa0be232","toSide":"left"},
+		{"id":"a6db626fc35c3fd4","fromNode":"92e05da2b52e69f5","fromSide":"right","toNode":"1f9f1a48a37bad54","toSide":"left"},
+		{"id":"4f711d024ef447fc","fromNode":"30569908acdac87e","fromSide":"right","toNode":"92e05da2b52e69f5","toSide":"left"},
+		{"id":"26ea0c54156f5587","fromNode":"f77c4fa9148da887","fromSide":"right","toNode":"6355d2de04e84abb","toSide":"left"}
+	]
+}

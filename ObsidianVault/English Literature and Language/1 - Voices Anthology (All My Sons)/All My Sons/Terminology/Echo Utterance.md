@@ -1,0 +1,1 @@
+- An echo utterance is when one speaker repeats what has just been said by another speaker, often with contrasting tone, like irony or sarcastic
