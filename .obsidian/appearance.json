@@ -1,0 +1,11 @@
+{
+  "accentColor": "#ffbdbd",
+  "cssTheme": "AnuPpuccin",
+  "enabledCssSnippets": [
+    "extended-colorschemes"
+  ],
+  "monospaceFontFamily": "Builder Mono",
+  "textFontFamily": "Builder Sans",
+  "interfaceFontFamily": "Builder Sans,Builder Mono,Builder Extended",
+  "baseFontSizeAction": false
+}
