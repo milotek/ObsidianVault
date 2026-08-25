@@ -1,8 +1,7 @@
 # Confidential work notes — kept in Google Drive only
 Work/
 
-# OS + Obsidian noise
-.DS_Store
+# Obsidian noise
 .trash/
 .obsidian/workspace*.json
 .obsidian/cache
