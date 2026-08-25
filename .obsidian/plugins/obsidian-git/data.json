@@ -1,0 +1,19 @@
+{
+  "commitMessage": "chore(vault): backup {{date}}",
+  "autoCommitMessage": "chore(vault): backup {{date}}",
+  "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
+  "autoSaveInterval": 60,
+  "autoPushInterval": 60,
+  "autoPullInterval": 0,
+  "autoPullOnBoot": false,
+  "disablePush": false,
+  "pullBeforePush": true,
+  "syncMethod": "merge",
+  "disablePopups": false,
+  "showStatusBar": true,
+  "changedFilesInStatusBar": false,
+  "refreshSourceControl": true,
+  "listChangedFilesInMessageBody": false,
+  "gitDir": "",
+  "showedMobileNotice": true
+}

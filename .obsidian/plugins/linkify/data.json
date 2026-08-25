@@ -1,0 +1,39 @@
+{
+  "rules": [
+    {
+      "regexp": "g:([a-zA-Z0-9.-]*)",
+      "link": "http://google.com/search?q=$1",
+      "cssclass": ""
+    },
+    {
+      "regexp": "go/([a-zA-Z0-9#.-]+)",
+      "link": "http://go/$1",
+      "cssclass": ""
+    },
+    {
+      "regexp": "b/([a-zA-Z0-9#.-]+)",
+      "link": "http://b/$1",
+      "cssclass": ""
+    },
+    {
+      "regexp": "cl/([a-zA-Z0-9#.-]+)",
+      "link": "http://cl/$1",
+      "cssclass": ""
+    },
+    {
+      "regexp": "who/([a-zA-Z0-9#.-]+)",
+      "link": "http://who/$1",
+      "cssclass": ""
+    },
+    {
+      "regexp": "([a-zA-Z0-9#.-]+)@google\\.com",
+      "link": "http://who/$1",
+      "cssclass": ""
+    },
+    {
+      "regexp": "([a-zA-Z0-9#.-]+)@(?!\\w)",
+      "link": "http://who/$1",
+      "cssclass": ""
+    }
+  ]
+}
