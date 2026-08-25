@@ -1,24 +1,11 @@
-# ─────────────────────────────────────────────────────────────
-#  Obsidian vault .gitignore  (GitHub backup: personal notes only)
-# ─────────────────────────────────────────────────────────────
+# Confidential work notes — kept in Google Drive only
+Work/
 
-# OS cruft
+# OS + Obsidian noise
 .DS_Store
-Icon?
-
-# Google Drive artifacts (this vault lives in Drive)
-*.gdoc
-*.tmp.drivedownload
-*.tmp.driveupload
-
-# Obsidian device-specific / noisy state
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
-.obsidian/workspace (1).json
-.obsidian/cache
-.obsidian/plugins/*/data.json
 .trash/
+.obsidian/workspace*.json
+.obsidian/cache
 
-# ─── CONFIDENTIAL: Google-internal work notes ───
-# Kept in Google Drive (milotek@google.com) ONLY — never pushed to GitHub.
-Work/Google/
+# Google Drive stubs
+*.gdoc
