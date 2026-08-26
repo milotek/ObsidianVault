@@ -3,11 +3,12 @@
 
 
 
-dick strokes algo rithm
+
 
 
 -----
-## Example question
+## Example
+
 ![[CleanShot 2024-11-29 at 14.30.11@2x.png|500]]
 
 | U   | Q       | dist[A] | dist[B] | dist[C] | dist[D] | dist[E] | dist[F] | dist[G] | prev[A] | prev[B] | prev[C] | prev[D] | prev[E] | prev[F] | prev[G] |
