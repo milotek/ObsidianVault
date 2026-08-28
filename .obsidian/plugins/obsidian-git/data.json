@@ -1,6 +1,6 @@
 {
-  "commitMessage": "sync: change {{numFiles}} from {{hostname}} at {{date}}",
-  "autoCommitMessage": "sync: change {{numFiles}} from {{hostname}} at {{date}}",
+  "commitMessage": "sync: {{numFiles}} files from {{hostname}} at {{date}}",
+  "autoCommitMessage": "sync: {{numFiles}} files from {{hostname}} at {{date}}",
   "commitMessageScript": "",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
   "autoSaveInterval": 60,
