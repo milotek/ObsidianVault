@@ -26,45 +26,41 @@ This is the bit I prefer about Apple:
 
 Three modifiers, three clean jobs, no overlap. Cmd+C copies text and it copies text *everywhere*, including inside a terminal, because interrupting a program was never Cmd's job in the first place.
 
+![[01-modifier-jobs.svg]]
+
 ## Linux and Windows have two modifiers and about four jobs
 
-Ctrl is the application modifier **and** the terminal modifier. Same key, two jobs, and those two jobs collide head-on at exactly one chord: **Ctrl+C**.
+Ctrl is the application modifier **and** the terminal modifier. Same key, two jobs, and they collide head-on at exactly one chord: **Ctrl+C**.
 
-Ctrl+C means "copy" in every application on your machine except the one you spend all day in, where it means "kill whatever's running". So the terminal emulators all invented **Ctrl+Shift+C** for copy, which is a chord nobody's pinky asked for and which exists purely as an apology for a design decision made in 1978.
+Ctrl+C means "copy" in every app on the machine except the one I spend all day in, where it means "kill whatever's running". Terminals worked around it by inventing **Ctrl+Shift+C** for copy - a chord that only exists because Ctrl+C was already taken in 1978 and nobody could take it back.
 
-Then there's **Super**, the window manager key, which barely does anything on a stock install and does everything on mine. macOS has no equivalent, because on macOS the window manager key is *also* Cmd - Cmd+Q, Cmd+W, Cmd+Tab.
+Then there's **Super**, which does nothing on a stock install and runs my entire window manager. macOS has no equivalent, because there the window manager key is *also* Cmd - Cmd+Q, Cmd+W, Cmd+Tab.
 
-So the modifier count doesn't even line up. Mac: three keys, three jobs. Linux: two keys, four jobs, one of them double-booked.
+Mac: three keys, three jobs. Linux: two keys, four jobs, one of them double-booked.
 
 ## and then the physical layout is inverted too
 
-Here's the actually infuriating part. Bottom-left row, left to right:
+Bottom-left row, left to right:
 
-| | corner | 2nd | 3rd | space |
-| ----- | ----- | ----- | ----- | ----- |
-| **PC** | Ctrl | Win | Alt | ␣ |
-| **Mac** | Ctrl | Option | Cmd | ␣ |
+![[02-bottom-row-inverted.svg]]
 
-Look at the slot next to space. On the PC it's **Alt** - the modifier you use least. On the Mac it's **Cmd** - the modifier you use for literally everything. The key your thumb falls onto naturally is the most important modifier on one machine and the least important on the other, and *the two OSes put their most-used modifier at opposite ends of the same four keys.*
+Look at the slot next to space. On the PC it's **Alt**, the modifier I use least. On the Mac it's **Cmd**, the modifier I use for everything. The two OSes put their most-used modifier at opposite ends of the same four keys, so the key my thumb lands on by default means opposite things depending on which machine I'm sat at.
 
-That's not a preference thing you can train around. That's your hands being asked to hold two contradictory maps.
+Then the HHKB makes it worse, because it has no bottom-left Ctrl **at all** - there's a plastic blocker where the key should be.
 
-And then the HHKB shows up and makes it worse, because it doesn't have a bottom-left Ctrl **at all**. There is a plastic blocker where the key should be. Out of spite, I assume.
+![[03-three-boards.svg]]
 
-Which is fine, actually, because it forces the answer: **your most restrictive keyboard picks the vocabulary for everything else.** The only positions all three of my boards share are the caps row and the two keys left of space. So that's the whole vocabulary. Done.
+That last one is the useful constraint, though, because it settles the whole design: **the most restrictive keyboard picks the vocabulary.** The only positions all three boards share are the caps row and the two keys left of space, so everything has to be built out of those.
 
 ## The fix is one key
 
-Caps Lock. It's the best real estate on any keyboard - home row, right under your pinky, identical position on all three of my boards, and by default it does *nothing of value*. Shouting is not a use case.
+Caps Lock. Home row, right under the pinky, identical position on all three boards, and it does nothing.
 
-So Caps Lock becomes the everything-modifier:
+So it becomes the everything-modifier: **Ctrl on the PC, Cmd on the Mac.**
 
-- **Ctrl** on the PC
-- **Cmd** on the Mac
+That single substitution does almost all the work, because Linux apps hang their shortcuts off Ctrl in exactly the places macOS hangs them off Cmd. Ctrl+C / Cmd+C, Ctrl+W / Cmd+W, Ctrl+T, Ctrl+S, Ctrl+F, Ctrl+Z, Ctrl+A. The two OSes were *agreeing on the letters the entire time* and only disagreeing about which key you hold down. Swap the key and the disagreement disappears.
 
-And that's basically it. That one substitution does almost all the work, because Linux apps hang their shortcuts off Ctrl in exactly the places macOS hangs them off Cmd. Ctrl+C / Cmd+C. Ctrl+W / Cmd+W. Ctrl+T, Ctrl+S, Ctrl+F, Ctrl+Z, Ctrl+A. The two OSes have been *agreeing on the letters this entire time* and disagreeing only about which key you hold. Change the key and the disagreement evaporates.
-
-What my hands now know, on every board, on both OSes:
+What I get on every board, on both OSes:
 
 | chord | does |
 | ----- | ----- |
@@ -85,35 +81,68 @@ And what each *position* has to send to make that true:
 | alt slot | Alt | Option |
 | corner *(where it exists)* | Ctrl | real Ctrl, for the rare thing that genuinely needs it |
 
-The Mac column is the giveaway: I'm sending Cmd from two different positions and I do not care even slightly. Nobody's hands know what a duplicate modifier is.
+The Mac column sends Cmd from two different positions, which looks like a mistake and isn't - a duplicate modifier costs nothing, and quit works from both.
 
-### the one place they still genuinely disagree
+### the one place they still disagree
 
-The terminal, obviously. Somebody has to lose the Ctrl+C fight, and macOS's split is the correct one, so **the PC terminal gets bent to the Mac convention**: clipboard lives on the main modifier, interrupt gets demoted to the shifted variant. Caps+C copies, caps+shift+C kills. This is the inverse of every Linux terminal's default and it is right.
+The terminal. Something has to lose the Ctrl+C fight, and I'd rather it was the interrupt than the clipboard, so **the PC terminal gets bent to the Mac convention**: clipboard on the main modifier, interrupt demoted to the shifted variant. caps+C copies, caps+shift+C kills. That's the inverse of every Linux terminal default.
 
 ## How each machine actually gets there
 
-**The PC (NixOS)** - comically little, all of it in the flake:
+**The PC (NixOS)** - three things, all of it in the flake.
 
-- Hyprland: `CTRL,Q → killactive`, so caps+Q quits like Cmd+Q does
-- Ghostty: `ctrl+c/v` → copy/paste, `ctrl+shift+c/v` → the raw `^C`/`^V` bytes
-- a handful of zsh bindkeys so ctrl/alt+arrows and ctrl+backspace do word things instead of printing escape-code confetti
+Hyprland needs one extra bind, so that caps+Q quits the app the way Cmd+Q does:
 
-**Wooting on the Mac** - a second Wootility profile, exactly one key different: Caps → Cmd. The Win key already *is* Cmd as far as macOS is concerned, and Alt is already Option. Two layouts, one key of difference between them.
+```nix
+"CTRL,Q, killactive,"
+```
 
-**HHKB** - DIP switches into Mac mode, then the Keymap Tool shunts everything one slot over in firmware: Control→Cmd, Alt keycap→Cmd, ◇→Option, and right-Alt gets to be the board's only real Ctrl. It lives in the keyboard, so it works over Bluetooth, on anything, with no software on the host at all.
+Ghostty swaps the clipboard and the control code round:
 
-**MacBook internal** - System Settings → modifier keys: Caps Lock→Cmd, Option→Cmd, Cmd→Option. The ⌥ keycap now quits applications, which confuses precisely one category of person: anyone else who picks up my laptop. This is a feature.
+```nix
+keybind = [
+  "ctrl+c=copy_to_clipboard"
+  "ctrl+v=paste_from_clipboard"
+  "ctrl+shift+c=text:\\x03"
+  "ctrl+shift+v=text:\\x16"
+];
+```
 
-**Mac Ghostty** - two lines, so caps+shift+C/V sends raw bytes there too, same as the PC.
+`\x03` is the raw interrupt byte and `\x16` the raw paste one - the shifted chords hand the terminal exactly what Ctrl+C and Ctrl+V used to.
 
-No Karabiner. No daemon sitting in the menu bar sniffing which app has focus. Firmware, a settings panel, and some Nix.
+Then zsh, which doesn't get word-wise movement for free and needs the escape sequences bound by hand:
+
+```sh
+bindkey "^[[1;5C" forward-word        # ctrl+right
+bindkey "^[[1;5D" backward-word       # ctrl+left
+bindkey "^[[1;3C" forward-word        # alt+right
+bindkey "^[[1;3D" backward-word       # alt+left
+bindkey "^H"      backward-kill-word  # ctrl+backspace
+```
+
+Binding both the `;5` (ctrl) and `;3` (alt) variants to the same widget is what makes the PC accept the Mac chord and vice versa, so I don't have to remember which dialect the machine speaks.
+
+**Wooting on the Mac** - a second Wootility profile, exactly one key different: Caps → Cmd. The Win key already *is* Cmd as far as macOS is concerned and Alt is already Option, so the rest of the board carries over untouched.
+
+![[04-remap-wooting.svg]]
+
+**HHKB** - DIP switches into Mac mode, then the Keymap Tool shunts everything one slot over in firmware: Control→Cmd, Alt keycap→Cmd, ◇→Option, and right-Alt becomes the board's only real Ctrl. It lives in the keyboard rather than the host, so it works over Bluetooth on anything I pair it to.
+
+![[05-remap-hhkb.svg]]
+
+**MacBook internal** - System Settings → Keyboard → Modifier Keys: Caps Lock→Cmd, Option→Cmd, Cmd→Option.
+
+![[06-remap-macbook.svg]]
+
+**Mac Ghostty** - the same two shifted keybinds as the PC, so caps+shift+C/V sends raw bytes there too.
+
+No Karabiner, no daemon sitting in the menu bar working out which app has focus. Firmware, a settings panel, and about a dozen lines of Nix.
 
 ## The seams I'm keeping
 
-GUI text navigation still speaks two dialects - Ctrl+arrow for word-jumps on Linux, Option+arrow on Mac. Cocoa hardwires it, and I am not running a background daemon over one arrow key.
+GUI text navigation still speaks two dialects - Ctrl+arrow for word jumps on Linux, Option+arrow on Mac. Cocoa hardwires it, and I'm not running a background daemon over one arrow key. In the terminal I dodged it by binding both sequences to the same widget, but there's no equivalent hook in a Cocoa text field.
 
-And the keycap legends now lie on two of the three boards. Keycaps are for tourists. My hands don't read.
+And the legends on two of the three boards now lie about what the keys do. I don't look at them, so I'm calling that solved.
 
 > [!NOTE]- Things I learned against my will
 > - My zsh runs in "emacs mode", and so does yours, probably. Every Ctrl+A and Ctrl+R you've ever typed at a prompt is an Emacs chord. The vim config was a cover story.
