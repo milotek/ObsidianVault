@@ -26,8 +26,6 @@ This is the bit I prefer about Apple:
 
 Three modifiers, three clean jobs, no overlap. Cmd+C copies text and it copies text *everywhere*, including inside a terminal, because interrupting a program was never Cmd's job in the first place.
 
-![[01-modifier-jobs.svg]]
-
 ## Linux and Windows have two modifiers and about four jobs
 
 Ctrl is the application modifier **and** the terminal modifier. Same key, two jobs, and they collide head-on at exactly one chord: **Ctrl+C**.
@@ -40,15 +38,13 @@ Mac: three keys, three jobs. Linux: two keys, four jobs, one of them double-book
 
 ## and then the physical layout is inverted too
 
-Bottom-left row, left to right:
+The bottom-left row on a PC goes Ctrl, Win, Alt, space. On a Mac it goes Ctrl, Option, Cmd, space. Same four slots, filled in opposite orders.
 
-![[02-bottom-row-inverted.svg]]
-
-Look at the slot next to space. On the PC it's **Alt**, the modifier I use least. On the Mac it's **Cmd**, the modifier I use for everything. The two OSes put their most-used modifier at opposite ends of the same four keys, so the key my thumb lands on by default means opposite things depending on which machine I'm sat at.
+So the key my thumb lands on without thinking is **Alt** on the PC, the modifier I use least, and **Cmd** on the Mac, the modifier I use for everything.
 
 Then the HHKB makes it worse, because it has no bottom-left Ctrl **at all** - there's a plastic blocker where the key should be.
 
-![[03-three-boards.svg]]
+![[01-boards-before.svg]]
 
 That last one is the useful constraint, though, because it settles the whole design: **the most restrictive keyboard picks the vocabulary.** The only positions all three boards share are the caps row and the two keys left of space, so everything has to be built out of those.
 
@@ -57,6 +53,8 @@ That last one is the useful constraint, though, because it settles the whole des
 Caps Lock. Home row, right under the pinky, identical position on all three boards, and it does nothing.
 
 So it becomes the everything-modifier: **Ctrl on the PC, Cmd on the Mac.**
+
+![[02-boards-after.svg]]
 
 That single substitution does almost all the work, because Linux apps hang their shortcuts off Ctrl in exactly the places macOS hangs them off Cmd. Ctrl+C / Cmd+C, Ctrl+W / Cmd+W, Ctrl+T, Ctrl+S, Ctrl+F, Ctrl+Z, Ctrl+A. The two OSes were *agreeing on the letters the entire time* and only disagreeing about which key you hold down. Swap the key and the disagreement disappears.
 
@@ -122,17 +120,11 @@ bindkey "^H"      backward-kill-word  # ctrl+backspace
 
 Binding both the `;5` (ctrl) and `;3` (alt) variants to the same widget is what makes the PC accept the Mac chord and vice versa, so I don't have to remember which dialect the machine speaks.
 
-**Wooting on the Mac** - a second Wootility profile, exactly one key different: Caps → Cmd. The Win key already *is* Cmd as far as macOS is concerned and Alt is already Option, so the rest of the board carries over untouched.
+**Wooting on the Mac** - a second Wootility profile, exactly one key different: Caps becomes Cmd. The Win key already *is* Cmd as far as macOS is concerned and Alt is already Option, so the rest of the board carries over untouched.
 
-![[04-remap-wooting.svg]]
+**HHKB** - DIP switches into Mac mode, then the Keymap Tool shunts everything one slot over in firmware. Control becomes Cmd, the Alt keycap becomes Cmd, the Meta keycap becomes Option, and the right Alt becomes the board's only real Ctrl. It lives in the keyboard rather than the host, so it works over Bluetooth on anything I pair it to.
 
-**HHKB** - DIP switches into Mac mode, then the Keymap Tool shunts everything one slot over in firmware: Control→Cmd, Alt keycap→Cmd, ◇→Option, and right-Alt becomes the board's only real Ctrl. It lives in the keyboard rather than the host, so it works over Bluetooth on anything I pair it to.
-
-![[05-remap-hhkb.svg]]
-
-**MacBook internal** - System Settings → Keyboard → Modifier Keys: Caps Lock→Cmd, Option→Cmd, Cmd→Option.
-
-![[06-remap-macbook.svg]]
+**MacBook internal** - System Settings, Keyboard, Modifier Keys. Caps Lock becomes Cmd, Option becomes Cmd, Cmd becomes Option.
 
 **Mac Ghostty** - the same two shifted keybinds as the PC, so caps+shift+C/V sends raw bytes there too.
 
