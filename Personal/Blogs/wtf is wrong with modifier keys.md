@@ -2,17 +2,23 @@ Every desktop OS agrees that you need one key you hold down to make the other ke
 
 I own three keyboards across two operating systems:
 
-- **Wooting 80HE** - main board, lives on the NixOS PC, occasionally visits the Mac
-- **HHKB Hybrid Type-S** - Mac only, because I am a man of culture
-- **The MacBook's own keyboard** - because sometimes you're on the sofa
 
-Which meant that until this week, my hands had to work out *which machine they were touching* before they were allowed to copy a line of text. Every switch cost me five minutes of quitting things I meant to copy and copying things I meant to quit.
+| Home                                      | Travel                                    | Office                                    |
+| ----------------------------------------- | ----------------------------------------- | ----------------------------------------- |
+| **Wooting 80HE**                              | **Standard MacBook built-in keyboard**        | **HHKB Hybrid Type-S**                        |
+| ![[Pasted image 20260830222522.png\|300]] | ![[Pasted image 20260830222547.png\|300]] | ![[Pasted image 20260830222737.png\|300]] |
+Before you accuse me of larp, and also buying needlessly expensive keyboards:
+1. I got literally all of them for free.
+2. I use all of them a pretty much equal amount. It's not for show!
 
-So I sat down and actually looked at why this is so bad. It's worse than "the keys are in different places".
+Until this week though, when moving between machines, I had to feel around and make the same 10~ stupid misinputs before I could copy a line of text. Every switch cost me five minutes of quitting things I meant to copy and copying things I meant to quit.
+
+After about 8 months of putting up with this, I decided to sit down and actually look at why this is so bad.
+I already knew it was worse than "the keys are in different places" - I had an existing setup that worked well enough for me not to get *super* confused, but by no means was it perfect.
 
 ## macOS has three modifiers and three jobs
 
-This is the bit Apple genuinely got right, and I say that as someone who runs Hyprland.
+This is the bit I prefer about Apple:
 
 - **Cmd** is the *application* modifier. Copy, paste, quit, close, save, find, new tab. If it's a thing an app does, it's Cmd.
 - **Ctrl** is the *terminal* modifier. Control codes. `^C`, `^D`, `^Z`. It has almost no other job - it's basically vestigial outside a terminal.
