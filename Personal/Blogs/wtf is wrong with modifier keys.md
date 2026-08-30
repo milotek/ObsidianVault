@@ -116,16 +116,3 @@ Binding both the `;5` (ctrl) and `;3` (alt) variants to the same widget is what 
 **MacBook internal** - System Settings, Keyboard, Modifier Keys. Caps Lock becomes Cmd, Option becomes Cmd, Cmd becomes Option.
 
 **Mac Ghostty** - the same two shifted keybinds as the PC, so caps+shift+C/V sends raw bytes there too.
-
-No Karabiner, no daemon sitting in the menu bar working out which app has focus. Firmware, a settings panel, and about a dozen lines of Nix.
-
-## The seams I'm keeping
-
-GUI text navigation still speaks two dialects. Ctrl+arrow for word jumps on Linux, Option+arrow on Mac. I dodged that in the terminal by binding both sequences, but Cocoa hardwires it and I'm not running a daemon over one arrow key.
-
-And the legends on two of the three boards now lie about what the keys do. I don't look at them, so I'm calling that solved.
-
-> [!NOTE]- Things I learned against my will
-> - My zsh runs in "emacs mode", and so does yours, probably. Every Ctrl+A and Ctrl+R you've ever typed at a prompt is an Emacs chord. The vim config was a cover story.
-> - Your terminal and your shell talk to each other in raw bytes over a protocol designed for 1978 hardware. Modified arrow keys aren't in the standard set, which is why ctrl+arrow printed `;5D` at my prompt until I bound the sequences by hand.
-> - Ctrl+Backspace has no standard encoding at all. Ghostty sends `^H`. The zellij web client sends a literal capital B. Just the letter B. Nobody knows why.
