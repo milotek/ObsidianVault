@@ -24,7 +24,7 @@ This is the bit I prefer about Apple:
 - **Ctrl** is the *terminal* modifier. Control codes. `^C`, `^D`, `^Z`. It has almost no other job - it's basically vestigial outside a terminal.
 - **Option** is the *text* modifier. Word-wise navigation, alt characters.
 
-Three modifiers, three clean jobs, no overlap. Cmd+C copies text and it copies text *everywhere*, including inside a terminal, because interrupting a program was never Cmd's job in the first place.
+Three modifiers, three clean jobs, no overlap. Cmd+C copies *everywhere*, terminal included, because interrupting a program was never Cmd's job in the first place.
 
 ## Linux and Windows have two modifiers and about four jobs
 
@@ -38,15 +38,13 @@ Mac: three keys, three jobs. Linux: two keys, four jobs, one of them double-book
 
 ## and then the physical layout is inverted too
 
-The bottom-left row on a PC goes Ctrl, Win, Alt, space. On a Mac it goes Ctrl, Option, Cmd, space. Same four slots, filled in opposite orders.
+The bottom-left row on a PC goes Ctrl, Win, Alt, space. On a Mac it goes Ctrl, Option, Cmd, space. Same four slots, filled in opposite orders, so the key my thumb lands on without thinking is the modifier I use least on one machine and the one I use for everything on the other.
 
-So the key my thumb lands on without thinking is **Alt** on the PC, the modifier I use least, and **Cmd** on the Mac, the modifier I use for everything.
-
-Then the HHKB makes it worse, because it has no bottom-left Ctrl **at all** - there's a plastic blocker where the key should be.
+The HHKB then makes it worse by having no bottom-left key at all. There's a plastic blocker where it should be.
 
 ![[01-boards-before.svg]]
 
-That last one is the useful constraint, though, because it settles the whole design: **the most restrictive keyboard picks the vocabulary.** The only positions all three boards share are the caps row and the two keys left of space, so everything has to be built out of those.
+Which is the useful constraint, really: **the most restrictive keyboard picks the vocabulary.** The only positions all three boards share are the caps row and the two keys left of space.
 
 ## The fix is one key
 
@@ -56,7 +54,7 @@ So it becomes the everything-modifier: **Ctrl on the PC, Cmd on the Mac.**
 
 ![[02-boards-after.svg]]
 
-That single substitution does almost all the work, because Linux apps hang their shortcuts off Ctrl in exactly the places macOS hangs them off Cmd. Ctrl+C / Cmd+C, Ctrl+W / Cmd+W, Ctrl+T, Ctrl+S, Ctrl+F, Ctrl+Z, Ctrl+A. The two OSes were *agreeing on the letters the entire time* and only disagreeing about which key you hold down. Swap the key and the disagreement disappears.
+That one substitution does almost all the work, because Linux apps hang their shortcuts off Ctrl in exactly the places macOS hangs them off Cmd. Both OSes were *agreeing on the letters the entire time* and only disagreeing about which key you hold down.
 
 What I get on every board, on both OSes:
 
@@ -68,18 +66,9 @@ What I get on every board, on both OSes:
 | **caps + shift + C** | kill a terminal program |
 | **caps + T / S / F / Z / A** | new tab / save / find / undo / select all |
 | **win + Q / W** | window manager: close the window |
-| **alt** (next to space) | just be Alt/Option, thanks |
+| **alt** (next to space) | just be Alt/Option |
 
-And what each *position* has to send to make that true:
-
-| position | on the PC | on the Mac |
-| ----- | ----- | ----- |
-| caps row | Ctrl | **Cmd** |
-| win slot | Super (Hyprland) | **Cmd** again - a duplicate, and fine, quit works from both |
-| alt slot | Alt | Option |
-| corner *(where it exists)* | Ctrl | real Ctrl, for the rare thing that genuinely needs it |
-
-The Mac column sends Cmd from two different positions, which looks like a mistake and isn't - a duplicate modifier costs nothing, and quit works from both.
+On the Mac that means Cmd ends up on two different keys, which looks like a mistake and isn't. A duplicate modifier costs nothing.
 
 ### the one place they still disagree
 
@@ -106,7 +95,7 @@ keybind = [
 ];
 ```
 
-`\x03` is the raw interrupt byte and `\x16` the raw paste one - the shifted chords hand the terminal exactly what Ctrl+C and Ctrl+V used to.
+`\x03` is the raw interrupt byte, so the shifted chord hands the terminal exactly what Ctrl+C used to.
 
 Then zsh, which doesn't get word-wise movement for free and needs the escape sequences bound by hand:
 
@@ -132,7 +121,7 @@ No Karabiner, no daemon sitting in the menu bar working out which app has focus.
 
 ## The seams I'm keeping
 
-GUI text navigation still speaks two dialects - Ctrl+arrow for word jumps on Linux, Option+arrow on Mac. Cocoa hardwires it, and I'm not running a background daemon over one arrow key. In the terminal I dodged it by binding both sequences to the same widget, but there's no equivalent hook in a Cocoa text field.
+GUI text navigation still speaks two dialects. Ctrl+arrow for word jumps on Linux, Option+arrow on Mac. I dodged that in the terminal by binding both sequences, but Cocoa hardwires it and I'm not running a daemon over one arrow key.
 
 And the legends on two of the three boards now lie about what the keys do. I don't look at them, so I'm calling that solved.
 
