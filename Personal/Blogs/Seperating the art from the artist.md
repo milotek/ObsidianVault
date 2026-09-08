@@ -1,5 +1,6 @@
 ---
 aliases:
+published: 2026-08-25
 ---
 I'm going to subvert your expectation for this piece by not leading with Kanye West.
 

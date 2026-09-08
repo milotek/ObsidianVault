@@ -1,6 +1,7 @@
 ---
 aliases:
   - Who the hell is the Steam Frame even for?
+published: 2026-08-25
 ---
 When it was released all the way back in 2019 (wow, time flies, huh), the Valve Index was **the** greatest virtual reality headset money could buy you - and it was a **damn good deal too!**
 For "just" £950:
