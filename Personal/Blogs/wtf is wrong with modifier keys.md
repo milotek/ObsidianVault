@@ -1,3 +1,6 @@
+---
+published: 2026-08-30
+---
 ## Preamble
 1. I have 3 keyboards.
 2. I travel between my home and the office

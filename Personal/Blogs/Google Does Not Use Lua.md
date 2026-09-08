@@ -1,3 +1,6 @@
+---
+published: 2026-08-25
+---
 I started scripting in Lua when I was 11.
 
 If you're not familiar with Lua, it is a neat and weird scripting language. It has 1-indexed arrays (wtf?), and no concept of OOP (double wtf??). It has one single data structure - a table (triple wtf???). And it makes you write end at the end of every function. So your code ends up looking like this
