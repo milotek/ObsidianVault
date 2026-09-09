@@ -1,0 +1,105 @@
+name: Sync Blog to milotek.dev
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'Personal/Blogs/**'
+      - '.github/workflows/sync-blog.yml'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout ObsidianVault
+        uses: actions/checkout@v4
+        with:
+          path: vault
+
+      - name: Checkout milotek.dev
+        uses: actions/checkout@v4
+        with:
+          repository: milotek/milotek.dev
+          token: ${{ secrets.MILOTEK_DEV_TOKEN }}
+          path: site
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Process & Copy Blog Posts
+        run: |
+          node - << 'NODE_SCRIPT'
+          import { copyFile, mkdir, readdir, readFile, rm, writeFile } from 'node:fs/promises';
+          import path from 'node:path';
+
+          const VAULT = 'vault';
+          const POSTS = path.join(VAULT, 'Personal', 'Blogs');
+          const OUT = path.join('site', 'src', 'content', 'blog');
+
+          await rm(OUT, { recursive: true, force: true });
+          await mkdir(OUT, { recursive: true });
+
+          // Map attachment files in vault
+          const attachments = new Map();
+          for (const entry of await readdir(VAULT, { recursive: true, withFileTypes: true })) {
+            if (!entry.isDirectory() && !entry.name.endsWith('.md') && !entry.name.startsWith('.')) {
+              attachments.set(entry.name, path.join(entry.parentPath, entry.name));
+            }
+          }
+
+          for (const file of await readdir(POSTS)) {
+            if (!file.endsWith('.md')) continue;
+            const raw = await readFile(path.join(POSTS, file), 'utf8');
+            const fm = raw.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?/);
+            const body = fm ? raw.slice(fm[0].length) : raw;
+            const header = fm ? fm[1] : '';
+
+            const published = header.match(/published:\s*(\S+)/)?.[1];
+            if (!published) continue; // skip drafts
+
+            const summary = header.match(/summary:\s*["']?([^"'\n]+)["']?/)?.[1];
+            const stem = path.parse(file).name;
+            const slug = stem.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+            const title = body.match(/^#\s+(.+)/)?.[1]?.trim() ?? stem.replace(/[-_]+/g, ' ');
+
+            const postDir = path.join(OUT, slug);
+            await mkdir(postDir, { recursive: true });
+
+            const text = body
+              .replace(/!\[\[([^\]|\\]+)(?:\\?\|[^\]]*)?\]\]/g, (_, target) => {
+                const name = target.trim();
+                const src = attachments.get(name);
+                if (src) copyFile(src, path.join(postDir, name));
+                return `![${name}](./${name})`;
+              })
+              .replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (_, target, label) => label ?? target);
+
+            const outFm = [
+              '---',
+              `title: ${JSON.stringify(title)}`,
+              `published: ${published}`,
+              summary ? `summary: ${JSON.stringify(summary)}` : undefined,
+              `draft: false`,
+              '---',
+              '',
+            ].filter(Boolean).join('\n');
+
+            await writeFile(path.join(postDir, 'index.md'), outFm + '\n' + text.trim() + '\n');
+          }
+          NODE_SCRIPT
+
+      - name: Commit and push to milotek.dev
+        run: |
+          cd site
+          git config user.name "Milo Tekchandani"
+          git config user.email "milo@milotek.dev"
+          git add src/content/blog
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "sync: update blog posts from obsidian vault"
+            git push
+          fi
