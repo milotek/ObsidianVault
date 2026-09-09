@@ -3,7 +3,12 @@ published: 2026-08-25
 ---
 I started scripting in Lua when I was 11.
 
-If you're not familiar with Lua, it is a neat and weird scripting language. It has 1-indexed arrays (wtf?), and no concept of OOP (double wtf??). It has one single data structure - a table (triple wtf???). And it makes you write end at the end of every function. So your code ends up looking like this
+If you're not familiar with Lua, it is a neat and weird scripting language. It has:
+- 1-indexed arrays (wtf?)
+- no concept of OOP (double wtf??)
+- one single data structure - a table (triple wtf???)
+- Makes you write end at the end of every function. So your code ends up looking like this
+
 ```lua
 local function kill_everything_ever(x)
 	for i=1, n = n + 2, 2:
@@ -11,7 +16,7 @@ local function kill_everything_ever(x)
 
 ## Lua's practical use fate
 
-IT IS 2026. Aside from the fun applications, it would appear we have two main remaining Lua users still active out in the wild.
+Aside from the fun applications, it would appear we have two main remaining Lua users still active out in the wild.
 
 ![[lua_users_in_2026.png|500]]
 
