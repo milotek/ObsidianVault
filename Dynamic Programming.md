@@ -1,6 +1,6 @@
 
 > [!NOTE] 
-> Dynamic Programming
+> Dynamic Programming is just a fancy marketing word and doesn't hold any real meaning.
 
 ## Motivation
 Solve problems with recursive structure:
