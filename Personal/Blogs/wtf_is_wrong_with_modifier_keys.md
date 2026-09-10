@@ -1,6 +1,9 @@
 ---
 published: 2026-08-30
 ---
+# WTF is wrong with modifier keys?
+blah
+
 ## Preamble
 1. I have 3 keyboards.
 2. I travel between my home and the office
