@@ -4,7 +4,7 @@ published: 2026-08-25
 ---
 I'm going to subvert your expectation for this piece by not leading with Kanye West.
 
-## """FURRY MUSICIANS"""
+## Furry musicians
 Who is the best furry musician? Why are they all mid? Frankly, the *actual* question at hand is who gives a flying fuck?
 
 In my opinion, making the decision you to lean into the "**furry** musician" label to me just means you want to pedal to a niche audience because the competition is scarce - and suddenly the bar for decent music is lower. No, it does not make your music any better in the grand scheme of things.
