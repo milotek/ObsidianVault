@@ -32,63 +32,229 @@ jobs:
       - name: Process & Copy Blog Posts
         run: |
           node - << 'NODE_SCRIPT'
-          import { copyFile, mkdir, readdir, readFile, rm, writeFile } from 'node:fs/promises';
+          import { copyFile, mkdir, readdir, readFile, rm, stat, writeFile } from 'node:fs/promises';
           import path from 'node:path';
 
           const VAULT = 'vault';
           const POSTS = path.join(VAULT, 'Personal', 'Blogs');
           const OUT = path.join('site', 'src', 'content', 'blog');
+          const includeDrafts = process.env.PUBLISH_DRAFTS === '1';
 
-          await rm(OUT, { recursive: true, force: true });
-          await mkdir(OUT, { recursive: true });
+          const IMAGE_EXT = new Set(['.png', '.jpg', '.jpeg', '.gif', '.webp', '.avif', '.svg']);
 
-          // Map attachment files in vault
-          const attachments = new Map();
-          for (const entry of await readdir(VAULT, { recursive: true, withFileTypes: true })) {
-            if (!entry.isDirectory() && !entry.name.endsWith('.md') && !entry.name.startsWith('.')) {
-              attachments.set(entry.name, path.join(entry.parentPath, entry.name));
+          async function* walk(dir) {
+            for (const entry of await readdir(dir, { withFileTypes: true })) {
+              if (entry.name.startsWith('.')) continue;
+              const full = path.join(dir, entry.name);
+              if (entry.isDirectory()) yield* walk(full);
+              else yield full;
             }
           }
 
-          for (const file of await readdir(POSTS)) {
-            if (!file.endsWith('.md')) continue;
-            const raw = await readFile(path.join(POSTS, file), 'utf8');
-            const fm = raw.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?/);
-            const body = fm ? raw.slice(fm[0].length) : raw;
-            const header = fm ? fm[1] : '';
+          async function indexAttachments(vaultDir) {
+            const map = new Map();
+            for await (const file of walk(vaultDir)) {
+              if (path.extname(file) === '.md') continue;
+              map.set(path.basename(file), file);
+            }
+            return map;
+          }
 
-            const published = header.match(/published:\s*(\S+)/)?.[1];
-            if (!published) continue; // skip drafts
+          function slugify(s) {
+            return s
+              .toLowerCase()
+              .replace(/['’]/g, '')
+              .replace(/[^a-z0-9]+/g, '-')
+              .replace(/^-+|-+$/g, '');
+          }
 
-            const summary = header.match(/summary:\s*["']?([^"'\n]+)["']?/)?.[1];
+          function splitFrontmatter(raw) {
+            const m = raw.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?/);
+            if (!m) return { data: {}, body: raw };
+            const lines = m[1].split('\n');
+            const data = {};
+            for (const line of lines) {
+              const kv = line.match(/^([A-Za-z0-9_-]+):\s*(.*)$/);
+              if (!kv) continue;
+              let val = kv[2].trim();
+              if ((val.startsWith('"') && val.endsWith('"')) || (val.startsWith("'") && val.endsWith("'"))) {
+                val = val.slice(1, -1);
+              }
+              data[kv[1]] = val;
+            }
+            return { data, body: raw.slice(m[0].length) };
+          }
+
+          function rewriteEmbeds(body, attachments, used) {
+            let text = body.replace(/!\[\[([^\]|\\]+)(?:\\?\|([^\]]*))?\]\]/g, (_, target, extra) => {
+              const name = target.trim();
+              const source = attachments.get(name);
+              if (!source) {
+                console.warn(`  missing attachment: ${name}`);
+                return '';
+              }
+              const ext = path.extname(name).toLowerCase();
+              const base = path.parse(name).name;
+              const cleanName = slugify(base) + ext;
+              used.set(cleanName, source);
+
+              const isImg = IMAGE_EXT.has(ext);
+              const hasCustomAlt = extra && !/^\s*\d+(?:x\d+)?\s*$/.test(extra);
+              const alt = hasCustomAlt ? extra.trim() : base;
+
+              if (isImg) {
+                return `![${alt}](./${cleanName})`;
+              }
+              return `[${alt}](./${cleanName})`;
+            });
+
+            text = text.replace(/!\[(.*?)\]\(\.\/([^)]+)\)/g, (full, alt, relPath) => {
+              const name = path.basename(relPath.trim());
+              const source = attachments.get(name);
+              if (source) {
+                const ext = path.extname(name).toLowerCase();
+                const cleanName = slugify(path.parse(name).name) + ext;
+                used.set(cleanName, source);
+                return `![${alt}](./${cleanName})`;
+              }
+              return full;
+            });
+
+            return text;
+          }
+
+          function rewriteWikilinks(body) {
+            return body.replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (_, target, label) => label ?? target);
+          }
+
+          function dropEmptyLinks(body) {
+            return body.replace(/\[([^\]]+)\]\(\s*\)/g, '$1');
+          }
+
+          function rewriteCallouts(body) {
+            const lines = body.split('\n');
+            const out = [];
+            for (let i = 0; i < lines.length; i++) {
+              const head = lines[i].match(/^>\s*\[!(\w+)\]([-+]?)\s*(.*)$/);
+              if (!head) {
+                out.push(lines[i]);
+                continue;
+              }
+              const [, type, fold, rawTitle] = head;
+              const kind = type.toLowerCase();
+              let title = rawTitle?.trim();
+              if (title && ((title.startsWith('"') && title.endsWith('"')) || (title.startsWith("'") && title.endsWith("'")))) {
+                title = title.slice(1, -1).trim();
+              }
+              if (!title) {
+                title = kind[0].toUpperCase() + kind.slice(1);
+              }
+              const inner = [];
+              while (i + 1 < lines.length && /^>/.test(lines[i + 1]) && !/^>\s*\[!\w+\]/.test(lines[i + 1])) {
+                inner.push(lines[++i].replace(/^>\s?/, ''));
+              }
+              const tag = fold ? 'details' : 'aside';
+              const open = fold === '+' ? ' open' : '';
+              const processedInner = inner.length > 0 ? rewriteCallouts(inner.join('\n')) : '';
+              out.push(`<${tag} class="callout" data-callout="${kind}"${open}>`);
+              out.push(fold ? `<summary>${title}</summary>` : `<p class="callout-title">${title}</p>`);
+              out.push('', processedInner, '', `</${tag}>`);
+            }
+            return out.join('\n');
+          }
+
+          const LIST_ITEM = /^\s*(?:[-*+]|\d+[.)])\s/;
+          const BLOCK_START = /^(?:\s|#|>|\||```|<|---|!\[)/;
+
+          function matchObsidianLineBreaks(body) {
+            const lines = body.split('\n');
+            const out = [];
+            let inFence = false;
+            for (let i = 0; i < lines.length; i++) {
+              const line = lines[i];
+              const next = lines[i + 1];
+              if (/^\s*```/.test(line)) inFence = !inFence;
+              out.push(line);
+              if (inFence || next === undefined || !next.trim() || !line.trim()) continue;
+              if (LIST_ITEM.test(line) && !LIST_ITEM.test(next) && !BLOCK_START.test(next)) {
+                out.push('');
+                continue;
+              }
+            }
+            return out.join('\n');
+          }
+
+          async function readPost(file, attachments) {
+            const raw = await readFile(file, 'utf8');
+            if (!raw.trim()) return undefined;
+            const { data, body } = splitFrontmatter(raw);
             const stem = path.parse(file).name;
-            const slug = stem.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
-            const title = body.match(/^#\s+(.+)/)?.[1]?.trim() ?? stem.replace(/[-_]+/g, ' ');
+            const titleMatch = body.match(/^#\s+(.+)/m);
+            const title = data.title || (titleMatch ? titleMatch[1].trim() : stem.replace(/[-_]+/g, ' '));
+            const published = data.published ? data.published.trim() : undefined;
+            const used = new Map();
+            let text = rewriteEmbeds(body, attachments, used);
+            text = rewriteWikilinks(text);
+            text = dropEmptyLinks(text);
+            text = rewriteCallouts(text);
+            text = matchObsidianLineBreaks(text);
+            return {
+              slug: slugify(stem),
+              title,
+              published,
+              summary: data.summary || undefined,
+              draft: !published,
+              body: text.trim() + '\n',
+              attachments: used,
+            };
+          }
 
-            const postDir = path.join(OUT, slug);
-            await mkdir(postDir, { recursive: true });
-
-            const text = body
-              .replace(/!\[\[([^\]|\\]+)(?:\\?\|[^\]]*)?\]\]/g, (_, target) => {
-                const name = target.trim();
-                const src = attachments.get(name);
-                if (src) copyFile(src, path.join(postDir, name));
-                return `![${name}](./${name})`;
-              })
-              .replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (_, target, label) => label ?? target);
-
-            const outFm = [
+          async function writePost(outDir, post) {
+            const dir = path.join(outDir, post.slug);
+            await mkdir(dir, { recursive: true });
+            for (const [cleanName, source] of post.attachments) {
+              await copyFile(source, path.join(dir, cleanName));
+            }
+            const fm = [
               '---',
-              `title: ${JSON.stringify(title)}`,
-              `published: ${published}`,
-              summary ? `summary: ${JSON.stringify(summary)}` : undefined,
-              `draft: false`,
+              `title: ${JSON.stringify(post.title)}`,
+              `published: ${post.published ?? new Date().toISOString().slice(0, 10)}`,
+              post.summary ? `summary: ${JSON.stringify(post.summary)}` : undefined,
+              `draft: ${post.draft ? 'true' : 'false'}`,
               '---',
               '',
-            ].filter(Boolean).join('\n');
-
-            await writeFile(path.join(postDir, 'index.md'), outFm + '\n' + text.trim() + '\n');
+            ].filter(Boolean);
+            await writeFile(path.join(dir, 'index.md'), fm.join('\n') + '\n' + post.body);
           }
+
+          async function main() {
+            try {
+              await stat(POSTS);
+            } catch {
+              console.warn(`No vault found at ${POSTS}; skipping sync.`);
+              return;
+            }
+            await rm(OUT, { recursive: true, force: true });
+            await mkdir(OUT, { recursive: true });
+            const attachments = await indexAttachments(VAULT);
+            let published = 0;
+            let drafts = 0;
+
+            for await (const file of walk(POSTS)) {
+              if (!file.endsWith('.md')) continue;
+              const post = await readPost(file, attachments);
+              if (!post) continue;
+              if (post.draft && !includeDrafts) {
+                drafts++;
+                continue;
+              }
+              await writePost(OUT, post);
+              published++;
+            }
+            console.log(`vault: ${published} post(s) written, ${drafts} draft(s) skipped`);
+          }
+
+          await main();
           NODE_SCRIPT
 
       - name: Commit and push to milotek.dev
