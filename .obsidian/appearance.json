@@ -8,5 +8,6 @@
   "textFontFamily": "Builder Sans",
   "interfaceFontFamily": "Builder Sans,Builder Mono,Builder Extended",
   "baseFontSizeAction": false,
-  "translucency": false
+  "translucency": false,
+  "nativeMenus": true
 }
