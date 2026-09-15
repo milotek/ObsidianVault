@@ -13,5 +13,6 @@
   "settingsPopoutWindow": false,
   "focusNewTab": false,
   "openBehavior": "daily",
-  "useMarkdownLinks": false
+  "useMarkdownLinks": false,
+  "attachmentFolderPath": "./"
 }
