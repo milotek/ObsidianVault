@@ -1,5 +1,5 @@
 {
-  "readableLineLength": true,
+  "readableLineLength": false,
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
   "pdfExportSettings": {
@@ -10,5 +10,8 @@
     "downscalePercent": 100
   },
   "showUnsupportedFiles": true,
-  "settingsPopoutWindow": false
+  "settingsPopoutWindow": false,
+  "focusNewTab": false,
+  "openBehavior": "daily",
+  "useMarkdownLinks": false
 }
