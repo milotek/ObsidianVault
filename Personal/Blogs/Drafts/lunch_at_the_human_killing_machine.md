@@ -4,9 +4,6 @@ My life is so fucking stupidly comical. I can't believe I went to a [furry meetu
 
 Everyone was super friendly! I absolutely loved it, I really wanna go back.
 
-> [!VIDEO]- I feel obligated to attach a video
-> ![[me_and_furries_coworkers.mp4]]
-
 I had lunch at Palantir's London headquarters today - some guy I met at LFM works there and invited me. He's almost my age, actually, and earns a shit ton. The world is a small and crazy place! Here's how that conversation happened:
 
 > "Oh you're someone@'s colleague? Do you work at Google too??"
