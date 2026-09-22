@@ -2,7 +2,8 @@
   "accentColor": "#ffbdbd",
   "cssTheme": "AnuPpuccin",
   "enabledCssSnippets": [
-    "extended-colorschemes"
+    "extended-colorschemes",
+    "clean-quotes"
   ],
   "monospaceFontFamily": "Builder Mono",
   "textFontFamily": "Builder Sans",
