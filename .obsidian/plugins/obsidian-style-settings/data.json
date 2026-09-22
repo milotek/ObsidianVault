@@ -30,5 +30,7 @@
   "anuppuccin-theme-settings@@anp-header-color-toggle": false,
   "anuppuccin-theme-settings@@anp-codeblock-numbers": true,
   "anuppuccin-theme-settings@@anp-list-toggle": false,
-  "anuppuccin-theme-settings@@anp-inline-title-vis": "block"
+  "anuppuccin-theme-settings@@anp-inline-title-vis": "block",
+  "anuppuccin-theme-settings@@anp-callout-color-toggle": false,
+  "anuppuccin-theme-settings@@callout-title-opacity": 0.1
 }
