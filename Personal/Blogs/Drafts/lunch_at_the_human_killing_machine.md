@@ -1,7 +1,6 @@
 # Lunch at the Human Killing Machine
 
 My life is so fucking stupidly comical. I can't believe I went to a [furry meetup](https://londonfurs.org.uk/) at the weekend **by getting invited by a coworker**, and met like 5 people working at tech companies in like, the first 10 minutes.
-
 Everyone was super friendly! I absolutely loved it, I really wanna go back.
 
 I had lunch at Palantir's London headquarters today - some guy I met at LFM works there and invited me. He's almost my age, actually, and earns a shit ton. The world is a small and crazy place! Here's how that conversation happened:

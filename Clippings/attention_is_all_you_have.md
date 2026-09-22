@@ -1,5 +1,5 @@
 ---
-title: Alice GG • Attention is all you have
+title: Attention is all you have
 source: https://alicegg.tech/2026/09/21/attention
 author: Alice GG
 published:
@@ -8,6 +8,8 @@ description: The Tetris effect is one of psychology’s most easy to reproduce e
 tags:
   - clippings
 ---
+# Attention Is All You Have
+
 The Tetris effect is one of psychology’s most easy to reproduce experiments. Simply spend a bit of time playing the eponymous game every day for a few weeks. After a little while, you’ll start recognizing familiar Tetromino shapes in clouds, buildings, and everyday objects. You might even see them appear before your eyes when you start falling asleep.
 
 ![A gameboy and Tetrominos](https://alicegg.tech/assets/2026-09-21-attention/tetris.jpg)
