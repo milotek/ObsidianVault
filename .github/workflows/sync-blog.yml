@@ -16,6 +16,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           path: vault
+          fetch-depth: 0
 
       - name: Checkout milotek.dev
         uses: actions/checkout@v4
@@ -33,6 +34,7 @@ jobs:
         run: |
           node - << 'NODE_SCRIPT'
           import { copyFile, mkdir, readdir, readFile, rm, stat, writeFile } from 'node:fs/promises';
+          import { execSync } from 'node:child_process';
           import path from 'node:path';
 
           const VAULT = 'vault';
@@ -184,14 +186,54 @@ jobs:
             return out.join('\n');
           }
 
-          async function readPost(file, attachments) {
+          function getGitDate(vaultDir, relPath) {
+            try {
+              const out = execSync(`git log --diff-filter=A --follow --format=%cs -1 -- "${relPath}"`, {
+                cwd: vaultDir,
+                encoding: 'utf8',
+                stdio: ['ignore', 'pipe', 'ignore'],
+              }).trim();
+              if (out && /^\d{4}-\d{2}-\d{2}$/.test(out)) return out;
+            } catch {}
+            return undefined;
+          }
+
+          async function getExistingDates(outDir) {
+            const map = new Map();
+            try {
+              for (const entry of await readdir(outDir, { withFileTypes: true })) {
+                if (!entry.isDirectory()) continue;
+                try {
+                  const content = await readFile(path.join(outDir, entry.name, 'index.md'), 'utf8');
+                  const m = content.match(/^published:\s*["']?([^\s"'\r\n]+)["']?/m);
+                  if (m) map.set(entry.name, m[1].trim());
+                } catch {}
+              }
+            } catch {}
+            return map;
+          }
+
+          async function readPost(file, attachments, existingDates) {
             const raw = await readFile(file, 'utf8');
             if (!raw.trim()) return undefined;
             const { data, body } = splitFrontmatter(raw);
             const stem = path.parse(file).name;
+            const slug = slugify(data.slug || stem);
             const titleMatch = body.match(/^#\s+(.+)/m);
             const title = data.title || (titleMatch ? titleMatch[1].trim() : stem.replace(/[-_]+/g, ' '));
-            const published = data.published ? data.published.trim() : undefined;
+
+            const inDraftsFolder = file.split(path.sep).includes('Drafts');
+            const isExplicitDraft = data.draft === 'true' || data.draft === true;
+            const isExplicitNotDraft = data.draft === 'false' || data.draft === false;
+            const draft = isExplicitNotDraft ? false : (isExplicitDraft || inDraftsFolder);
+
+            const relPath = path.relative(VAULT, file);
+            const published = data.published?.trim()
+              || data.date?.trim()
+              || existingDates.get(slug)
+              || getGitDate(VAULT, relPath)
+              || new Date().toISOString().slice(0, 10);
+
             const used = new Map();
             let text = rewriteEmbeds(body, attachments, used);
             text = rewriteWikilinks(text);
@@ -199,11 +241,11 @@ jobs:
             text = rewriteCallouts(text);
             text = matchObsidianLineBreaks(text);
             return {
-              slug: slugify(stem),
+              slug,
               title,
               published,
               summary: data.summary || undefined,
-              draft: !published,
+              draft,
               body: text.trim() + '\n',
               attachments: used,
             };
@@ -218,7 +260,7 @@ jobs:
             const fm = [
               '---',
               `title: ${JSON.stringify(post.title)}`,
-              `published: ${post.published ?? new Date().toISOString().slice(0, 10)}`,
+              `published: ${post.published}`,
               post.summary ? `summary: ${JSON.stringify(post.summary)}` : undefined,
               `draft: ${post.draft ? 'true' : 'false'}`,
               '---',
@@ -234,6 +276,7 @@ jobs:
               console.warn(`No vault found at ${POSTS}; skipping sync.`);
               return;
             }
+            const existingDates = await getExistingDates(OUT);
             await rm(OUT, { recursive: true, force: true });
             await mkdir(OUT, { recursive: true });
             const attachments = await indexAttachments(VAULT);
@@ -242,7 +285,7 @@ jobs:
 
             for await (const file of walk(POSTS)) {
               if (!file.endsWith('.md')) continue;
-              const post = await readPost(file, attachments);
+              const post = await readPost(file, attachments, existingDates);
               if (!post) continue;
               if (post.draft && !includeDrafts) {
                 drafts++;
