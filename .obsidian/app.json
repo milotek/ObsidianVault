@@ -14,5 +14,10 @@
   "focusNewTab": false,
   "openBehavior": "daily",
   "useMarkdownLinks": false,
-  "attachmentFolderPath": "./"
+  "attachmentFolderPath": "./",
+  "strictLineBreaks": true,
+  "showInlineTitle": true,
+  "propertiesInDocument": "hidden",
+  "showLineNumber": false,
+  "rightToLeft": false
 }

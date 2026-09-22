@@ -5,9 +5,9 @@
     "extended-colorschemes",
     "clean-quotes"
   ],
-  "monospaceFontFamily": "Builder Mono",
-  "textFontFamily": "Builder Sans",
-  "interfaceFontFamily": "Builder Sans,Builder Mono,Builder Extended",
+  "monospaceFontFamily": "MesloLGS NF",
+  "textFontFamily": "Source Sans 3",
+  "interfaceFontFamily": "Source Sans 3",
   "baseFontSizeAction": false,
   "translucency": false,
   "nativeMenus": true
