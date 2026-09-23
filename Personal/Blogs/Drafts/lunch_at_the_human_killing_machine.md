@@ -1,9 +1,9 @@
 # Lunch at the Human Killing Machine
 
-My life is so fucking stupidly comical. I can't believe I went to a [furry meetup](https://londonfurs.org.uk/) at the weekend **by getting invited by a coworker**, and met like 5 people working at tech companies in like, the first 10 minutes.
+My life is so fucking stupidly comical. I can't believe I went to a [furry meetup](https://londonfurs.org.uk/) at the weekend by getting invited by a coworker, and met like 5 people working at tech companies in like, the first 10 minutes.
 Everyone was super friendly! I absolutely loved it, I really wanna go back.
 
-I had lunch at Palantir's London headquarters today - some guy I met at LFM works there and invited me. He's almost my age, actually, and earns a shit ton. The world is a small and crazy place! Here's how that conversation happened:
+I had lunch at Palantir's London headquarters today - some guy I met at LFM works there and invited me. The world is a small, morally corrupt and crazy place! Here's how that conversation happened:
 
 > "Oh you're someone@'s colleague? Do you work at Google too??"
 
@@ -25,6 +25,6 @@ It's also pretty funny - the level of mental gymnastics people working at inhere
 
 > "NOOO... I don't work in *that* part, I work on the commercial side! It's not the evil bit I promise."
 
-Oh right, so you only work at the *Make-Everyone's-Life-Worse-And-Turn-The-Country-Into-A-Surveillance-State* machine, not the *Human-Killing-Machine. I understand now. Thank you so much for your societal contributions. You know what? I think you can be excused for your hellish legal treason efforts for now, given the fact you're a furry.
+Oh right, so you only work at the *Make-Everyone's-Life-Worse-And-Turn-The-Country-Into-A-Surveillance-State* machine, not the *Human-Killing-Machine*. I understand now. Thank you so much for your societal contributions. You know what? I think you can be excused for your hellish legal treason efforts for now, given the fact you're a furry.
 
 Yes, I'm aware that I might be being a little hypocritical here.
