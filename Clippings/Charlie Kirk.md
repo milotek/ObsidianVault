@@ -1,0 +1,28 @@
+---
+title: "Charlie Kirk"
+source: "https://louka.sh/articles/charlie-kirk/"
+author:
+  - "[[Louka Ménard Blondin <hello@louka.sh>]]"
+published: 2025-09-11
+created: 2026-09-28
+description: "And so humanity slips back into the old dark cavern, scratching tally marks into its walls."
+tags:
+  - "clippings"
+---
+And so humanity slips back into the old dark cavern, scratching tally marks into its walls. We thought we made ourselves decent men, but we’ve never really evolved beyond the godfearing animals that we’ve always been.
+
+If you look up *Politics is the art of…*, you will find *many* results: the art of the possible, the art of compromise, the art of looking for trouble. These are little parcels of truth, but they describe the [accidents](https://en.wikipedia.org/wiki/Accident_\(philosophy\)) of politics, not its substance. The substance of politics, which is what politics *really is*, is the art of justifying human hurt, and this was made bare today. Many already saw this, but as I did, none really wants to mention it.
+
+Of course, we feel good about *our* politics. We single out this other and come up with all manner of reason to hurt it. Hurt this other because it’s fair, hurt this other because they deserve it, hurt this other because they’re hurting others, hurt this other because my religion says it’s right, hurt this other because “karma”, hurt this other because they “reap what they sow”, hurt this other because they hurt me… and it goes on, this infinite list. It truly never ends, but always for the end of feeling good while hurting others. All the while, we do not feel even a tinge of hypocrisy, because we’ve made for ourselves these ideologies and these communities which provide the complex noise and the rhetoric needed to justify it all.
+
+We’ve always longed for a world without violence but we also, in the very same turn, long for *our* violence, the violence we find restorative and liberative instead of the *other’s* violence that is reactionary and oppressive. *Our* violence is necessary, *their* violence is only indulgence. *Our* violence is for the betterment of the world, *their* violence is for the destruction of the world. When *we* make orphans from their children, it is merely a consequence of their parents’ recklessness, but when *they* make orphans of *our* children, it is the most unforgivable crime that no one ever deserves. When we make fun of *their* dead, then it doesn’t really matter because morality was cast aside ages ago anyway, but when *they* make fun of *our* dead, it is a sign of gross disrespect that, unfortunately, is to be expected of our vile enemy.
+
+None of this should be surprising. Being human is what allows this desire for hurt to arise. *We* have always been human, and so are *they*. However, in our striving to reject evil, we think of it impossible in ourselves but commonplace in others. Therefore, we think nothing we do is truly evil, even if it appears so. Then, we face our hypocrisy in conflict, when it turns out that the very people we labeled evil dishes out the same back to us, with their own labeling and their own rejection of their *own* evil. Eventually, the contradiction boils over and we die, either in spirit through the synthesis of each other’s sheer demoralization, or in body through spontaneous violence.
+
+## Spectacle
+
+But of course, we are living in a time where we have been divorced from our agency over history. *History* is no longer something that is written as we live but rather a collected, computed collection of past tidbits to be consulted whenever. What we actually *live* today, instead of history, is a shoddy, concrete-smelling *daily life* of regular unimportance whose stability we really do not want to leave. Everything around us has been designed to reinforce our adherance and our dependence on the rhythm of *daily life*, making us fear, in spite of ourselves and our desire of revolutionary change, any dramatic, society-altering action that will tear us from the *daily life* which provides us all the fancy we need like food and shelter.
+
+We sit on our chairs of velvet, which are our *daily lives*, to watch the spectacle they create for us, which is the *society* which surrounds us. The spectacle’s machines provides the wicked homeostasis for our increasingly decadent Western societies, and that means that such things like Charlie Kirk’s murder will, sooner or later, be flushed down the toilet of zeitgeist. You will see that it’ll be of no consequence on what the spectacle engineers for us, even if it makes people angrier and may instigate a few other minor dramas of its own. Radical politics are too disruptive of the spectacle, and therefore more noise will be pumped into our brains so that we do not pay too much attention to it.
+
+So, do not fear. Have you celebrated Charlie Kirk’s death? Soon, it will be a meme that you’ll occasionally ponder upon on its Wikipedia page, and then you’ll wander off to next day’s work. But if not, have you mourned Charlie Kirk’s murder? Do not worry, soon enough, you will be distracted by another tragedy or perhaps the next great political theatre from ours truly social media. Both of you, celebrators and mourners, will return to yer damp dank dark shells and do nothing but continue to advocate for your righteous strain of violence while gorging on an hypocrisy which you do not believe to even exist in yourself.

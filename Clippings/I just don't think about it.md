@@ -1,0 +1,28 @@
+---
+title: "I just don't think about it"
+source: "https://louka.sh/articles/ijustdontthinkaboutit/"
+author:
+  - "[[Louka Ménard Blondin <hello@louka.sh>]]"
+published: 2026-01-19
+created: 2026-09-28
+description: "Roughly one year ago, I had an insightful conversation with a recently-made friend."
+tags:
+  - "clippings"
+---
+![Scene from Children of Men](https://louka.sh/_astro/banner.C7eimQKJ_ZA0BPl.webp)
+
+Roughly one year ago, I had an insightful conversation with a recently-made friend. We were both discussing our plans, and as I was elaborating some of the trips I intend to make over the next two, three years, they scoffed. I was taken aback by this, because making long-term plans isn’t exactly too exotic of an undertaking; isn’t it good to have some ideal to drive you?
+
+It was not the ideality they scoffed at, but rather the *certainty* I expressed. The certainty? I intend to pursue these trips, sure. What of it? I discovered this day, and kept noticing perpetually after, that many, if not most, of Generation Z– *my people* –do not plan for any longer than the next couple months, if not less. The idea of planning something for the next year is ludicrous to them. I was agast at even the mere conception of being or otherwise *feeling* unable to know what you’ll be doing in a year’s time, especially given that most of what has driven my successes, even if few, has been plans made long before their enactment. I would feel terribly *disabled* without this kind of foresight to guide me…
+
+…and yet, that is how most of my generation operates. I don’t blame them in complete fairness, so much of life today is no longer guaranteed; many live paycheck-to-paycheck, whether coming from their job, parents, or welfare, all of that which they use is mostly rented rather than owned, and the endless, terrible news from the vomit of the Internet spells a never-coming yet omnipresently looming end to their world. A day of introspection has revealed to me that I *too* thought like this once, perhaps not consciously and in the same vocabulary but still convincingly and truly; a friend from Québec organized a roadtrip to the north of the country and as it was a year later, I assumed it would have never happened, that some disaster or other unfortunate thing would have prevented it.
+
+What allowed me to escape this vapid mindset was to simply not think about it. In full awareness of the volatility of the world, I still thought to myself that I *will* do this next year, that I *will* achieve that, and anything that happens between here and then is not an impediment and a foretell of failure but a requirement to the fulfillment of my desires. It isn’t careless to pen down in your mind a certainty as to what is to come, as long you prepare for what will try to hinder it. To me, this has always been quite clear: the world ceaselessly tries to take you down and you fight against the entropy. It becomes easier in time. What is there to lose, besides? Plans are for achieving, for getting what you do not *have*. If you already have nothing, then what is the matter with failure? What exactly will you lose?
+
+The future of the fourteenth-century feudal mason was as chartered as yours. This, however, didn’t stop him from laying stones for cathedrals they would never see finished. How many of them, towering as they are, have you admired? Do you feel for the loss of old, beautiful architecture? These things, they took decades, if not centuries, to build. They knew as much as you about what tomorrow would bring, and yet they felt no defeat, and pressed on. They succeeded because they ignored their inner, erroneous sense of the impossibility of the task. They just didn’t think about it.
+
+*They just didn’t think about it* –a very funny sentence, everything considered. What allows me to plan a year and more ahead is the not-thinking of all the disaster and impediment that can occur between now and then; focus on the disaster and impediment is what creates the not-thinking of the year and more ahead in Generation Z. As I choose not to think about all the hypothetical tragedies and sorrows that may happen tomorrow, I look a bit more hopefully and valiantly towards the future, but if you choose to think about the tragedies and sorrows, then you will find yourself quite limited as to your wishes and your long-term capacity.
+
+In a challenge to my friend, I asked them to note down in their phone’s calendar a reminder for next year; they like sushi, and so I suggested that they, on that date, get sushi. In the moment, they felt incredibly uncertain as to whether they will get to see this day. And what happened to them throughout the year? Many things, good and bad. Some were even terrible and devastating, altering the trajectory of their life like nothing else. Yet, the day came that their phone alerted them to the event they planned a year ago, and they got the sushi, having completely forgotten that they ever planned this.
+
+They told me that I had foresight. I disagreed– *this* is something **you** can do, every year. Right now, you can pen down what you want to do next year, or the year after. You will find that, more often than not, *nothing* that occurs in the year will impede you. With this in mind, it’s perhaps time for some to start *planning*. So many things are not planned because of this unfortunate mind-disease, in the form of the forgoing of children, of the so-called *doomspending* and the modern rejection of budgeting, of prospects for homemaking. So many Generation Zers do not believe that they have a future, but future happens nonetheless, and so coordinate it, guide it. The future happens whether you plan for it or not; you might as well grab the wheel.
