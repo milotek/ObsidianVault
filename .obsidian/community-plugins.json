@@ -1,8 +1,8 @@
 [
-  "make-md",
   "obsidian-style-settings",
   "folders2graph",
   "calendar",
   "linkify",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-link-converter"
 ]
