@@ -19,5 +19,6 @@
   "showInlineTitle": true,
   "propertiesInDocument": "hidden",
   "showLineNumber": false,
-  "rightToLeft": false
+  "rightToLeft": false,
+  "newLinkFormat": "relative"
 }
