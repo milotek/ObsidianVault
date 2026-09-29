@@ -11,7 +11,7 @@
   },
   "showUnsupportedFiles": true,
   "settingsPopoutWindow": false,
-  "focusNewTab": false,
+  "focusNewTab": true,
   "openBehavior": "daily",
   "useMarkdownLinks": true,
   "attachmentFolderPath": "./",
