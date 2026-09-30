@@ -1,5 +1,5 @@
 Checksums are checks / algorithms designed to validate the legitimacy/check the correctness of data.
-A checksum works in a similar way to [[Transmission Errors#Parity Bits|Parity Bits]] in the way that they are 
+A checksum works in a similar way to [](Transmission%20Errors.md#Parity%20Bits|Parity%20Bits) in the way that they are 
 
 ---
 ## Simple checksum example

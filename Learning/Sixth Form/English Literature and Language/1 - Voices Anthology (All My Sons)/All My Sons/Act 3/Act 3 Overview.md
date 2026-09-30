@@ -1,4 +1,4 @@
-In act 3 everything has come to light, and the day is coming to a close, the place being set in darkness. This is the final act, and houses the climax, falling action and denouement of [[All My Sons Overview|All My Sons]].
+In act 3 everything has come to light, and the day is coming to a close, the place being set in darkness. This is the final act, and houses the climax, falling action and denouement of [All My Sons](All%20My%20Sons%20Overview.md).
 
 [Massolit lecture on Act 3.](https://massolit.io/courses/miller-all-my-sons/act-3-to-him-they-were-all-my-sons-pp-78-84?autoplay=true)
 
@@ -6,7 +6,7 @@ In act 3 everything has come to light, and the day is coming to a close, the pla
 -----
 ## Summary
 The play happens in a 24 hour span - if you take it from the moment the tree breaks, it is now 2am in act 3, and the 24 hours are almost complete.
-The act opens with [[Character of Jim|Jim]] and [[Character of Mother|Kate]]conversing outside. *(page 73-74)*
+The act opens with [Jim](Character%20of%20Jim) and [Kate](Character%20of%20Mother.md)conversing outside. *(page 73-74)*
 
 - In the climax, Chris has stormed out the family home, and Kate and Keller argue to hold onto their beliefs and lies more.
 - Kate persuades Keller to "\[tell Chris] that you want to pay for what you did." and says he should be willing to go to prison for his acts.

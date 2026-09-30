@@ -2,7 +2,7 @@
 title: "How To Write With An LLM"
 source: "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/"
 author:
-  - "[[Thomas & Erin Ptacek]]"
+  - "[Thomas & Erin Ptacek](Thomas%20&%20Erin%20Ptacek)"
 published: 2026-09-17
 created: 2026-09-18
 description: "Two rules keep an LLM from pasteurizing your writing: never take a word it suggests, and never let it encourage you. Then hand it all the tedious work."

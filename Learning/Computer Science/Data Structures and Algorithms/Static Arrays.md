@@ -1,17 +1,17 @@
-- [ ] In statically typed languages, such as [[C#]], [[Java]] and [[C++]], arrays are of fixed size and length.
+- [ ] In statically typed languages, such as [C#](C#), [Java](Java) and [C++](C++), arrays are of fixed size and length.
 They have an allocated size and type allocated to them in memory.
-These are known as [[Static Arrays]].
+These are known as [Static Arrays](Static%20Arrays.md).
 
 They are called static because the type and size cannot be changed, after being declared.
 Once the array is full, it cannot store any more elements.
 
-Some dynamically typed languages like Python or Lua do not have fixed size arrays, but rather [[Linked Lists]], which can grow or shrink in size.
+Some dynamically typed languages like Python or Lua do not have fixed size arrays, but rather [Linked Lists](Linked%20Lists.md), which can grow or shrink in size.
 
 ## Reading
 To read an element from an array, we can choose the position we want to access via an index.
-An index is just a [[zero-indexed number]], indicating the position in the array. That means the first element would be at position `0`, the second at `1`, third at `2`, and so on.
+An index is just a [zero-indexed number](zero-indexed%20number), indicating the position in the array. That means the first element would be at position `0`, the second at `1`, third at `2`, and so on.
 
-![[static_array_representation_in_memory.png]]
+![static_array_representation_in_memory](static_array_representation_in_memory.png)
 
 ## Traversal
 We can also read all values in an array by traversing through it.
@@ -38,13 +38,13 @@ def removeEnd(arr):
     arr[-1] = 0
 ```
 
-![[static_array_delete_at_last_index.png]]
+![static_array_delete_at_last_index](static_array_delete_at_last_index.png)
 > In the above example, the value at position 2 is overwritten by 0, which represents a default value.
 
 ### Deleting at the nth position
 If instead of deleting at the end, we wanted to delete an element at a random index (we'll call this index n), would we be able to perform this in $O(1)$?
 
-We could just replace it with a default value, like we did for [[#Deleting from the end|the last one]], but this would break the contiguous nature of our array. It's ok to do that from the end, but from the middle it's not.
+We could just replace it with a default value, like we did for [the last one](#Deleting%20from%20the%20end), but this would break the contiguous nature of our array. It's ok to do that from the end, but from the middle it's not.
 
 A better approach would be:
 1. We are given the deletion index, n.
@@ -58,7 +58,7 @@ def removeAtIndex(arr, n):
         arr[index - 1] = arr[index]
 ```
 
-![[static_array_removing_at_nth_index.png]]
+![static_array_removing_at_nth_index](static_array_removing_at_nth_index.png)
 
 The worst case for this algorithm would be: remove at the first position - because we would need to shift every element to the left. Therefore, the code above is $O(n)$.
 
@@ -78,7 +78,7 @@ Since we are writing a single value to the array, the time complexity is $O(1)$
 
 ### Inserting at the nth position
 Inserting at a certain index is more involved, since we will likely insert in the middle.
-The way we do this is similar to [[#Deleting at the nth position]].
+The way we do this is similar to [#Deleting at the nth position](#Deleting%20at%20the%20nth%20position).
 
 Consider the array `[4, 5, 6]`. If we need to insert `value` at index `n`, we cannot overwrite the original value because we would lose it.
 We will need to shift all values, starting at index `n`, one position to the right.
@@ -95,7 +95,7 @@ def insertMiddle(arr, n, value):
 
 The above image visualises the insertion of 8 at index 1, in the array [4, 5, 6]. Since we don't have enough space to keep the last element it is lost.
 
-![[static_array_insertion_at_nth_index.png]]
+![static_array_insertion_at_nth_index](static_array_insertion_at_nth_index.png)
 
 ## Time Complexity
 Note that the Big-O Time is for worst case.
@@ -107,7 +107,7 @@ Note that the Big-O Time is for worst case.
 | Deletion  | $O(n)$*    | If deleting at the end of the array, O(1)  |
 
 ## Evaluation
-The operations discussed are **critical** to solving a lot of interview problems. In fact, the key to solving many problems lies in being able to implement the [[#inserting at the nth position]] and [[#deleting at the nth position]] operations efficiently.
+The operations discussed are **critical** to solving a lot of interview problems. In fact, the key to solving many problems lies in being able to implement the [#inserting at the nth position](#inserting%20at%20the%20nth%20position) and [#deleting at the nth position](#deleting%20at%20the%20nth%20position) operations efficiently.
 
 ### Suggested problems
 - [ ] [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)

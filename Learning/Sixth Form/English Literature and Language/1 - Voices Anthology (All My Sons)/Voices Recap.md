@@ -1,7 +1,7 @@
-## [[De Profundis]]
+## [De Profundis](De%20Profundis.md)
 De Profundis is a deeply personal letter written by writer Oscar Wilde during his imprisonment, reflecting on his suffering, past mistakes, and personal identity. It serves as both a confession and a meditation on art, love, and redemption. As an autobiography, it follows conventions synonymous with the genre, such as first-person narration, introspection, and a focus on key life events, even though it was originally intended as a letter to his lover.
 
-## [[Maya Angelou]]
+## [Maya Angelou](Maya%20Angelou.md)
 In Me and Mum and Mum and Me, Maya Angelou explores her differing relationship with her mother, their standards of living and the traditional fondness or love shared between a child and mother. Maya uses symbolism, presenting food in ways like 
 It follows the conventions associated with autobiographies like first-person narration and personal 
 

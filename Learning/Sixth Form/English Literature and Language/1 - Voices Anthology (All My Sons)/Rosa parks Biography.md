@@ -4,7 +4,7 @@
 -----
 ## Notes
 Remember, a biography is written about a person by a different person.
-Autobiographies like [[De Profundis]] or [[Maya Angelou]] are written by the person themself.
+Autobiographies like [De Profundis](De%20Profundis.md) or [Maya Angelou](Maya%20Angelou.md) are written by the person themself.
 
 
 **Conventions**

@@ -18,6 +18,6 @@ https://streamable.com/q85jt9
 -----
 ## Hierarchy/inheritance + classes
 
-![[CleanShot 2024-03-19 at 08.37.33@2x.png]]
+![CleanShot 2024-03-19 at 08.37.33@2x](CleanShot%202024-03-19%20at%2008.37.33@2x.png)
 
-![[blackjack_solution_explorer_tree.png|300]]
+![300](blackjack_solution_explorer_tree.png)

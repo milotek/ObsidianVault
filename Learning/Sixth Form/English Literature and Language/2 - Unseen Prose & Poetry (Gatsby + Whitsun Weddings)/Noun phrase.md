@@ -1,11 +1,11 @@
-- A **noun phrase** has a noun as its most important word. It might have one or more [[pre-modifiers]].
+- A **noun phrase** has a noun as its most important word. It might have one or more [pre-modifiers](pre-modifiers).
 - A determiner specifies the number definiteness or context of a noun, e.g: **a, an, the, these, some, each**.
 	- The determiners like **a, an, the** are definite article determiners.
 	- While **these, some, each** are demonstrative determiners.
 	- **My** is a possessive pronoun.
 	
 > [!WARNING] Important
-> The [[pre-modifiers]] before a noun are **both** the determiner and one or more adjectivies. They work together.
+> The [pre-modifiers](pre-modifiers) before a noun are **both** the determiner and one or more adjectivies. They work together.
 
 ## Examples
 1. Heroic assistance dog

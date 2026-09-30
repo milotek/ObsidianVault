@@ -34,4 +34,4 @@ static void MyFunction()
 - `static` means that the method belongs to the Program class and not an object of the Program class.
 - `void` means that this method does not have a return value
 
-C# has built in functions such as [[ToUpper() & ToLower()]], which convert a string to Upper/Lower case
+C# has built in functions such as [ToUpper() & ToLower()](ToUpper()%20&%20ToLower().md), which convert a string to Upper/Lower case

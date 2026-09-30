@@ -61,7 +61,7 @@ For only when our arms are sufficient beyond doubt can we be certain beyond doub
 ## Planning
 
 **Who is the audience for Text B? What is the purpose? What genre conventions would you expect?**
-Citizens of America, subscribers to The New York Times. It is an [[Obituary overview|Obituary]]. Following the conventions of the genre the writer uses sympathetic and reflective language. It quotes him and introduces, commendates his actions to the audience. Departing from an obituary, it's more emotional i.e: "devastating news that engulfed all America and the world".
+Citizens of America, subscribers to The New York Times. It is an [Obituary](Obituary%20overview.md). Following the conventions of the genre the writer uses sympathetic and reflective language. It quotes him and introduces, commendates his actions to the audience. Departing from an obituary, it's more emotional i.e: "devastating news that engulfed all America and the world".
 
 **What American ideals does it reflect on? How does it characterise Kennedy’s presidency?**
 The obituary, departing the traditional genre, is much more complimentary and commendating of Kennedy's presidency and actions.

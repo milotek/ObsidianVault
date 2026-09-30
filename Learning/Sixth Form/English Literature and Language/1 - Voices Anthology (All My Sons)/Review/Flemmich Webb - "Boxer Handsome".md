@@ -1,6 +1,6 @@
 
 > [!NOTE] Flemmich Webb's review on "Boxer Handsome"
-> [[!!! - Voices Anthology - Edexcel.pdf#page=32&selection=58,0,59,8|!!! - Voices Anthology - Edexcel, page 32|Boxer Handsome, page 32]]
+> [](!!!%20-%20Voices%20Anthology%20-%20Edexcel.pdf#page=32&selection=58,0,59,8|!!!%20-%20Voices%20Anthology%20-%20Edexcel,%20page%2032|Boxer%20Handsome,%20page%2032)
 
 -----
 ## Questions

@@ -1,1 +1,1 @@
-When variables are declared within a  [[Subroutines#Functions|function]]
+When variables are declared within a  [](Subroutines.md#Functions|function)

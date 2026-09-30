@@ -40,7 +40,7 @@ Phillip Larkin talks about his expectations for love, how he sees honesty as an 
 
 **Outside, the wind's incomplete unrest  
 Builds and disperses clouds in the sky**
-The imagery all throughout the poem seems to reflect the author's described relationship. He shifts the focus towards the weather as opposed to the seemingly failing relationship - but in a pit of irony the climate outside seems to reflect their implied bad relationship - a prime example of [[pathetic fallacy]].
+The imagery all throughout the poem seems to reflect the author's described relationship. He shifts the focus towards the weather as opposed to the seemingly failing relationship - but in a pit of irony the climate outside seems to reflect their implied bad relationship - a prime example of [pathetic fallacy](pathetic%20fallacy).
 Additionally, the 
 
 **And dark towns heap up on the horizon.

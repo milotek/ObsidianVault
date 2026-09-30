@@ -1,6 +1,6 @@
 
 
-[[EE NEA 2022 Non-Fiction - Memoir - Greenlaw.pdf]]
+[EE NEA 2022 Non-Fiction - Memoir - Greenlaw](EE%20NEA%202022%20Non-Fiction%20-%20Memoir%20-%20Greenlaw.pdf)
 
 -----
 This text consists of two memoirs, one of which is about being a young girl and growing up.

@@ -8,7 +8,7 @@
 > - Name: **Milo Tekchandani**
 > - Title: **Codependence**
 > - Genre: **Short story**
-> - Stimulus text: [[What's Not Yours Is Yours - Oyeyemi Helen]]
+> - Stimulus text: [What's Not Yours Is Yours - Oyeyemi Helen](What's%20Not%20Yours%20Is%20Yours%20-%20Oyeyemi%20Helen.md)
 
 
 ## Codependence

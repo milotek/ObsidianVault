@@ -1,4 +1,4 @@
-![[CleanShot 2024-09-24 at 15.56.52@2x.png]]
+![CleanShot 2024-09-24 at 15.56.52@2x](CleanShot%202024-09-24%20at%2015.56.52@2x.png)
 
 The RPN is read from left to right.
 The numbers are pushed onto the stack in that order.
@@ -6,12 +6,12 @@ When an operator is encountered, pop the last (top) two numbers from the stack.
 Calculate the two numbers
 
 
-![[CleanShot 2024-09-24 at 15.58.55@2x.png]]
+![CleanShot 2024-09-24 at 15.58.55@2x](CleanShot%202024-09-24%20at%2015.58.55@2x.png)
  `3 4 2 * + 1 -`
 
 
 
-![[CleanShot 2024-09-24 at 15.59.00@2x.png]]
+![CleanShot 2024-09-24 at 15.59.00@2x](CleanShot%202024-09-24%20at%2015.59.00@2x.png)
 
 | RPN           | Infix        |
 | ------------- | ------------ |
@@ -19,11 +19,11 @@ Calculate the two numbers
 | `12 19 + 8 *` | `(12+9) * 8` |
 No need for order of operations (BIDMAS) or parenthesis.
 
-![[CleanShot 2024-09-24 at 22.10.29@2x.png]]
+![CleanShot 2024-09-24 at 22.10.29@2x](CleanShot%202024-09-24%20at%2022.10.29@2x.png)
 
-![[CleanShot 2024-09-24 at 22.25.26@2x.png]]
+![CleanShot 2024-09-24 at 22.25.26@2x](CleanShot%202024-09-24%20at%2022.25.26@2x.png)
 
-![[CleanShot 2024-09-24 at 22.26.15@2x.png]]
+![CleanShot 2024-09-24 at 22.26.15@2x](CleanShot%202024-09-24%20at%2022.26.15@2x.png)
 
 `6 4 + 3 2 + *`
 
@@ -39,10 +39,10 @@ No need for order of operations (BIDMAS) or parenthesis.
 | 7          | *     |             | 10  | 5   | 50     | 50           |     |
 Final output of algorithm: **50**
 
-![[CleanShot 2024-09-24 at 22.31.56@2x.png]]
+![CleanShot 2024-09-24 at 22.31.56@2x](CleanShot%202024-09-24%20at%2022.31.56@2x.png)
 
 This is pretty much just Lua, but I make up the fact that Lua has arrays, starting at 0.
-(it only has [[Dynamic data structures|dynamic size lists]]).
+(it only has [dynamic size lists](Dynamic%20data%20structures.md)).
 
 ```lua
 -- variables

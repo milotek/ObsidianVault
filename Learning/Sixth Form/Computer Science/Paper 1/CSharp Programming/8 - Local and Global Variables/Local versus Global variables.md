@@ -1,1 +1,1 @@
-> There are some important characteristics to be aware of when using [[Local Variables]] and [[Global Variables]].
+> There are some important characteristics to be aware of when using [Local Variables](Local%20Variables.md) and [Global Variables](Global%20Variables.md).

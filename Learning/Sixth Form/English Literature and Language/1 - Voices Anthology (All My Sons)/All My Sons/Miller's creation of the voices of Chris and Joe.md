@@ -8,17 +8,17 @@
 > - Aim for four terms if possible.
 > 
 > A reminder of possible spoken language terms you can use here: 
-> - [[False start]]
-> - [[American Vernacular]]
-> - [[Demotic language]]
-> - [[Idiolect]]
-> - [[Idiom]]
-> - [[Ellipsis]]
-> - [[Echo Utterance]]
-> - [[Interruption]]
-> - [[Conversation arcs]]
+> - [False start](False%20start.md)
+> - [American Vernacular](American%20Vernacular.md)
+> - [Demotic language](Demotic%20language.md)
+> - [Idiolect](Idiolect.md)
+> - [Idiom](Idiom.md)
+> - [Ellipsis](Ellipsis.md)
+> - [Echo Utterance](Echo%20Utterance.md)
+> - [Interruption](Interruption.md)
+> - [Conversation arcs](Conversation%20arcs.md)
 
 For the Keller family, more specifically both the characters of both Chris and Joe, Miller is said to have wanted to create a stereotypical and thereby comforting scene of an idealistic American family to begin the play. This is mainly evidenced through the spoken language of the Kellers which establishes a theme of community/family and warmth.
-For instance, in the opening scene, Joe Keller’s speech reflects his working-class background, using [[Demotic language]] that is simple and direct (such as "", in keeping with his persona as a businessman who prides himself on providing for his family. This use of the [[American Vernacular]] helps to ground him in a typical fashion of an American citizen,
+For instance, in the opening scene, Joe Keller’s speech reflects his working-class background, using [Demotic language](Demotic%20language.md) that is simple and direct (such as "", in keeping with his persona as a businessman who prides himself on providing for his family. This use of the [American Vernacular](American%20Vernacular.md) helps to ground him in a typical fashion of an American citizen,
 
 However, Chris’s **idiolect** contrasts sharply with his father’s; he speaks more formally, as someone who has been influenced by his wartime experience and has developed an idealistic view of morality and justice. Miller also utilizes **interruption** to highlight the tension between the two characters; Joe frequently interrupts Chris, asserting his worldview and trying to avoid uncomfortable truths. Finally, Miller’s **stage directions** reveal the undercurrent of dissonance between father and son, suggesting that Joe’s outward comfort masks deeper conflicts that Chris gradually begins to recognize, challenging the initial appearance of an ideal family. Through these choices, Miller reveals the complexity of the characters' relationships and the conflict between idealism and pragmatism.

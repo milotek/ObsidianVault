@@ -1,5 +1,5 @@
 > [!NOTE]- Eye-witness account written by a young radio operator in the First World War
-> [[!!! - Voices Anthology - Edexcel.pdf#page=15|Link]]
+> [](!!!%20-%20Voices%20Anthology%20-%20Edexcel.pdf#page=15|Link)
 ## Overview
 This text is an extract taken from sapper engineer B. Neyman, where in which he details his account of his experience in the war.
 

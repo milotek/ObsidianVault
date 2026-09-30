@@ -1,5 +1,5 @@
 
-![[CleanShot 2024-03-08 at 14.40.47@2x.png|400]]
+![400](CleanShot%202024-03-08%20at%2014.40.47@2x.png)
 
 -----
 ## Real world example

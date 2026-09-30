@@ -7,4 +7,4 @@ A static data structure is a data structure with a fixed size, meaning the amoun
 
 -----
 ## Examples
-[[Work/Google/CS Lectures/Arrays]]
+[Arrays](Work/Google/CS%20Lectures/Arrays.md)

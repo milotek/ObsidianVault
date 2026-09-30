@@ -23,5 +23,5 @@ You could lose a few marks over these so it's worth reading!
 
 There are said to be "no rights and wrongs" with morals and ethics, as all issues are a matter of personal opinion. Some people argue that even actions that are illegal might still be ethical
 
-At A-level you need to be aware of the [[Moral and Ethical issues]] presented within society. 
-- For an example: [[The use and misuse of personal data]]
+At A-level you need to be aware of the [Moral and Ethical issues](Moral%20and%20Ethical%20issues.md) presented within society. 
+- For an example: [The use and misuse of personal data](The%20use%20and%20misuse%20of%20personal%20data.md)

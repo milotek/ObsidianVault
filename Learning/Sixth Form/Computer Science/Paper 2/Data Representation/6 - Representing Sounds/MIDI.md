@@ -8,13 +8,13 @@ In easier terms, it is not a live recording, but a digitally created sound.
 
 -----
 ## What's the benefit?
-The benefit is that .midi files will be much smaller in size than a live recording *(think .mp3 and .wavs)* because mp3s have constantly do [[Sampling|sampling]] 44100x a second - whereas in a MIDI sounds are simply queued to play at a certain time in the song.
+The benefit is that .midi files will be much smaller in size than a live recording *(think .mp3 and .wavs)* because mp3s have constantly do [sampling](Sampling.md) 44100x a second - whereas in a MIDI sounds are simply queued to play at a certain time in the song.
 
 The signals to play said sounds are very small, about 2 or 3 bytes long - significantly reducing the data transferred
 
 Another one is MIDI is a very universally accepted format by many DAWs (Digital Audio Editors)
 
-![[fl_studio_piano_roll.png|400]]
+![400](fl_studio_piano_roll.png)
 
 -----
 ## Downsides

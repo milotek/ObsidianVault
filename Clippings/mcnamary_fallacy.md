@@ -2,7 +2,7 @@
 title: "McNamara fallacy"
 source: "https://en.wikipedia.org/wiki/McNamara_fallacy"
 author:
-  - "[[Wikipedia]]"
+  - "[Wikipedia](Wikipedia)"
 published: 2009-09-10
 created: 2026-09-30
 description:

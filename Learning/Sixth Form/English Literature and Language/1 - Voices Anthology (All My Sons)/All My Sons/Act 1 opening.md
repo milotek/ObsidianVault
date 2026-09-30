@@ -3,7 +3,7 @@ In act one
 -----
 ## Pages 14 - 18
 
-From pages 14 to 18, Joe and Chris Keller conversate about his future - where it's revealed Chris plans to marry his long dead brother's girlfriend. The [[Conversation arcs|conversation arcs]] at the point where his father gets angry at his son potentially leaving the business.
+From pages 14 to 18, Joe and Chris Keller conversate about his future - where it's revealed Chris plans to marry his long dead brother's girlfriend. The [conversation arcs](Conversation%20arcs.md) at the point where his father gets angry at his son potentially leaving the business.
 
 "KELLER: You mean... \[goes to him] you'd leave the business?"
 "CHRIS: Yes. On this I would"

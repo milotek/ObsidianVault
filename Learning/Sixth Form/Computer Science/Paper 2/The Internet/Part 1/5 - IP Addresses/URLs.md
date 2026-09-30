@@ -1,10 +1,10 @@
 A **Uniform Resource Locator** is the (human friendly) address of a web resource on the internet, or computer network, and the protocol to be used for retrieving it.
 
-![[url_annotated.png|500]]
+![500](url_annotated.png)
 
 Example: `https://instagram.com/milo.tek/`
 
-The difference between a [[URLs|URL]] and a [[Domain|domain]] is that the domain only consists of the Subdomain, SLD and TLD. See the image above for reference
+The difference between a [URL](URLs.md) and a [domain](Domain.md) is that the domain only consists of the Subdomain, SLD and TLD. See the image above for reference
 
 The URL, specifies the protocol used, like `https` or `http`.
 Web browsers only use `https` as it's how webpages are sent, and the `s` indicates `secure`.

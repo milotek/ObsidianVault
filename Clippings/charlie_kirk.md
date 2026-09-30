@@ -2,7 +2,7 @@
 title: "Charlie Kirk"
 source: "https://louka.sh/articles/charlie-kirk/"
 author:
-  - "[[Louka Ménard Blondin <hello@louka.sh>]]"
+  - "[Louka Ménard Blondin <hello@louka.sh>](Louka%20Ménard%20Blondin%20<hello@louka.sh>)"
 published: 2025-09-11
 created: 2026-09-28
 description: "And so humanity slips back into the old dark cavern, scratching tally marks into its walls."

@@ -1,5 +1,5 @@
 -----
->Lossy Compression refers to [[Compression]] - more specifically, the techniques therein which quality or data is lost after a file / data has been compressed. 
+>Lossy Compression refers to [Compression](Compression.md) - more specifically, the techniques therein which quality or data is lost after a file / data has been compressed. 
 
 - When the file is decompressed, the data that was removed in the compression process will be attempted to be recreated from the data that remains by means of an algorithm
 
@@ -8,7 +8,7 @@
 -----
 ## Why lossy compression?
 
-For certain files like music and [[Bitmap Graphics|images]] and videos not all the data is needed - for example you could see a **4k** picture of a dog, versus a **480p** (lower resolution) picture - *you'd still know it was a dog either picture.*
+For certain files like music and [images](Bitmap%20Graphics.md) and videos not all the data is needed - for example you could see a **4k** picture of a dog, versus a **480p** (lower resolution) picture - *you'd still know it was a dog either picture.*
 
 >The best example I can think of would be ==YouTube== 
 
@@ -17,12 +17,12 @@ Same goes for music - if you listen to it in a lower quality
 -----
 ## Example - Picture
 
-![[furry_fan_art.png|700]]
+![700](furry_fan_art.png)
 **A random picture from my desktop - it's really dumb but it's one of the 5 pictures I have saved on my mac** 
 
 #### Now look - let's reduce the resolution (and therefore filesize!)
 
-![[furry_fan_art_compressed.png|700]]
+![700](furry_fan_art_compressed.png)
 **The same picture from above just in a lower resolution. Can you *really* tell a difference?**
 I mean - it's a little more blurry - but we halfed the filesize - which is a pretty big win.
 

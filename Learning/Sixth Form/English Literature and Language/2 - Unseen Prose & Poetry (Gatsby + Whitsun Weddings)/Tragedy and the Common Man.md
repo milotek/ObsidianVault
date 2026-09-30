@@ -1,4 +1,4 @@
-*Tragedy and the Common Man* was an essay written by successful playwright Arthur Miller, the same man who wrote[[All My Sons Overview| All My Sons]].
+*Tragedy and the Common Man* was an essay written by successful playwright Arthur Miller, the same man who wrote[ All My Sons](All%20My%20Sons%20Overview.md).
 
 In the text Arthur Miller argues that tragedy is not reserved for nobility or the elite but is also relevant to the lives of ordinary people.
 - Miller suggests that a tragic hero can be anyone who is willing to lay down their life to secure their personal dignity.
@@ -44,7 +44,7 @@ In the text Arthur Miller argues that tragedy is not reserved for nobility or th
 
 -----
 ## Notes
-[[Tragedy and the Common Man]] relates to [[All My Sons Overview|All My Sons]] a lot. His call for tragedies to be more commonplace for the everyman are very apparent in the play.
+[Tragedy and the Common Man](Tragedy%20and%20the%20Common%20Man.md) relates to [All My Sons](All%20My%20Sons%20Overview.md) a lot. His call for tragedies to be more commonplace for the everyman are very apparent in the play.
 All My Sons by all accounts is a textbook tragedy. It:
 - Takes place over the span of no more than 24 hours.
 - Takes place in one singular location.

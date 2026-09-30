@@ -7,7 +7,7 @@ Chapter 7 is a turning point in the novel - as
 > - At lunch, Tom comes to the realisation that Daisy and Gatsby are in love.
 > - They go to visit New York to escape from the rising tension
 > - In a hotel, Gatsby forces Daisy to tell Tom she never loved him
-> - Tom reveals the fact that Gatsby is a bootlegger (see [[Gatsby Chapter 6]]) 
+> - Tom reveals the fact that Gatsby is a bootlegger (see [Gatsby Chapter 6](Gatsby%20Chapter%206.md)) 
 
 -----
 ## Group Work #1
@@ -63,4 +63,4 @@ He does so until Daisy further confirms the claims of Gatsby and at which point 
 -----
 IT'S END OF NOTE
 
-![[swag.png|300]]
+![300](swag.png)

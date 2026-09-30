@@ -10,7 +10,7 @@ et
 -----
 ## Example of metadata within songs
 
-![[metadata_example.png|400]]
+![400](metadata_example.png)
 
 Typically within songs the metadata will be stuff like:
 - Song name
@@ -26,12 +26,12 @@ Alongside the usual stuff mentioned above of course.. there's also some more adv
 ---
 ## Example of metadata within photos
 
-![[metadata_example_photo.png|300]]
+![300](metadata_example_photo.png)
 
 This is the metadata from my wallpaper!
 
-Typically you would expect the following for a [[Bitmap Graphics]] file's metadata:
-- [[Resolution]] / Dimensions
+Typically you would expect the following for a [Bitmap Graphics](Bitmap%20Graphics.md) file's metadata:
+- [Resolution](Resolution.md) / Dimensions
 - Color (bit) depth
 ---
 ## Modern metadata standards today
@@ -45,4 +45,4 @@ For an example, you could use XMP to define a face region within a file or when 
 ---
 ## Final notes
 
-See and read [[EXIF data]]!
+See and read [EXIF data](EXIF%20data.md)!

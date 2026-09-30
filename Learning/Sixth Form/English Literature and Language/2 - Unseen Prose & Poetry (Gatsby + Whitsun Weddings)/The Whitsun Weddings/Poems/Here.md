@@ -1,5 +1,5 @@
 
-The poem Here by [[Phillip Larkin]] is probably a projection of his life within Hull (city within Yorkshire). If you have ever been to the place you would definitely understand. It's the opener to [[The Whitsun Weddings]]
+The poem Here by [Phillip Larkin](Phillip%20Larkin.md) is probably a projection of his life within Hull (city within Yorkshire). If you have ever been to the place you would definitely understand. It's the opener to [The Whitsun Weddings](The%20Whitsun%20Weddings)
 
 - Long winding roads through fields
 - "Isolate villages"
@@ -80,7 +80,7 @@ There are many tonal shifts throughout the whole poem:
 -----
 
 **What places are presented to us as the speaker makes the journey by train?**
-He is going east from the midlands towards East Yorkshire, which correlates with the fact [[Phillip Larkin]], the author, lived within Hull (a port city within East Yorkshire)
+He is going east from the midlands towards East Yorkshire, which correlates with the fact [Phillip Larkin](Phillip%20Larkin.md), the author, lived within Hull (a port city within East Yorkshire)
 This would make sense as he first enters a:
 - Stanza 1: countryside - 
 - Stanza 2: industrial city - 
@@ -89,7 +89,7 @@ This would make sense as he first enters a:
 
 -----
 ##  
-[[Phillip Larkin]] utilised many compound words (words with compounds) within this poem.
+[Phillip Larkin](Phillip%20Larkin.md) utilised many compound words (words with compounds) within this poem.
 
 - Harsh-named halt
 - Cut-price crowd

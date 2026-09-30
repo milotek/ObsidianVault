@@ -18,13 +18,13 @@ So if a game *.exe* file says it is 250mb then it is actually 250,000,000 bytes 
 
 For a real example, this MP3 file I had on my iPod in 2016 took up 4MB of space - or 4 million bytes approx. That's a lot of 1's and 0's.
 
-![[metadata_example_music.png]]
+![metadata_example_music](metadata_example_music.png)
 
 
 -----
 ## Byte Suffixes
 
-> [!NOTE] [[Suffixes]] (embedded)
-> ![[Suffixes]]
+> [!NOTE] [Suffixes](Suffixes.md) (embedded)
+> ![Suffixes](Suffixes.md)
 
 

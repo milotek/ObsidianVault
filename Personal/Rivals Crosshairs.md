@@ -1,7 +1,7 @@
 
 
 > [!TIP]- Accuracy display
-> ![[rivals_crosshair.png]]
+> ![rivals_crosshair](rivals_crosshair.png)
 > Shows accuracy with two red bars either side of a dot.
 >
 > 

@@ -1,4 +1,4 @@
-![[Obituary - Richard Griffiths 2024-03-28 22.44.36.excalidraw]]
+![Obituary - Richard Griffiths 2024-03-28 22.44.36.excalidraw](Obituary%20-%20Richard%20Griffiths%202024-03-28%2022.44.36.excalidraw)
 
 > [!NOTE]- The Richard Griffiths obituary
 > **
@@ -89,7 +89,7 @@ The obituary is about the actor Richard Griffiths
 
 
 -----
-## Comparison to [[Alan Bennett]]'s diary
+## Comparison to [Alan Bennett](Alan%20Bennett.md)'s diary
 The obituary is completely in honour to Alan and speaks nothing but highly of him, and is considerably more formal. Of course they differ, as even though they both speak on the same thing, one is more deliberately written to be publicised, whilst the other is more personal and conversational, perhaps not the way you would want *publically* reflect on a death.
 
 Language that you would typically associate with an obituary is used here - think evaluative - (perhaps a bit commemorative + in rememberance) while conversely Alan's voice seems less somber, more flat instead, for instance the opening line being quite blunt; "Richard Griffiths died".

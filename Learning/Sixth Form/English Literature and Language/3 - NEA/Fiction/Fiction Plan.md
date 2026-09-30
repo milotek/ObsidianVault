@@ -10,7 +10,7 @@ The genre of my fiction text is **Short Story**
 **Explain the purpose of your fiction piece.**
 - Ultimately, for entertainment and maybe to scare the reader a little.
 ## Link to Shared Theme
-My fiction piece ties into the theme of [[Shared theme|identity]] well - the story is about "body snatchers", and having your identity stolen away from you in effect, being replaced by a different conscious, mimicking you.
+My fiction piece ties into the theme of [identity](Shared%20theme.md) well - the story is about "body snatchers", and having your identity stolen away from you in effect, being replaced by a different conscious, mimicking you.
 
 Body snatchers have an obvious tie to this theme, and like I say below, one trying to "fit in" to seem human sort of relates to me. I was diagnosed rather mild autism in 2018 and while I find thrive socially, I tend to significantly more comfortable at my own home. In some social situations I used to feel like I might not fit in with a group and get antsy.
 

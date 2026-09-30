@@ -3,7 +3,7 @@ Data is transmitted between digital devices using one of the two methods − ser
 - **Serial Transmission** - bits of data are sent one after the other along the same data line.
 - **Parralel Transmission** - several bits of data are sent at the same time along multiple seperate data lines.
 
-![[CleanShot 2024-03-01 at 14.29.22@2x.png]]
+![CleanShot 2024-03-01 at 14.29.22@2x](CleanShot%202024-03-01%20at%2014.29.22@2x.png)
 *Serial vs Parralel, demonstrated physically by cables.*
 
 
@@ -15,17 +15,17 @@ Data is transmitted between digital devices using one of the two methods − ser
 >- This only worked one way - for the computer to talk back another line would be needed
 >- Serial connections were SLOW but reliable.
 >
->   ![[CleanShot 2024-03-01 at 14.31.22@2x.png|500]]
+>   ![500](CleanShot%202024-03-01%20at%2014.31.22@2x.png)
 >   
 
 > However as things developed we started using parallel connections
 > - Multiple bits are sent similtaneously
->   ![[CleanShot 2024-03-01 at 15.46.43@2x.png]]
+>   ![CleanShot 2024-03-01 at 15.46.43@2x](CleanShot%202024-03-01%20at%2015.46.43@2x.png)
 
 
 -----
 ## Serial vs Parallel
 - Serial data transmission is frequently used for transmitting data over medium to long distances, such as from wired peripherals like mice and keyboards to your computer.
 - Parallel data transmission is used for more short distance things, like on the inside of your computer (ex: the bus between your CPU and RAM)
-	- The reason why is because of [[skew]]
+	- The reason why is because of [skew](skew)
 	- Over long distances, pa

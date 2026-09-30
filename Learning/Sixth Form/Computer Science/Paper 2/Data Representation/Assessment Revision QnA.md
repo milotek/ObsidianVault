@@ -8,7 +8,7 @@ Here are some questions from [this site](https://jugeoeu.exampro.net/) my teache
 A natural number is any positive whole number (not including zero *most times at least*)
 An integer is any whole number, positive or negative.
 
-See [[Number Types]] for a more in-depth explaination.
+See [Number Types](Number%20Types.md) for a more in-depth explaination.
 
 -----
 

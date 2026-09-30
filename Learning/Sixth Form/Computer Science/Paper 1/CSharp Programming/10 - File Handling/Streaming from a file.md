@@ -1,9 +1,9 @@
-- The StreamWriter and StreamReader classes are alternatives to the [[File Handling Basics|file handling methods described before]].
+- The StreamWriter and StreamReader classes are alternatives to the [file handling methods described before](File%20Handling%20Basics.md).
 - They can save memory when dealing with large files as it writes to files line by line and reads from files line by line, rather than the entire contents of the file.
 - You still need to import the `System.IO` module into the using part of the code at the top of the program.
 
 
-> [!QUESTION]- **Question:** When might you use file streaming as opposed to [[File Handling Basics|normal file handling]]?
+> [!QUESTION]- **Question:** When might you use file streaming as opposed to [normal file handling](File%20Handling%20Basics.md)?
 > **Answer:**
 >  When you are reading or writing to large files, as a streamer only reads a certain number of lines or the ones you tell it to.
 >  

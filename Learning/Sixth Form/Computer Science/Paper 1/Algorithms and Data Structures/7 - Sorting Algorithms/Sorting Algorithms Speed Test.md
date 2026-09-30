@@ -1,12 +1,12 @@
-I wrote the following code in *C#* to compare the speed of [[Bubble sort]], [[Selection sort]] and [[Insertion Sort]]. I used an 1000 length array of random integers. The results of the test are found below.
+I wrote the following code in *C#* to compare the speed of [Bubble sort](Bubble%20sort.md), [Selection sort](Selection%20sort.md) and [Insertion Sort](Insertion%20Sort). I used an 1000 length array of random integers. The results of the test are found below.
 
 The best in each category is highlighted *(lower = better)*. The top-left cell shows the length of the array.
 
 | `100 NUMBERS`      | Assignments | Comparisons | Assign + Comps |
 | ------------------ | ----------- | ----------- | -------------- |
-| [[Bubble sort]]    | 499500      | 481044      | 980544         |
-| [[Selection sort]] | 499500      | ==1926==    | 501426         |
-| [[Insertion Sort]] | ==241519==  | 242520      | ==484039==     |
+| [Bubble sort](Bubble%20sort.md)    | 499500      | 481044      | 980544         |
+| [Selection sort](Selection%20sort.md) | 499500      | ==1926==    | 501426         |
+| [Insertion Sort](Insertion%20Sort) | ==241519==  | 242520      | ==484039==     |
 
 -----
 ## Code

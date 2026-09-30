@@ -1,12 +1,12 @@
 > [!TIP]+ All My Sons - Arthur Miller
 > All My Sons can be read [here online](https://frielingretc.wordpress.com/wp-content/uploads/2013/03/all-my-sons-script.pdf).
 
-![[all_my_sons_play.png]]
+![all_my_sons_play](all_my_sons_play.png)
 
 -----
 ## **Summary**
 
-[[All My Sons Overview|All My Sons]] is a play written by Arthur Miller, an American playwright, and was written in 1946.
+[All My Sons](All%20My%20Sons%20Overview.md) is a play written by Arthur Miller, an American playwright, and was written in 1946.
 
 The story follows Joe Keller, a man owned a munitions factory with his friend and neighbour. After being legally trialed and charged with shipping defective aircraft engines during World War II, which lead to the death of 21 pilots, Joe throws his former business partner Steve under the bus. 
 
@@ -18,9 +18,9 @@ The play explores the Keller family’s complex relationships, which are burdene
 ## Acts
 The play (as said before) is separated into 3 acts. 
 Here you can find a summary of them - what happens in each one
-[[#Act 1]]
-[[#Act 2]]
-[[#Act 3]]
+[#Act 1](#Act%201)
+[#Act 2](#Act%202)
+[#Act 3](#Act%203)
 
 
 #### Act 1
@@ -59,4 +59,4 @@ Finally, in Act 3, the truth comes out: Joe’s responsibility for the defective
 
 -----
 ## Questions
-[[Open]]
+[Open](Open)

@@ -1,4 +1,4 @@
-- Huffman encoding is a form of [[Lossless Compression]] for text and similar files.
+- Huffman encoding is a form of [Lossless Compression](Lossless%20Compression.md) for text and similar files.
 - Huffman encoding works by finding the most frequently occurring characters within text and replacing them with a shorter binary key-code. 
 	- This reduces the overall size of the text
 

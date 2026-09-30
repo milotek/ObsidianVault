@@ -1,11 +1,11 @@
 ``## Contents
-[[#**1.1 Project Statement**]]
-[[#**1.2 What is the study app?**]]
-[[#**1.3 Research into existing solutions**]]
-[[#**1.4 Target Audience Evaluation**]]
-[[#**1.5 NEA project objective**]]
-[[#**1.6 Conceptual designs**]]
-[[#**1.7 Solution Outline**]]
+[#**1.1 Project Statement**](#**1.1%20Project%20Statement**)
+[#**1.2 What is the study app?**](#**1.2%20What%20is%20the%20study%20app?**)
+[#**1.3 Research into existing solutions**](#**1.3%20Research%20into%20existing%20solutions**)
+[#**1.4 Target Audience Evaluation**](#**1.4%20Target%20Audience%20Evaluation**)
+[#**1.5 NEA project objective**](#**1.5%20NEA%20project%20objective**)
+[#**1.6 Conceptual designs**](#**1.6%20Conceptual%20designs**)
+[#**1.7 Solution Outline**](#**1.7%20Solution%20Outline**)
 
 
 ## **1.1 Project Statement**
@@ -94,15 +94,15 @@ Evaluating the current solutions for their strengths and weaknesses, focusing on
 I believe there is a gap in the market that users want, that I can fulfil.
 
 This section is divided into 2 different sections:
-1) 1.3.1 - [[Analysis Final#1.3.1 Commercial Software|Commercial Software]]
-2) 1.3.2 - [[Analysis Final#Open Source Software|Open Source Software]]
+1) 1.3.1 - [](Analysis%20Final.md#1.3.1%20Commercial%20Software|Commercial%20Software)
+2) 1.3.2 - [](Analysis%20Final.md#Open%20Source%20Software|Open%20Source%20Software)
 
 -----
 #### 1.3.1 Commercial Software
 The first section is proprietary, commercially sold studying programs. These cost money or have a freemium model, and are sold on app stores / as a paid product.
 
 ###### [Session](https://stayinsession.com/)
-![[session_app.png]]
+![session_app](session_app.png)
 
 **Session** is an "absolutely ridiculous" app (as quoted from [zapier.com](https://zapier.com/blog/best-pomodoro-apps/#session)), but is very good in what it does. The app's creator, Phillip Young, says on a blog that he made it because he simply could not find a pomodoro app that fit his specification. He wanted an app with:
 1. Looked aesthetically pleasing.
@@ -116,11 +116,11 @@ Finally, it also has user-care features, such as beginning each "session" as it 
 
 It is monetized using a freemium system - where an annual subscription for "pro" features costs around £39.99 a year, or £4.99 for a month. However, the developers sees a great deal of revenue coming from this, as evidenced in a blog post he made.
 
-![[CleanShot 2024-10-17 at 09.59.34@2x.png|500]]
+![500](CleanShot%202024-10-17%20at%2009.59.34@2x.png)
 
 His greatest regret, according to himself, is not making it cross platform, as windows dominates the personal computer market while mac only takes up around 14.6%. He claims he could have potentially doubled his revenue if he made it for both windows and mac. In order for me to have the biggest target audience / greatest number of clients I should aim to create the software for both major OS's.
 
-![[operating_system_percentages_2024.png|500]]
+![500](operating_system_percentages_2024.png)
 
 **Pros**
 - A very extensive Pomodoro timer and has the most fleshed out and expanded features.
@@ -133,7 +133,7 @@ His greatest regret, according to himself, is not making it cross platform, as w
 - Only for apple devices.
 
 ###### [Forest](https://forestapp.cc/)
-![[CleanShot 2024-10-17 at 20.06.28@2x.png]]
+![CleanShot 2024-10-17 at 20.06.28@2x](CleanShot%202024-10-17%20at%2020.06.28@2x.png)
 
 **Forest** aims to be a solution to smartphones being a distraction while you work. If you still need your phone around you while working for calls or important messages, **Forest** aims to eliminate the distraction.
 
@@ -151,7 +151,7 @@ The only real problem I see with the app is that you actually have to remember t
 
 **Pros**
 - Very good app.
-- Costs much less compared to [[1 - Existing Solutions#[Session](https //stayinsession.com/)|Session]].
+- Costs much less compared to [](1%20-%20Existing%20Solutions.md#[Session](https%20//stayinsession.com/)|Session).
 - One-time purchase, which customers usually favour.
 
 **Cons**
@@ -163,7 +163,7 @@ The only real problem I see with the app is that you actually have to remember t
 
 
 ###### [Toggl](https://toggl.com/)
-![[CleanShot 2024-10-17 at 20.54.14@2x.png]]
+![CleanShot 2024-10-17 at 20.54.14@2x](CleanShot%202024-10-17%20at%2020.54.14@2x.png)
 
 **Toggl** is primarily a time tracking software, more than anything, meant for people who are being paid by the hour in an organization, for instance. This way they can track how long they have worked for, what work they've done, and thereby invoice for the correct amount. My father, for instance, uses this particular product as he finds it invaluable for the things mentioned above.
 
@@ -188,7 +188,7 @@ Unlike commercial products, these apps are typically maintained by community con
 
 ###### [Pomotroid](https://splode.github.io/pomotroid/)
 
-![[CleanShot 2024-10-17 at 21.44.47@2x.png]]
+![CleanShot 2024-10-17 at 21.44.47@2x](CleanShot%202024-10-17%20at%2021.44.47@2x.png)
 
 **Pomotroid** is a free and open-source Pomodoro timer app that boasts a clean, simple, and user-friendly interface. It’s an excellent option for users who want an easy-to-use timer without the additional complexity that comes with other, more feature-packed software.
 
@@ -209,7 +209,7 @@ Although **Pomotroid** is a minimalist solution, it lacks some of the features p
 
 ###### [Pomatez](https://zidoro.github.io/pomatez/)
 
-![[CleanShot 2024-10-17 at 22.33.29@2x.png]]
+![CleanShot 2024-10-17 at 22.33.29@2x](CleanShot%202024-10-17%20at%2022.33.29@2x.png)
 
 **Pomatez** is another open-source Pomodoro timer that aims to balance simplicity with some useful features, making it a step up from **Pomotroid** in terms of functionality. It includes all the essential features you'd expect, such as adjustable work/break intervals, a to-do list for tasks, and sound notifications when sessions end.
 
@@ -229,7 +229,7 @@ As an open-source project, **Pomatez** benefits from community contributions, th
 
 ###### [Weektodo](https://weektodo.me/)
 
-![[CleanShot 2024-10-17 at 22.32.39@2x.png]]
+![CleanShot 2024-10-17 at 22.32.39@2x](CleanShot%202024-10-17%20at%2022.32.39@2x.png)
 
 **Weektodo** is an open-source task management tool. It is a to-do list app and **Weektodo** integrates time management features that can be useful for students or professionals looking to organise their weekly tasks with timed study sessions.
 
@@ -478,18 +478,18 @@ Primary Objectives
 ## **1.6 Conceptual designs**
 So far, I had created a few interface designs / mock-ups, and code prototypes in XCode.
 
-![[study_app_mockup.png]]
+![study_app_mockup](study_app_mockup.png)
 *A prototype of a simple, potential mockup of the User interface made in Figma.*
 
 This was my first time using a UI design tool like Figma before. I used the official apple preset pack to get SwiftUI looking elements which would look like a typical mac app.
 
-![[CleanShot 2024-09-18 at 01.35.27@2x.png]]
+![CleanShot 2024-09-18 at 01.35.27@2x](CleanShot%202024-09-18%20at%2001.35.27@2x.png)
 *A basic timer I made in XCode to learn the basics of Swift and see if it would be suitable to code my study app in. *
 
 I had made one initial prototype - which is just focusing on creating a basic timer with real-world synchronisation in a window for now. I wrote this in the programming language *Swift* made by Apple Inc.
 Customisation options is something I'm looking to mainly expand on, such as notifications / reminders and a settings menu, which I will probably use in my final app.
 
-![[CleanShot 2024-09-18 at 01.36.39@2x.png]]
+![CleanShot 2024-09-18 at 01.36.39@2x](CleanShot%202024-09-18%20at%2001.36.39@2x.png)
 *My GitHub repository for the project, where the code and assets for the project are publicly viewable and open source\*.*
 
 I had set up my development environment on XCode on my MacBook, so that the project can use version control via GitHub. I've installed required dependencies and packages, configuring the repository with a description and a proper legal licensing agreement. The repository is [available here](https://github.com/pixeljammed/pomodoro). Note the legal license, a copy of which can be found at the bottom of the analysis.

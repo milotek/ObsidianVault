@@ -8,7 +8,7 @@ int ans = rnd.Next(1, 10);
 int guess;
 int guessCount = 0;
 
-Console.WriteLine("guess my number from 1-10 teehee");![[Compression Techniques]]
+Console.WriteLine("guess my number from 1-10 teehee");![Compression Techniques](Compression%20Techniques)
 guess = Convert.ToInt32(Console.ReadLine());
 
 while (guess != ans)

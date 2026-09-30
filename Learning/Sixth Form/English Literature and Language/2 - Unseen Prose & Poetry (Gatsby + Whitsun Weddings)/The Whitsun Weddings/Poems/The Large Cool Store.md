@@ -1,4 +1,4 @@
-[[The Large Cool Store]] is a poem within [[The Whitsun Weddings]] written by [[Phillip Larkin]]. i
+[The Large Cool Store](The%20Large%20Cool%20Store.md) is a poem within [The Whitsun Weddings](The%20Whitsun%20Weddings) written by [Phillip Larkin](Phillip%20Larkin.md). i
 
 > [!NOTE]- The Large Cool Store
 > The large cool store selling cheap clothes  

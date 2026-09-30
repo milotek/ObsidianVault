@@ -31,6 +31,6 @@ print(result)
 ```
 
 -----
-## [[Work/Google/CS Lectures/Big O Notation|Complexity]]
+## [Complexity](Work/Google/CS%20Lectures/Big%20O%20Notation.md)
 Worst case?
 

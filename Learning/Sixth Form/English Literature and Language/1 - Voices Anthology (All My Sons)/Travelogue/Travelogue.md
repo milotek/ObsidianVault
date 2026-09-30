@@ -3,7 +3,7 @@
 According to wikipedia:
 
 >**Paul Edward Thereoux** born April 10, 1941) is an American novelist and travel writer who has written numerous books, including the travelogue The Great Railway Bazaar (1975). Some of his works of fiction have been adapted as feature films. Also Louie Theroux is his son! 
->You can see [[The effectiveness of Theroux's use of the travelogue genre]] for a further look into his work.
+>You can see [The effectiveness of Theroux's use of the travelogue genre](The%20effectiveness%20of%20Theroux's%20use%20of%20the%20travelogue%20genre.md) for a further look into his work.
 
 In addition, Samuel Beckett was an Irish novelist, dramatist, short story writer, theatre director, poet and literary director. Both his literary and theatrical work feature bleak, impersonal and tragicomic (a type of play that has elements of both a tragedy and a comedy. He wrote the famous play Waiting for Godot (which is a tragicomic).
 
@@ -15,6 +15,6 @@ In addition, Samuel Beckett was an Irish novelist, dramatist, short story writer
 
 *From google*.
 
-Differences between a travelogue and [[Reportage]] would be that one reports specifically and solely on (personal) travel experience whilist
+Differences between a travelogue and [Reportage](Reportage.md) would be that one reports specifically and solely on (personal) travel experience whilist
 
 Louis Thereoux doesn't just write about what he sees, he reflects upon and digs deep upon them and his dry delivery makes it seem 

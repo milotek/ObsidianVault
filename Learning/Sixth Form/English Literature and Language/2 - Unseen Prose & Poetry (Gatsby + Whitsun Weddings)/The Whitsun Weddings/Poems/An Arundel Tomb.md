@@ -1,4 +1,4 @@
- An Arundel Tomb is a poem written by [[Phillip Larkin]] as part of his collection called [[The Whitsun Weddings]]. This one speaks upon how even after death, love can still be present, at least symbolically, or in memory - how it lives on in spite of a person perhaps passing (aliteration!).
+ An Arundel Tomb is a poem written by [Phillip Larkin](Phillip%20Larkin.md) as part of his collection called [The Whitsun Weddings](The%20Whitsun%20Weddings). This one speaks upon how even after death, love can still be present, at least symbolically, or in memory - how it lives on in spite of a person perhaps passing (aliteration!).
 
 > [!NOTE]- An Arundel Tomb
 > Side by side, their faces blurred,  
@@ -53,14 +53,14 @@
 
 Effigy - a sculpture of a model or person
 
-![[an_arundel_tomb.png|300]]
+![300](an_arundel_tomb.png)
 
 -----
 ## Notes
 
 > [!NOTE]+ Theme: Love
 > **How is it depicted positively?**
-> Contrary to some of the others things Larkin has written in regards to [[Love]] in his other poems (for example, [[Self's the Man]] being a rather pessimistic view on not just marriage but love as a whole), this poem seems to contrast those thoughts.
+> Contrary to some of the others things Larkin has written in regards to [Love](Love.md) in his other poems (for example, [Self's the Man](Self's%20the%20Man.md) being a rather pessimistic view on not just marriage but love as a whole), this poem seems to contrast those thoughts.
 > 
 >-  He talks about the permanence of things in the world, or rather lack thereof, and ties the them of love in within this.
 > - This is most notable within the last line, as he ends the poem with *"What will survive of us is love."*
@@ -104,6 +104,6 @@ What is the intended meaning/effect of this disruption?**
 The nice scene 
 
 -----
-## Connection to [[The Great Gatsby Themes]]
+## Connection to [The Great Gatsby Themes](The%20Great%20Gatsby%20Themes.md)
 You could argue that chapter 6 tells the story of James Gatz's figurative "death" as an identity, as Dan Cody taught James Gatz to be a criminal (specifically bootlegging), and in doing so sealed the "death" of James Gatz and the birth of Jay Gatsby.
 This is comparable to the whole of the poem, specifically at the start - as the poem says *"their faces blurred"*   

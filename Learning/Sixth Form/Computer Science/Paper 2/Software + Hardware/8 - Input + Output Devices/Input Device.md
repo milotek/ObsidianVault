@@ -1,7 +1,7 @@
 
 
 - An input device is one which can be used to **put** **data and information** **into** a computer. 
-- Conversely, an [[Output Device]] is one which can be used to send/display information from the computer.
+- Conversely, an [Output Device](Output%20Device.md) is one which can be used to send/display information from the computer.
 
 -----
 

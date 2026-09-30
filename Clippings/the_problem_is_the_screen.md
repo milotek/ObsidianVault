@@ -2,7 +2,7 @@
 title: "The problem is the screen"
 source: "https://louka.sh/articles/theproblemisthescreen/"
 author:
-  - "[[Louka Ménard Blondin <hello@louka.sh>]]"
+  - "[Louka Ménard Blondin <hello@louka.sh>](Louka%20Ménard%20Blondin%20<hello@louka.sh>)"
 published: 2026-02-21
 created: 2026-09-28
 description: "You may find this article difficult to read."

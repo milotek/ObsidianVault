@@ -6,4 +6,4 @@ The **Non-Examined Assessment** is a programming project worth 20% of the AQA Co
 - *It is not easy to get a high grade, and good time management is key to success*.
 - You will need to choose your project carefully, organise your time efficiently, and work hard. You will need to learn some new skills and techniques in order to analyse, design, and document your solution.
 
-Also, see [[2024-25 Key Dates]] for deadlines, etc.
+Also, see [2024-25 Key Dates](2024-25%20Key%20Dates.md) for deadlines, etc.

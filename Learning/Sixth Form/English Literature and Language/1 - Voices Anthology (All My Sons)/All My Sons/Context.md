@@ -1,7 +1,7 @@
 
 -----
 ## Real world inspiration
-The story of [[All My Sons Overview]] was actually inspired by a real company and crime.
+The story of [All My Sons Overview](All%20My%20Sons%20Overview.md) was actually inspired by a real company and crime.
 
 - The Curtiss Wright Corporation was a company based in Lockland, Ohio, USA and produced aeronautical engineers for wartime planes for U.S Army Air Force Aircraft between 1941-43.
 - Wright officials at Lockland insisted on high engine production levels, resulting in a significant percentage of engines to not meet the *U.S AAF* inspection standards, but were stilled approved by product inspection individuals.

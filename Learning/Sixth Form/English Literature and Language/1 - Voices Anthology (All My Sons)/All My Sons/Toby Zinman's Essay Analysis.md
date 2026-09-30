@@ -1,8 +1,8 @@
-An essay on the play [[All My Sons Overview|All My Sons]], written by [Toby Zinman](https://phindie.com/author/toby-zinman/), a media critic & professor.
+An essay on the play [All My Sons](All%20My%20Sons%20Overview.md), written by [Toby Zinman](https://phindie.com/author/toby-zinman/), a media critic & professor.
 
 
 > [!NOTE]+ Toby Zinman - All My Sons
-> The essay can be read [[Toby Zinman Essay - All My Sons.pdf|here]]. 
+> The essay can be read [here](Toby%20Zinman%20Essay%20-%20All%20My%20Sons.pdf). 
 
 -----
 ## Key Ideas

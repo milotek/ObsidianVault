@@ -1,5 +1,5 @@
 > Logic gates take one or more inputs and produce a single output.
-> The output can then become the input for another logic gate, and chained up to create a [[Logic Circuits|logic circuit]]
+> The output can then become the input for another logic gate, and chained up to create a [logic circuit](Logic%20Circuits.md)
 
 -----
 ## The 6 main logic gates
@@ -13,7 +13,7 @@
 
 - Each of these can be represented by a drawable symbol
 
- ![[logic_gates.png|400]]
+ ![400](logic_gates.png)
 
 -----
 ## Truth Tables

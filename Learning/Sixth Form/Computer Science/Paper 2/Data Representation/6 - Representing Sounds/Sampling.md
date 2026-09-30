@@ -4,9 +4,9 @@
 
 >A sound physically in the real world is literally composed of air particles vibrating in such a specific way that our eardrums perceive it as audible noise (this is why shockwaves can damage your hearing and are audible because they shock/vibrate the air). 
 
-Sound waves travel through the air, and as they reach your ear (the speed of sound) your eardrums vibrate and convert that sound into something your brain can **percieve**. This is kind of how microphones convert soundwaves into digital data. See soundwaves in the real world are classified as analogue data as they vary continuously in shape and size - see [[Analogue VS Digital data]] for more info.
+Sound waves travel through the air, and as they reach your ear (the speed of sound) your eardrums vibrate and convert that sound into something your brain can **percieve**. This is kind of how microphones convert soundwaves into digital data. See soundwaves in the real world are classified as analogue data as they vary continuously in shape and size - see [Analogue VS Digital data](Analogue%20VS%20Digital%20data.md) for more info.
 
-![[amplitude_wavelength_sound_air_explained.png]]
+![amplitude_wavelength_sound_air_explained](amplitude_wavelength_sound_air_explained.png)
 
 -----
 
@@ -15,7 +15,7 @@ These sound waves can be converted by microphone as the diaphragm (coil below) i
 From the rate of vibration from the sound wave, we can get the frequency of a sound
 From the distanced moved by the coil, we can get the amplitude (louder = bigger distance)
 
-![[microphone_adc_explained.png]]
+![microphone_adc_explained](microphone_adc_explained.png)
 
 However it can only measure this distance every so often - which is the called the *sample rate*.
 A sample means the frequency and amplitude of the sound wave is recorded for a split second.
@@ -36,7 +36,7 @@ The samples are then played back to back directly after each other so fast it so
 -----
 
 ## Example
-![[drive_me_crazy.mp3]]
+![drive_me_crazy](drive_me_crazy.mp3)
 
 **Here is a song from my Soundcloud for example.**
 
@@ -45,7 +45,7 @@ The samples are then played back to back directly after each other so fast it so
 
 **Sample rate**, or sampling frequency, is shown below.
 
-![[adc_approximation_sample_rate.png]]
+![adc_approximation_sample_rate](adc_approximation_sample_rate.png)
 
 
 

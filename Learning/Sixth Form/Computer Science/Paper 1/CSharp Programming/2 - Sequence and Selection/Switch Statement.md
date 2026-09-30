@@ -1,4 +1,4 @@
-A switch statement can be used to check for multiple different conditions, and is a better substitute for using multiple [[If... else statements]].
+A switch statement can be used to check for multiple different conditions, and is a better substitute for using multiple [If... else statements](If...%20else%20statements.md).
 
 ```
 switch (ranknum)

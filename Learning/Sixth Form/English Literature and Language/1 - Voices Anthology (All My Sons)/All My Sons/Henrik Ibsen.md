@@ -3,7 +3,7 @@
 
 -----
 ## Influence
-Henrik Ibsen heavily influenced [[Arthur Miller]]when he was writing all my sons and this is shown in 3 main areas.
+Henrik Ibsen heavily influenced [Arthur Miller](Arthur%20Miller)when he was writing all my sons and this is shown in 3 main areas.
 
 1. **Genre**: A family drama in the Realism tradition (as if the characters are real people living their lives who we observe through a fourth wall) employing colloquial dialogue and ordinary (middle-class) characters. The Realism is partially augmented through the use of symbolic motifs, stage design and lighting
 2. **Plot structure**: “But my own belief is that the shadow of Ibsen was seen on this play for another reason, and it is that All My Sons begins very late in its story. Thus, as in Ibsen's best-known work, a great amount of time is taken up with bringing the past into the present. . . . All My Sons takes its time with the past, not in deference to Ibsen's method as I saw it then, but because its theme is the question of actions and consequences, and a way had to be found to throw a long line into the past in order to make that kind of connection viable.” (Miller 1957)

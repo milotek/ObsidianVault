@@ -2,7 +2,7 @@
 title: "I just don't think about it"
 source: "https://louka.sh/articles/ijustdontthinkaboutit/"
 author:
-  - "[[Louka Ménard Blondin <hello@louka.sh>]]"
+  - "[Louka Ménard Blondin <hello@louka.sh>](Louka%20Ménard%20Blondin%20<hello@louka.sh>)"
 published: 2026-01-19
 created: 2026-09-28
 description: "Roughly one year ago, I had an insightful conversation with a recently-made friend."

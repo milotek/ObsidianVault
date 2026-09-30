@@ -8,7 +8,7 @@ This section is divided into 2 different sections:
 The first section is proprietary, commercially sold studying programs. These cost money or have a freemium model, and are sold on app stores / as a paid product.
 
 #### [Session](https://stayinsession.com/)
-![[session_app.png]]
+![session_app](session_app.png)
 
 **Session** is an "absolutely ridiculous" app (as quoted from [zapier.com](https://zapier.com/blog/best-pomodoro-apps/#session)), but is very good in what it does. The app's creator, Phillip Young, says on a blog that he made it because he simply could not find a pomodoro app that fit his specification. He wanted an app with:
 1. Looked aesthetically pleasing.
@@ -22,11 +22,11 @@ Finally, it also has user-care features, such as beginning each "session" as it 
 
 It is monetized using a freemium system - where an annual subscription for "pro" features costs around £39.99 a year, or £4.99 for a month. However, the developers sees a great deal of revenue coming from this, as evidenced in a blog post he made.
 
-![[CleanShot 2024-10-17 at 09.59.34@2x.png|500]]
+![500](CleanShot%202024-10-17%20at%2009.59.34@2x.png)
 
 His greatest regret, according to himself, is not making it cross platform, as windows dominates the personal computer market while mac only takes up around 14.6%. He claims he could have potentially doubled his revenue if he made it for both windows and mac. In order for me to have the biggest target audience / greatest number of clients I should aim to create the software for both major OS's.
 
-![[operating_system_percentages_2024.png|500]]
+![500](operating_system_percentages_2024.png)
 
 **Pros**
 - A very extensive pomodoro timer and has the most fleshed out and expanded features.
@@ -39,7 +39,7 @@ His greatest regret, according to himself, is not making it cross platform, as w
 - Only for apple devices.
 
 #### [Forest](https://forestapp.cc/)
-![[CleanShot 2024-10-17 at 20.06.28@2x.png]]
+![CleanShot 2024-10-17 at 20.06.28@2x](CleanShot%202024-10-17%20at%2020.06.28@2x.png)
 
 **Forest** aims to be a solution to smartphones being a distraction while you work. If you still need your phone around you while working for calls or important messages, **Forest** aims to eliminate the distraction.
 
@@ -57,7 +57,7 @@ The only real problem I see with the app is that you actually have to remember t
 
 **Pros**
 - Very good app.
-- Costs much less compared to [[1 - Existing Solutions#[Session](https //stayinsession.com/)|Session]].
+- Costs much less compared to [](1%20-%20Existing%20Solutions.md#[Session](https%20//stayinsession.com/)|Session).
 - One-time purchase, which customers usually favour.
 
 **Cons**
@@ -67,7 +67,7 @@ The only real problem I see with the app is that you actually have to remember t
 
 
 #### [Toggl](https://toggl.com/)
-![[CleanShot 2024-10-17 at 20.54.14@2x.png]]
+![CleanShot 2024-10-17 at 20.54.14@2x](CleanShot%202024-10-17%20at%2020.54.14@2x.png)
 
 **Toggl** is primarily a time tracking software, more than anything, meant for people who are being paid by the hour in an organization, for instance. This way they can track how long they have worked for, what work they've done, and thereby invoice for the correct amount. My father, for instance, uses this particular product as he finds it invaluable for the things mentioned above.
 
@@ -90,7 +90,7 @@ This section details open-source solutions for study and productivity, which are
 
 #### [Pomotroid](https://splode.github.io/pomotroid/)
 
-![[CleanShot 2024-10-17 at 21.44.47@2x.png]]
+![CleanShot 2024-10-17 at 21.44.47@2x](CleanShot%202024-10-17%20at%2021.44.47@2x.png)
 
 **Pomotroid** is a free and open-source Pomodoro timer app that boasts a clean, simple, and user-friendly interface. It’s an excellent option for users who want an easy-to-use timer without the additional complexity that comes with other, more feature-packed software.
 
@@ -111,7 +111,7 @@ Although **Pomotroid** is a minimalist solution, it lacks some of the features p
 
 #### [Pomatez](https://zidoro.github.io/pomatez/)
 
-![[CleanShot 2024-10-17 at 22.33.29@2x.png]]
+![CleanShot 2024-10-17 at 22.33.29@2x](CleanShot%202024-10-17%20at%2022.33.29@2x.png)
 
 **Pomatez** is another open-source Pomodoro timer that aims to balance simplicity with some useful features, making it a step up from **Pomotroid** in terms of functionality. It includes all the essential features you'd expect, such as adjustable work/break intervals, a to-do list for tasks, and sound notifications when sessions end.
 
@@ -131,7 +131,7 @@ As an open-source project, **Pomatez** benefits from community contributions, th
 
 #### [Weektodo](https://weektodo.me/)
 
-![[CleanShot 2024-10-17 at 22.32.39@2x.png]]
+![CleanShot 2024-10-17 at 22.32.39@2x](CleanShot%202024-10-17%20at%2022.32.39@2x.png)
 
 **Weektodo** is an open-source task management tool. It is a to-do list app and **Weektodo** integrates time management features that can be useful for students or professionals looking to organise their weekly tasks with timed study sessions.
 

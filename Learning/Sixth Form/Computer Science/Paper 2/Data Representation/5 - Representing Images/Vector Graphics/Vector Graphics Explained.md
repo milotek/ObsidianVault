@@ -1,6 +1,6 @@
 Vector graphics are a type of graphics which are *technically speaking* effectively lossless in terms of quality. For instance if you zoom in on a .png or raster graphic/bitmap file, you will see a noticeable drop in quality - the pixels will become apparent and you can see the rough edges, whilst in a vector image zooming in on it, it will still be smooth all the while.
 
-![[vector_vs_bitmap.png]]
+![vector_vs_bitmap](vector_vs_bitmap.png)
 
 Why, you might ask? This is because of the fact that vectors are not made up of pixels - instead the file format consists of coordinates and data that the image was made from.
 
@@ -19,7 +19,7 @@ A popular example of a vector image would be **fonts**! Although fonts are typic
 -----
 ## .SVG example
 
-![[de_ohio_icon.png|400]]
+![400](de_ohio_icon.png)
 
 *An example of an .SVG - it's actually a jpeg for display purposes but it really is an SVG I promise.*
 I made the above image using **Editor Method** @ https://editor.method.ac/

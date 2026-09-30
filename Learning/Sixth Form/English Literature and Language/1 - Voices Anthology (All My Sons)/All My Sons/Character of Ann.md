@@ -31,4 +31,4 @@ I think she didn't realise she was in Larry's room, and "slowly rises" to be cau
 
 
 
-![[witches_cant_hex_trump_youtube_thumbnail.png]]
+![witches_cant_hex_trump_youtube_thumbnail](witches_cant_hex_trump_youtube_thumbnail.png)

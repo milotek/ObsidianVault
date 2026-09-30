@@ -1,4 +1,4 @@
-Numbers, in both math and programming, can have a variety of attributes, which must be taken into account if you are to use them in your code (for example, using [[Arithmetic Operations]] on them).
+Numbers, in both math and programming, can have a variety of attributes, which must be taken into account if you are to use them in your code (for example, using [Arithmetic Operations](Arithmetic%20Operations.md) on them).
 
 Every number ever fits into one of these categories.
 They **don't** have to fit into only just **one** of these categories though.
@@ -40,7 +40,7 @@ They **don't** have to fit into only just **one** of these categories though.
 	- Some examples:
 		- √2
 		- √7 
-		- [[100,000 DIGITS OF PI|pi]]
+		- [pi](100,000%20DIGITS%20OF%20PI.md)
 		- Euler's Constant 
 	
 - **Real**

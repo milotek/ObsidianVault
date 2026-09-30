@@ -7,10 +7,10 @@ Reverse Polish Notation (RPN) is a mathematical notation where every operator fo
 - RPN: `3 4 +`
 
 The reason why RPN is useful is because you do not need to worry about brackets or BIDMAS.
-This makes it easier for computers to calculate using [[Stacks|stacks]].
+This makes it easier for computers to calculate using [stacks](Stacks.md).
 
 -----
-## How [[Stacks]] are Used in RPN:
+## How [Stacks](Stacks.md) are Used in RPN:
 1. **Evaluation Process**:
     - Read the RPN expression from left to right.
     - **Push** numbers (operands) onto the stack.

@@ -1,6 +1,6 @@
 Bubble sort is probably the *easiest* sorting algorithm to understand.
 
-This simple algorithm _performs poorly in real-world use_ and is used primarily as an educational tool. More efficient algorithms such as [[Insertion Sort]] are normally used.
+This simple algorithm _performs poorly in real-world use_ and is used primarily as an educational tool. More efficient algorithms such as [Insertion Sort](Insertion%20Sort) are normally used.
 
 -----
 ## Step by Step example

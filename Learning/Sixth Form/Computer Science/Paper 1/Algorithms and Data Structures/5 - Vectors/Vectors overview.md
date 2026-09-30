@@ -5,7 +5,7 @@ In the example above, if we start at the origin (where usually it has the positi
 
 You can also do the same for a 3rd dimension (3D). We simply add a third value, ex: `(1, 2, 5)`.
 
-![[CleanShot 2024-10-02 at 02.59.54@2x.png]]
+![CleanShot 2024-10-02 at 02.59.54@2x](CleanShot%202024-10-02%20at%2002.59.54@2x.png)
 
 Now as well as this, a vector has something called a magnitude. 
 Consider the vector `(2, -1)`. If you move `2` to the right, `1` down, and you will have taken `3` steps. 
@@ -14,7 +14,7 @@ You walked in a zigzag, but instead if you went in a straight line towards the e
 The same also works with 3D vectors.
 Imagine if you were flying a drone for example.
 
-![[Pasted image 20241002030753.png]]
+![Pasted image 20241002030753](Pasted%20image%2020241002030753.png)
 
 
 
@@ -22,13 +22,13 @@ Imagine if you were flying a drone for example.
 > ### Definition
 > A vector is a fundamental concept in physics and mechanics, described as a quantity that has both **magnitude** (size) and **direction**. Imagine it as an arrow pointing from one location to another its length represents the magnitude, and the arrowhead points in the direction.
 > 
-> ![[vectors_angle_with_magnitude.png|300]]
+> ![300](vectors_angle_with_magnitude.png)
 > 
 > **HOWEVER** - in terms of computer science, it's easier for computers to store this data just using an x and y coordinate value.
 > This is because it is smaller and easier to store this way thanks to how data is generally stored.
 > If needed, the magnitude and direction can be calculated from the X and Y anyway.
 > 
-> ![[vectors_directional.png|300]]
+> ![300](vectors_directional.png)
 > 
 
 -----

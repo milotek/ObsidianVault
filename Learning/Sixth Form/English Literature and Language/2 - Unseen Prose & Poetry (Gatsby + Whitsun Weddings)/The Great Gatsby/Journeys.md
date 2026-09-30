@@ -1,6 +1,6 @@
 
 - For one, **Gatsby** has a journey throughout his life of "self improvement" and how he effectively entirely changed his persona and character. For instance his timetable revealed at the end of the book, telling how he woke up at 6 and went to bed at 9.
-- [[Nick's Journey]] is also very apparent 
+- [Nick's Journey](Nick's%20Journey.md) is also very apparent 
 
 -----
 ## Group Work

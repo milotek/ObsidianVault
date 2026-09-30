@@ -6,7 +6,7 @@
 
 -----
 ## Issues
-- **Personal privacy** - people have a right to privacy (think [[GDPR]]) and people might not have explicitly consented for this data to be collected that they might want private.
+- **Personal privacy** - people have a right to privacy (think [GDPR](GDPR)) and people might not have explicitly consented for this data to be collected that they might want private.
 - **Data security** - organisations, even big ones like Sony and Facebook and [Rockstar Games](https://en.wikipedia.org/wiki/grand_theft_auto_vi#:~:text=impacted.%5B68%5D-,September%202022%20leak,-On%2018%20September) get hacked and user data is leaked alongside.
 - **Misuse of Data** - companies might illegally use data for **unethical** or even **illegal** purposes; like selling it for £££.
 - **"Big Brother"** - many people believe that this data collected on them is being used by governments to monitor individuals *(TRUE)* and that that this is a breach of our human rights.

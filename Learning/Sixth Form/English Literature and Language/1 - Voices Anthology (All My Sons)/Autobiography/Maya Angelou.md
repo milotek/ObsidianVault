@@ -1,5 +1,5 @@
 > [!NOTE]- Mom & Me & Mom
-> [[!!! - Voices Anthology - Edexcel.pdf#page=13&selection=8,0,10,15|!!! - Voices Anthology - Edexcel, page 13]]
+> [](!!!%20-%20Voices%20Anthology%20-%20Edexcel.pdf#page=13&selection=8,0,10,15|!!!%20-%20Voices%20Anthology%20-%20Edexcel,%20page%2013)
 
 -----
 ## Questions
@@ -77,6 +77,6 @@ It could also be a bit representative of the African-American community at the t
 
 
 
-![[CleanShot 2024-03-27 at 14.15.55@2x.png|400]]
+![400](CleanShot%202024-03-27%20at%2014.15.55@2x.png)
 
-![[Selfie 2024-03-27 at 14.50.28.png|400]]
+![400](Selfie%202024-03-27%20at%2014.50.28.png)

@@ -1,4 +1,4 @@
 
-[[Parallel transmission]] is vulnerable to issues over long
+[Parallel transmission](Parallel%20transmission) is vulnerable to issues over long
 
-![[CleanShot 2024-03-07 at 09.49.05@2x.png|300]]
+![300](CleanShot%202024-03-07%20at%2009.49.05@2x.png)

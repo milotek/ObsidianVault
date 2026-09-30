@@ -1,8 +1,8 @@
 
 > [!NOTE] Sea and Sardinia
-> [[!!! - Voices Anthology - Edexcel.pdf#page=38&selection=5,0,5,16|!!! - Voices Anthology - Edexcel, page 38]]
+> [](!!!%20-%20Voices%20Anthology%20-%20Edexcel.pdf#page=38&selection=5,0,5,16|!!!%20-%20Voices%20Anthology%20-%20Edexcel,%20page%2038)
 
-Audience:  Lawrence himself; readers of his work; those with an interest in [[Learning/Sixth Form/English Literature and Language/1 - Voices Anthology (All My Sons)/Travelogue/Travelogue|Travelogues]] or Travel writing
+Audience:  Lawrence himself; readers of his work; those with an interest in [Travelogues](Learning/Sixth%20Form/English%20Literature%20and%20Language/1%20-%20Voices%20Anthology%20(All%20My%20Sons)/Travelogue/Travelogue.md) or Travel writing
 
 Purpose: to inform and entertain; to reflect upon and share thoughts and impressions; intended to publication
 

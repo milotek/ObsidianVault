@@ -1,6 +1,6 @@
 
 
-Secondary storages refers to components which unlike [[primary storage]], does not lose its data after power is lost.
+Secondary storages refers to components which unlike [primary storage](primary%20storage), does not lose its data after power is lost.
 
 The reason why this is useful is because programs and applications and documents can be kept **permanently** instead of in memory, which will be lost after shut-down.
 
@@ -8,9 +8,9 @@ The reason why this is useful is because programs and applications and documents
 ## Primary vs Secondary storage
 - Primary storage is volatile, typically means RAM or ROM.
 - Secondary storage refers to non-volatile storage
-	- [[Magnetic storage]] such as the **hard disk**.
-	- [[Optical storage]] that uses laser light such as **CDs**.
-	- [[Solid-State disks]] using **Flash memory**.
+	- [Magnetic storage](Magnetic%20storage.md) such as the **hard disk**.
+	- [Optical storage](Optical%20storage.md) that uses laser light such as **CDs**.
+	- [Solid-State disks](Solid-State%20disks.md) using **Flash memory**.
 
 -----
 **Secondary storage media comparison table**

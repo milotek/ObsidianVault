@@ -1,6 +1,6 @@
 
 
-![[Pasted image 20240321002143.png|500]]
+![500](Pasted%20image%2020240321002143.png)
 *Named after British logician Augustus De Morgan, these two laws of Boolean algebra come in incredibly useful when simplifying expressions.*
 
 -----
@@ -14,6 +14,6 @@
 -----
 ## Examples
 
-![[CleanShot 2024-03-22 at 02.01.30@2x.png|200]]
+![200](CleanShot%202024-03-22%20at%2002.01.30@2x.png)
 
-![[CleanShot 2024-03-21 at 00.52.21@2x.png|400]]
+![400](CleanShot%202024-03-21%20at%2000.52.21@2x.png)

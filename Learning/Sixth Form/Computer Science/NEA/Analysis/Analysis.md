@@ -1,6 +1,6 @@
 Pomodoro Timer Project / App Development: Project Analysis Document
 
-![[CleanShot 2024-10-18 at 13.52.03@2x.png]]
+![CleanShot 2024-10-18 at 13.52.03@2x](CleanShot%202024-10-18%20at%2013.52.03@2x.png)
 
 -----
 
@@ -109,8 +109,8 @@ The research phase focused on evaluating existing Pomodoro applications, gatheri
 -----
 ## **Pictures**
 
-![[CleanShot 2024-09-18 at 01.35.27@2x.png]]
+![CleanShot 2024-09-18 at 01.35.27@2x](CleanShot%202024-09-18%20at%2001.35.27@2x.png)
 
-![[CleanShot 2024-09-18 at 01.36.10@2x.png|300]]
+![300](CleanShot%202024-09-18%20at%2001.36.10@2x.png)
 
-![[CleanShot 2024-09-18 at 01.36.39@2x.png]]
+![CleanShot 2024-09-18 at 01.36.39@2x](CleanShot%202024-09-18%20at%2001.36.39@2x.png)

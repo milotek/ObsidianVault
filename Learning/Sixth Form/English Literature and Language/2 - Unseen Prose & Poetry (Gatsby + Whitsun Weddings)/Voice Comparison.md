@@ -8,7 +8,7 @@
 
 -----
 
-In [[Mr Bleaney]] the voice is written in the first person, the voice belonging to an unnamed speaker, whom talks on the life of the previous tenant of a small apartment he is about to move in. The voice is a more somber and remorseful one - as the speaker notes the similarity of his life with Mr Bleaney's one.
+In [Mr Bleaney](Mr%20Bleaney.md) the voice is written in the first person, the voice belonging to an unnamed speaker, whom talks on the life of the previous tenant of a small apartment he is about to move in. The voice is a more somber and remorseful one - as the speaker notes the similarity of his life with Mr Bleaney's one.
 
 In the Great Gatsby however, the narrative in Chapter 1 is provided by Nick Carraway, who serves as both a character in the story and its narrator. Nick's voice is observant, and somewhat detached in comparison to Mr Bleaney's voice, as he seems to not judge, but instead reflect upon those
 Nick's attitude in Chapter 1 is one of curiosity and initial fascination with the world of Jay Gatsby and the opulence of East Egg.

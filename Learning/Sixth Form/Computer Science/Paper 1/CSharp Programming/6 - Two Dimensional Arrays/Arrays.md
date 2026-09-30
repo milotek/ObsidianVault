@@ -7,7 +7,7 @@ Arrays are:
 
 -----
 ## Size
-In python we are familiar with a **list**, but in C# arrays are of a set length which means items cannot be easily removed or added. This is known as a [[Static data structures|Static data structure]].
+In python we are familiar with a **list**, but in C# arrays are of a set length which means items cannot be easily removed or added. This is known as a [Static data structure](Static%20data%20structures.md).
 
 For example if I wanted to remove the item "Robin" or `index [2]` from the below list, I could not.
 What I would need to do, is recreate the whole array, just without the item Dax in it, which would make a new array of length `3`.

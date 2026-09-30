@@ -1,6 +1,6 @@
-A do-while loop is the same as a [[While loops]], except that the condition is at the end of the loop.
+A do-while loop is the same as a [While loops](While%20loops.md), except that the condition is at the end of the loop.
 
-The easiest way to describe the difference between this and a [[While loops]] is that in a do-while loop, the code within is always executed at least once even if the condition is not met.
+The easiest way to describe the difference between this and a [While loops](While%20loops.md) is that in a do-while loop, the code within is always executed at least once even if the condition is not met.
 
 ```csharp
 int i = 0;do 

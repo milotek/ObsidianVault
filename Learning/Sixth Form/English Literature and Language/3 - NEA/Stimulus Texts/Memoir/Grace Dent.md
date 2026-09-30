@@ -1,5 +1,5 @@
 > [!NOTE]- "Hungry"
-> ![[Grace Dent extract 2.pdf]]
+> ![Grace Dent extract 2](Grace%20Dent%20extract%202.pdf)
 
 -----
 ## Questions
@@ -12,8 +12,8 @@ What **methods** does Dent use?
 	- Describing herself as *"...flopping onto the supersized bed..."*
 	- *"Stared, mouth ajar..."* - facial expressionism
 	- These could also be considered **hyperbole**.
-- She also writes very linearly (arguably a convention of the memoir genre) as if she is in a movie, or narrating one, similar to the role Nick plays in [[The Great Gatsby]] in some regard.
+- She also writes very linearly (arguably a convention of the memoir genre) as if she is in a movie, or narrating one, similar to the role Nick plays in [The Great Gatsby](The%20Great%20Gatsby.md) in some regard.
 
-Make two points of comparison between the attitudes to work we see in Dent's essay and [[When I lived in Peru]].
-- Grace seems to share a similar attitude about her job to Claire's in [[When I lived in Peru]], as they both seems to enjoy their line of work and have recently gotten a **very nice** promotion or treat from their higher ups.
-- They seem thrilled at these, and convey their excitement through their voice (quite literally, as one is a [[Overview - Radio drama|Radio Drama]]) and also through their mannerisms/actions.
+Make two points of comparison between the attitudes to work we see in Dent's essay and [When I lived in Peru](When%20I%20lived%20in%20Peru.md).
+- Grace seems to share a similar attitude about her job to Claire's in [When I lived in Peru](When%20I%20lived%20in%20Peru.md), as they both seems to enjoy their line of work and have recently gotten a **very nice** promotion or treat from their higher ups.
+- They seem thrilled at these, and convey their excitement through their voice (quite literally, as one is a [Radio Drama](Overview%20-%20Radio%20drama.md)) and also through their mannerisms/actions.

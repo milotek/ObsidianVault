@@ -1,11 +1,11 @@
-![[CleanShot 2024-09-24 at 23.21.35@2x.png]]
+![CleanShot 2024-09-24 at 23.21.35@2x](CleanShot%202024-09-24%20at%2023.21.35@2x.png)
 
 The answer is **B**.
 This is because *composite keys* exist, which are allowed in fully normalised databases ([source](https://reddit.com/r/database/comments/2369uc/are_composite_keys_allowed_when_databases_are/)) which consist of two or more attributes.
 
 
 
-![[CleanShot 2024-09-24 at 23.25.22@2x.png]]
+![CleanShot 2024-09-24 at 23.25.22@2x](CleanShot%202024-09-24%20at%2023.25.22@2x.png)
 ```mermaid
 erDiagram
     Animal {
@@ -24,7 +24,7 @@ erDiagram
 
 
 
-![[CleanShot 2024-09-25 at 23.35.58@2x.png]]
+![CleanShot 2024-09-25 at 23.35.58@2x](CleanShot%202024-09-25%20at%2023.35.58@2x.png)
 
 ```sql
 CREATE TABLE Animal (
@@ -38,7 +38,7 @@ CREATE TABLE Animal (
 
 
 
-![[CleanShot 2024-09-25 at 23.36.18@2x.png]]
+![CleanShot 2024-09-25 at 23.36.18@2x](CleanShot%202024-09-25%20at%2023.36.18@2x.png)
 
 ```sql
 SELECT IndividualName, DateArrived
@@ -51,7 +51,7 @@ WHERE Animal.AnimalID = AnimalLocation.AnimalID
 
 
 
-![[CleanShot 2024-09-26 at 00.20.59@2x.png]]
+![CleanShot 2024-09-26 at 00.20.59@2x](CleanShot%202024-09-26%20at%2000.20.59@2x.png)
 
 **Advantage:**
 	Will be quicker to query / lookup an animal's current location.
@@ -61,7 +61,7 @@ WHERE Animal.AnimalID = AnimalLocation.AnimalID
 
 -----
 
-![[CleanShot 2024-09-26 at 00.23.32@2x.png]]
+![CleanShot 2024-09-26 at 00.23.32@2x](CleanShot%202024-09-26%20at%2000.23.32@2x.png)
 
 The answer is **B**
 idk why

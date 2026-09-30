@@ -4,7 +4,7 @@
 -----
 ## Advantages and Disadvantages
 **Advantages**
-- Extra bit doesn't need to be used like in [[Parity bit]]
+- Extra bit doesn't need to be used like in [Parity bit](Parity%20bit.md)
 - Can correct errors when the values of ​multiple bits​ have changed (flaw in parity bits)
 - plug2
 

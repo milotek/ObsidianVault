@@ -9,4 +9,4 @@ In the early days of the internet however, blogs were king - this is even reflec
 Normally other internet people will read the blog through a personal website - hosted on a domain like www.personsname.com, and sometimes people are free to write their thoughts through comments.
 Sometimes blogs can post someone's experience with something or detail a process from a personal account - which could be valuable for a person trying the same thing! Or it could be in regards to something like cooking and perhaps recipies are provided alongside. It is a very broad term spanning a lot of things.
 
-An example of a blog entry would be [[A ride of two halves]] by
+An example of a blog entry would be [A ride of two halves](A%20ride%20of%20two%20halves.md) by

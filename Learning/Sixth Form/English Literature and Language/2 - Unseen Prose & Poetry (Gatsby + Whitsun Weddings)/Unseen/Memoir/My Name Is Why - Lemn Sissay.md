@@ -13,4 +13,4 @@ Lemn Sissay was believed to be called Norman Greenwood and then at the age of 17
 
 
 
-![[patrick_star.png|30]]
+![30](patrick_star.png)

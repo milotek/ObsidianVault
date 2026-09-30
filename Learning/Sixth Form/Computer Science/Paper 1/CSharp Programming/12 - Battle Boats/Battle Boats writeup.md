@@ -1,9 +1,9 @@
 We were tasked to create a C# program/game which mimicked the popular board game of battleships.
 Here is:
-1) [[Battle Boats writeup#Success Criteria|Success Criteria]]
-2) [[Battle Boats writeup#Success Criteria|Design Document]]
-3) [[Battle Boats writeup#Success Criteria|My Code]]
-4) [[Battle Boats writeup#Success Criteria|Evaluation]]
+1) [](Battle%20Boats%20writeup.md#Success%20Criteria|Success%20Criteria)
+2) [](Battle%20Boats%20writeup.md#Success%20Criteria|Design%20Document)
+3) [](Battle%20Boats%20writeup.md#Success%20Criteria|My%20Code)
+4) [](Battle%20Boats%20writeup.md#Success%20Criteria|Evaluation)
 
 
 -----
@@ -49,7 +49,7 @@ Develop the section of the program responsible for presenting a menu to the user
 ### Further Challenge Tasks
 - [ ] Extend the game so that the user can play a version of the game that uses a variety of boat sizes.
 	- [ ] The boats will come in three categories:
-		 ![[CleanShot 2024-01-29 at 05.19.32@2x.png]]
+		 ![CleanShot 2024-01-29 at 05.19.32@2x](CleanShot%202024-01-29%20at%2005.19.32@2x.png)
 	- [ ] The boats can be placed horizontally or vertically.
 - [ ] To allow for varying boat sizes. Develop the program so that it now checks for a hit, a miss and a sunken boat. The boat will only sink if all parts of the boat have been hit.
 	
@@ -99,20 +99,20 @@ https://github.com/pixeljammed/hrsfc-programs/blob/main/program.cs
 #### Image of code
 *(warning it's massive - almost 500 lines)*
 
-![[CleanShot 2024-01-29 at 04.55.08@2x 1.png|1000]]
+![1000](CleanShot%202024-01-29%20at%2004.55.08@2x%201.png)
 
 ### Image of code working:
-![[CleanShot 2024-01-29 at 05.26.33@2x.png|600]]
+![600](CleanShot%202024-01-29%20at%2005.26.33@2x.png)
 
-![[CleanShot 2024-01-29 at 05.27.25@2x.png|500]]
+![500](CleanShot%202024-01-29%20at%2005.27.25@2x.png)
 
-![[CleanShot 2024-01-29 at 05.27.52@2x.png|200]]
+![200](CleanShot%202024-01-29%20at%2005.27.52@2x.png)
 
-![[CleanShot 2024-01-29 at 05.28.24@2x 2.png|400]]
+![400](CleanShot%202024-01-29%20at%2005.28.24@2x%202.png)
 
-![[battleboats_menu.png]]
+![battleboats_menu](battleboats_menu.png)
 
-![[CleanShot 2024-01-29 at 11.37.53@2x.png]]
+![CleanShot 2024-01-29 at 11.37.53@2x](CleanShot%202024-01-29%20at%2011.37.53@2x.png)
 
 
 

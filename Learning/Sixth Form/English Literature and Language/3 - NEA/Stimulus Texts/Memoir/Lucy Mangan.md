@@ -1,6 +1,6 @@
 
 > [!NOTE]- Lucy Mangan
-> ![[CleanShot 2024-03-12 at 20.41.03@2x.png#center|600]]
+> ![](CleanShot%202024-03-12%20at%2020.41.03@2x.png#center|600)
 
 -----
 ## Summary
@@ -14,4 +14,4 @@ It's a memoir about how the author once borrowed *Charlotte's Webb* from her sch
 
 -----
 ## How does this text meet the conventions of a memoir?
-Again, like [[Lavinia Greenlaw]], it's a personal account told from her perspective and is reflective of the past. It's almost entirely specific to her own personal experience with the book and also talks about the future too (last paragraph).
+Again, like [Lavinia Greenlaw](Lavinia%20Greenlaw.md), it's a personal account told from her perspective and is reflective of the past. It's almost entirely specific to her own personal experience with the book and also talks about the future too (last paragraph).

@@ -1,5 +1,5 @@
-[[Dynamic arrays]] are a much more common alternative to [[static arrays]].
-Unlike [[static arrays]], [[dynamic arrays]] grow as elements are added. We don’t have to specify a size upon initialisation. 
+[Dynamic Arrays](Dynamic%20arrays.md) are a much more common alternative to [Static Arrays](static%20arrays.md).
+Unlike [Static Arrays](static%20arrays.md), [Dynamic Arrays](dynamic%20arrays.md) grow as elements are added. We don’t have to specify a size upon initialisation. 
 
 Dynamic arrays are much more common, and much more useful. The downside is, they use more memory (because of overhead), and processing power for operations.
 

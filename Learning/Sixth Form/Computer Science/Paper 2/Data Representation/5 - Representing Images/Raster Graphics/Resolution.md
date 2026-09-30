@@ -1,4 +1,4 @@
->Resolution is a the number of pixels used within a [[Bitmap Graphics]] file.
+>Resolution is a the number of pixels used within a [Bitmap Graphics](Bitmap%20Graphics.md) file.
 
 It is the width and height of pixels used to make up a bitmap image, which give you the number of pixels used to make the image.
 

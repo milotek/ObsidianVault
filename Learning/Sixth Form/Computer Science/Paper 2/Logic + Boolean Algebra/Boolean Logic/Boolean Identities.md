@@ -22,35 +22,35 @@ There are a number of **useful identities** which can be used to **simplify** Bo
 -----
 ## Explainations
 
-![[CleanShot 2024-03-21 at 00.40.36@2x.png]]
+![CleanShot 2024-03-21 at 00.40.36@2x](CleanShot%202024-03-21%20at%2000.40.36@2x.png)
 `Anything` **AND** `0` is always **0**. This is because the **AND** operation represents multiplication.
 
-![[CleanShot 2024-03-21 at 00.45.48@2x.png]]
+![CleanShot 2024-03-21 at 00.45.48@2x](CleanShot%202024-03-21%20at%2000.45.48@2x.png)
 `Anything` **AND** `0` is always the **original value**. This is because the **AND** operation represents multiplication.
 
-![[CleanShot 2024-03-21 at 13.43.32@2x.png|300]]
+![300](CleanShot%202024-03-21%20at%2013.43.32@2x.png)
 `Any boolean value` **AND** `itself` is equal to just the **value**.
 
-### [[OR gate|OR rules]]
+### [OR rules](OR%20gate.md)
 
-![[CleanShot 2024-03-21 at 13.49.59@2x.png|300]]
+![300](CleanShot%202024-03-21%20at%2013.49.59@2x.png)
 `Any boolean value` **OR** `0` is the same as adding **adding 0** to the value, so it remains **unchanged**. 
 
-![[CleanShot 2024-03-21 at 13.52.38@2x.png|300]]
+![300](CleanShot%202024-03-21%20at%2013.52.38@2x.png)
 `Any boolean value` **OR** `1` is the same as **adding 1** to the value, so it is **always 1**.
 
-![[CleanShot 2024-03-21 at 13.53.51@2x.png|300]]
+![300](CleanShot%202024-03-21%20at%2013.53.51@2x.png)
 `Any boolean value` **OR** `itself` is the same as the **value itself.**
 
-![[CleanShot 2024-03-21 at 13.56.01@2x.png|300]]
+![300](CleanShot%202024-03-21%20at%2013.56.01@2x.png)
 `Any boolean value` with **two lines above it** cancels out to be just **the original value**.
 
 -----
 ## Distributive rules
 Just like expanding brackets in Mathematics, you can use distributive rules in Boolean algebra as follows:
 
-![[CleanShot 2024-03-22 at 01.59.43@2x.png]]
+![CleanShot 2024-03-22 at 01.59.43@2x](CleanShot%202024-03-22%20at%2001.59.43@2x.png)
 
 -----
 ## See also
-[[De Morgan's laws]]
+[De Morgan's laws](De%20Morgan's%20laws.md)

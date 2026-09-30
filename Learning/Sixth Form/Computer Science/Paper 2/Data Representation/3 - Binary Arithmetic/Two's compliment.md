@@ -1,7 +1,7 @@
->Two's compliment, not to be confused with [[Parity bit]]s is a concept sometimes used within binary representation of negative/positive numbers. 
+>Two's compliment, not to be confused with [Parity bit](Parity%20bit.md)s is a concept sometimes used within binary representation of negative/positive numbers. 
 
 
-When representing **real** numbers in binary (see [[Number Types]]) you have to have some sort of way to indicate if a number is negative or not - and as a result this is where two's compliment comes in!
+When representing **real** numbers in binary (see [Number Types](Number%20Types.md)) you have to have some sort of way to indicate if a number is negative or not - and as a result this is where two's compliment comes in!
 
 The first bit in the number, known as the sign, is either a one or zero, which tells 
 

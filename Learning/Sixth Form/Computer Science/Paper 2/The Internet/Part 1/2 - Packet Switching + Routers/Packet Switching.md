@@ -1,7 +1,7 @@
 
-[[Data Packets|Packets]] are often sent across multiple networks, of which have multiple links, with multiple routes all the way through to a destination.
+[Packets](Data%20Packets.md) are often sent across multiple networks, of which have multiple links, with multiple routes all the way through to a destination.
 
-![[CleanShot 2024-10-03 at 11.27.56@2x.png]]
+![CleanShot 2024-10-03 at 11.27.56@2x](CleanShot%202024-10-03%20at%2011.27.56@2x.png)
 
 Data packets are small pieces of data that make internet communication possible. When you send anything online—a message, a video, or a file—it’s broken up into smaller parts called packets. These packets are sent individually and then reassembled at their destination.
 
@@ -27,7 +27,7 @@ Each packet has a built-in error-checking mechanism (a checksum) to ensure the d
 
 -----
 ## Example in Action
-If you were to stream a video, on the backend= that video is split into hundreds or thousands of small data packets. Each one travels its own way across [[The Internet]], maybe some through fiber-optic cables, others via satellites. When they arrive on your device, they’re reassembled in real-time to play your video smoothly. If one packet is missing or damaged, your video player requests it again without you even noticing.
+If you were to stream a video, on the backend= that video is split into hundreds or thousands of small data packets. Each one travels its own way across [The Internet](The%20Internet.md), maybe some through fiber-optic cables, others via satellites. When they arrive on your device, they’re reassembled in real-time to play your video smoothly. If one packet is missing or damaged, your video player requests it again without you even noticing.
 
 -----
 

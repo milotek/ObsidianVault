@@ -5,5 +5,5 @@
 4) **Write your essay.** It should include ==an introduction==, ==three topics== of discussion, and a ==conclusion==.
 
 -----
-## Example answer for [[Hiroshima Account]]
+## Example answer for [Hiroshima Account](Hiroshima%20Account.md)
 Question: **Critically evaluate how this unnamed journalist engages their reader with their description of the attack on Hiroshima in 1945.**

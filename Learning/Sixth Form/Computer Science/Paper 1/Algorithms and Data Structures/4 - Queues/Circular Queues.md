@@ -12,7 +12,7 @@ A **circular queue** is a linear data structure that follows the **FIFO (First I
 3. **Full Queue**: Occurs when `(rear + 1) % size == front`.
 4. **Empty Queue**: Occurs when `front == rear`.
 
-![[CleanShot 2024-10-03 at 08.45.40@2x.png]]
+![CleanShot 2024-10-03 at 08.45.40@2x](CleanShot%202024-10-03%20at%2008.45.40@2x.png)
 #### Advantages:
 - Efficient use of space.
 - Useful in buffering scenarios (e.g., circular buffers, task scheduling).

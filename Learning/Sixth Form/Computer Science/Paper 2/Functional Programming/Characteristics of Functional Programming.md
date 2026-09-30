@@ -2,7 +2,7 @@
 **Purity of Functions means no side effects.**
 The only thing a function can do is calculate something and return the result.
 - This means that if you give a function the same input it will *always* return the same result.
-- No dependancy on [[Global Variables]].
+- No dependancy on [Global Variables](Global%20Variables.md).
 - "Stateless", which means its outcomes do not depend on anything other than the inputs.
 
 

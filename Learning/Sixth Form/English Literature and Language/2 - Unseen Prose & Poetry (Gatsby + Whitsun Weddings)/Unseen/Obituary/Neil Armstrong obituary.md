@@ -17,7 +17,7 @@
 > 
 > *Glossary: Laplace – a physics term used to explain the solving of certain equations.* 
 > 
-> ![[CleanShot 2024-10-02 at 14.02.55@2x.png|300]]
+> ![300](CleanShot%202024-10-02%20at%2014.02.55@2x.png)
 
 -----
 ## Notes

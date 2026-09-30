@@ -40,4 +40,4 @@ if (gay == True) {
 ---
 ## Alternatives
 
-In some other cases where a different or many conditions are required, you may alternatively wish to use a [[Switch Statement]] as this will save you time - it's shorter to type out than multiple repeated [[If... else statements]]!
+In some other cases where a different or many conditions are required, you may alternatively wish to use a [Switch Statement](Switch%20Statement.md) as this will save you time - it's shorter to type out than multiple repeated [If... else statements](If...%20else%20statements.md)!

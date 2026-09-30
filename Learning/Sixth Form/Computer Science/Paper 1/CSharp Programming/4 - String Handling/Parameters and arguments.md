@@ -10,9 +10,9 @@
 -----
 ## Arguements
 
-When you have a [[Subroutines#Functions|function]] in C# sometimes it can option take some information to be used in the function in the form of arguements, which are passed into it by
+When you have a [](Subroutines.md#Functions|function) in C# sometimes it can option take some information to be used in the function in the form of arguements, which are passed into it by
 
-For an example, the [[ToUpper() & ToLower()|ToUpper()]] function takes **no** arguements.
+For an example, the [ToUpper()](ToUpper()%20&%20ToLower().md) function takes **no** arguements.
 
 ```c#
 string bee = "i throw bricks at the homeless";

@@ -1,4 +1,4 @@
-Scott Fitzgerald is the author of the [[Gatsby Chapter 2]] and lived from 1896 to 1940. He was an enigmatic man who famously wrote the novel and known for his depictions of the Jazz Age.
+Scott Fitzgerald is the author of the [Gatsby Chapter 2](Gatsby%20Chapter%202.md) and lived from 1896 to 1940. He was an enigmatic man who famously wrote the novel and known for his depictions of the Jazz Age.
 
 -----
 

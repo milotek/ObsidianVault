@@ -1,6 +1,6 @@
 
 
-Phillip Larkin was a famous poet and the figurehead of [[The Movement]] during the 1960s, as well as the head librarian of the university of Hull.
+Phillip Larkin was a famous poet and the figurehead of [The Movement](The%20Movement.md) during the 1960s, as well as the head librarian of the university of Hull.
 
 
 His poems are full of emotion and feeling, yet the man himself was absolutely dull. He came off to others as a pessimist, completely void of happiness (i'm not overdramatising this he was completely horrible)

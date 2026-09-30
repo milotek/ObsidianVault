@@ -4,9 +4,9 @@ By Milo "chindian" Tekchandani
 
 "Basically Getting Over It if it was 3D."
 
-- [[FALLING UP#Gameplay|Gameplay]]
-- [[FALLING UP#Graphics|Graphics]]
-- [[FALLING UP#Story|Story]]
+- [](FALLING%20UP.md#Gameplay|Gameplay)
+- [](FALLING%20UP.md#Graphics|Graphics)
+- [](FALLING%20UP.md#Story|Story)
 
 -----
 ## Gameplay
@@ -40,16 +40,16 @@ It will be simple and basic for ease of creation and the level will consist almo
 The game's aesthetics and art direction is like a homage to pop culture - it should include many references and funny, niche, internet jokes.
 
 ### Mock-ups
-![[godot_game_poc_gif.gif]]
+![godot_game_poc_gif](godot_game_poc_gif.gif)
 *The earliest test - here you can see me running and looking about, jumping, crouching, falling...**These are some quick scenes I made in **Godot 3.5** to test how places might look or feel.
 
-![[godot_game_minecraft_map.png]]
+![godot_game_minecraft_map](godot_game_minecraft_map.png)
 *Minecraft textured test level - to see how textures might look.*
 
-![[godot_game_seavning_map.png]]
+![godot_game_seavning_map](godot_game_seavning_map.png)
 *Weird aesthetic test in terms of stylization*
 
-![[godot_game_sandy_map.png]]
+![godot_game_sandy_map](godot_game_sandy_map.png)
 
 
 -----

@@ -19,7 +19,7 @@ AO1 - ****
 
 -----
 ## AO3 - 
-- Larkin as part of [[The Movement]](favouring traditional forms of poetry; nostalgia for an older England, lamenting the decay of a rural way of life).
+- Larkin as part of [The Movement](The%20Movement.md)(favouring traditional forms of poetry; nostalgia for an older England, lamenting the decay of a rural way of life).
 - Growth of cities in post-industrial England.
 - Harold Macmillan: "You"
 - Traditional views of femininity in 1920s America and The Flappers (feminists who rejected traditional views of femininity).

@@ -18,4 +18,4 @@
 
 POOP
 
-![[horsle.png]]
+![horsle](horsle.png)

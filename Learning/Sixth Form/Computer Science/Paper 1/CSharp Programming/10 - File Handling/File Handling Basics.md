@@ -3,12 +3,12 @@ File handling is used in C# to **read** and **write** to text (.txt) files.
 
 -----
 ## Usage
-Using the `System.IO` module you can either [[#Reading from a file|read from a file]] or [[#Writing to a file|write to a file]].
+Using the `System.IO` module you can either [read from a file](#Reading%20from%20a%20file) or [write to a file](#Writing%20to%20a%20file).
 #### Writing to a file
 
 To use file handling methods within a program, you need to first add the `System.IO` module into the using part of the code at the top of the program:
 
-![[csharp_import_system_io.png|300]]
+![300](csharp_import_system_io.png)
 
 
 > [!NOTE] Note
@@ -59,4 +59,4 @@ Console.WriteLine(text);
 The File class has useful methods for creating, reading, updating and modifying files.
 
 
-![[CleanShot 2024-11-18 at 23.56.32@2x.png]]
+![CleanShot 2024-11-18 at 23.56.32@2x](CleanShot%202024-11-18%20at%2023.56.32@2x.png)

@@ -1,4 +1,4 @@
-When you use [[Network Address Translation]], all devices behind the NAT device will appear as a single IP address. The outside world sees it as one thing.
+When you use [Network Address Translation](Network%20Address%20Translation.md), all devices behind the NAT device will appear as a single IP address. The outside world sees it as one thing.
 
 So, for someone outside trying to communicate with something behind the NAT device, it has no way of communicating specifically with that device. All it knows is that one public IP address.
 
@@ -8,9 +8,9 @@ To fix this, you have port forwarding. What port forwarding does is tells the NA
 ## Example
 Let's say you want your friend to play on your Minecraft server that you host on your LAN home network, using Minecraft's open to LAN feature.
 
-![[minecraft_pause_menu_open_to_lan_2.png|500]]
+![500](minecraft_pause_menu_open_to_lan_2.png)
 
-For your friend to join you, you will need to set [[Port Forwarding]] up. In your router settings put in port forwarding. 
+For your friend to join you, you will need to set [Port Forwarding](Port%20Forwarding.md) up. In your router settings put in port forwarding. 
 
 ```
 Port: 25565

@@ -2,7 +2,7 @@
 title: "The great soul crush"
 source: "https://louka.sh/articles/soulcrush/"
 author:
-  - "[[Louka Ménard Blondin <hello@louka.sh>]]"
+  - "[Louka Ménard Blondin <hello@louka.sh>](Louka%20Ménard%20Blondin%20<hello@louka.sh>)"
 published: 2026-02-12
 created: 2026-09-28
 description: "There is no greater generator of hopelessness and no better surfacer of futility than work which you despise."

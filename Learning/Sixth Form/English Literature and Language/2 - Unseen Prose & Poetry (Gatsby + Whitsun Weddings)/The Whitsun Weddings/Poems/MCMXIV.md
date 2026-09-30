@@ -45,6 +45,6 @@ Never such innocence again.
 
 -----
 
-![[gmd_leaderboard_mod_rules.png|600]]
+![600](gmd_leaderboard_mod_rules.png)
 
 

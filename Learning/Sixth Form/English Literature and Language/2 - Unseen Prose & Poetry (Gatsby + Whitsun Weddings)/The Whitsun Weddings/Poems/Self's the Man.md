@@ -1,7 +1,7 @@
 [Philip Larkin Selfs The Mann Annotated](https://genius.com/philip-larkin-selfs-the-mann-annotated
 
 
-> [!NOTE] Self's the Man - [[Phillip Larkin]]
+> [!NOTE] Self's the Man - [Phillip Larkin](Phillip%20Larkin.md)
 > Oh, no one can deny  
 That Arnold is less selfish than I.  
 He married a woman to stop her getting away  

@@ -21,7 +21,7 @@ Discourse refers to the how a text is structured / formatted overall.
 		- Foreshadowing his future.
 - Another example might be the repetition of anything. 
 - Use of pronouns
-- Use of [[Terminology#Ellipsis|Ellipsis]] **(the three dots) ...**
+- Use of [](Terminology.md#Ellipsis|Ellipsis) **(the three dots) ...**
 
 #### Ellipsis
 **The deliberate removal of words, maybe for clearness's sake.**
@@ -36,7 +36,7 @@ Discourse refers to the how a text is structured / formatted overall.
 
 
 #### Anaphoric reference
-**A feature of [[Terminology#Cohesion|cohesion]]. Where a pronoun is used in place in reference to something earlier.**
+**A feature of [](Terminology.md#Cohesion|cohesion). Where a pronoun is used in place in reference to something earlier.**
 #### Cataphoric Reference
 **The opposite to Anaphoric reference. Where a pronoun or noun points forward to something mentioned in the future.
 

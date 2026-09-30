@@ -37,7 +37,7 @@ Than one hired box should make him pretty sure
 He warranted no better, I don't know.
 
 ​​**What relationship does the persona have to Mr Bleaney?**
-Mr Bleaney is probably a projection of Phillip Larkin's life - most likely on how he was the former resident / tenant of an apartment - like the small, solitary Hull apartment that [[Phillip Larkin]] worked in for latter half of his rather miserable life.
+Mr Bleaney is probably a projection of Phillip Larkin's life - most likely on how he was the former resident / tenant of an apartment - like the small, solitary Hull apartment that [Phillip Larkin](Phillip%20Larkin.md) worked in for latter half of his rather miserable life.
 
 **How does Larkin use reported speech to create a layered narrative voice?**
 Larkin uses reported speech (talking as in the past) to create a backstory of sorts and a mystery alongside it - raising questions who was Mr Bleaney, what happened to him. He speaks as if it is his legacy, almost like a eulogy spoken at his funeral. And even if he didn't die (no hard evidence in the poem) it still sounds a terrible fate, a room not like a home, fit to rot away in.

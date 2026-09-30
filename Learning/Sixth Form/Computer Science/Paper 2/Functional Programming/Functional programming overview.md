@@ -9,7 +9,7 @@ Functional programming on the other hand, is **declarative**, which means:
 -----
 ## Module Outline
 
-![[CleanShot 2024-11-21 at 09.17.57@2x.png]]
+![CleanShot 2024-11-21 at 09.17.57@2x](CleanShot%202024-11-21%20at%2009.17.57@2x.png)
 
 -----
 ## History
@@ -28,7 +28,7 @@ Functional programming on the other hand, is **declarative**, which means:
 ## Advantages + Disadvantages
 #### Advantages
 1. Conciseness: Often easier to read and maintain.
-2. Easy Debugging: Thanks to the [[Characteristics of Functional Programming#Purity of Functions|statelessness / immutability]] of functional programming, we only need to observe the values pass
+2. Easy Debugging: Thanks to the [](Characteristics%20of%20Functional%20Programming.md#Purity%20of%20Functions|statelessness%20/%20immutability) of functional programming, we only need to observe the values pass
 3. Easy to test code: 
 
 

@@ -28,10 +28,10 @@ Joe describes the workplace as a highly stressful environment and time - *“Lis
 
 
 **Find one utterance from the monologue and analyse how Miller crafts Joe's voice.**
-The phrase “*I mean just try to see it human, see it human*” is the phrase that best highlights both Miller's intention and voice with Joe. In his writing Miller aims to humanise the character of Joe,  bringing him to life with the phrases typical of an average, middle class man. [[American Vernacular]], repetition and informal language are used in his speech heavily to emphasise Joe's humanity. The vocabulary used in the phrase - words like "just try" as well as the structured repetition marks Joe's *supposed* empathy - an ironic juxtaposition to the severity of his actions. The choice of language throughout the monologue is deliberately chosen by Miller to create a pleading, almost submissive voice, when Keller needs it most, but as we can see from the ending phrase on the **same page** - "*KELLER: \[Angrily] Annie, I do not understand why you...*", there are two sides to the character of Keller - his voice is dynamic, changing and not to be trusted.
+The phrase “*I mean just try to see it human, see it human*” is the phrase that best highlights both Miller's intention and voice with Joe. In his writing Miller aims to humanise the character of Joe,  bringing him to life with the phrases typical of an average, middle class man. [American Vernacular](American%20Vernacular.md), repetition and informal language are used in his speech heavily to emphasise Joe's humanity. The vocabulary used in the phrase - words like "just try" as well as the structured repetition marks Joe's *supposed* empathy - an ironic juxtaposition to the severity of his actions. The choice of language throughout the monologue is deliberately chosen by Miller to create a pleading, almost submissive voice, when Keller needs it most, but as we can see from the ending phrase on the **same page** - "*KELLER: \[Angrily] Annie, I do not understand why you...*", there are two sides to the character of Keller - his voice is dynamic, changing and not to be trusted.
 
 **Keller's voice**
-Keller's voice is riddled with use of [[American Vernacular]], repetition, and informal language - a colloquial voice and less educated in a way.
+Keller's voice is riddled with use of [American Vernacular](American%20Vernacular.md), repetition, and informal language - a colloquial voice and less educated in a way.
 
 **P40s**
 The significance of the P40s

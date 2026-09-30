@@ -47,5 +47,5 @@ Now if we want to reuse this pokemon code in another program or file, we can jus
 
 ## Example
 
-![[mentally.gif]]
-![[Selfie 2024-03-04 at 14.36.49.png]]
+![mentally](mentally.gif)
+![Selfie 2024-03-04 at 14.36.49](Selfie%202024-03-04%20at%2014.36.49.png)

@@ -34,7 +34,7 @@ Charlie Brooker is a well known author and is best known for being the main writ
 	He's rather bashing of technology, considering the modern day an indication of a darker future - a screen filled dystopia. He has a very spiteful attitude
 	
 2.     **What devices does Brooker use to create these tones, attitudes, and opinions?**
-	(see [[!!! - Language and Literature Terminology Booklet (2023).pdf|terminology booklet]])
+	(see [terminology booklet](!!!%20-%20Language%20and%20Literature%20Terminology%20Booklet%20(2023).pdf))
 	He uses a lot of topic shifts and backtracking - introducing arguments with rather outlandish-sounding openings to paragraphs (for example the final one with the cow), which are a bit hyperbolic, but do come together to form a circular, sound, arguement.
 	He uses a lot of emotional langauge, as evidenced by words like "hideous", "tragic" and "omnipresent". 
 

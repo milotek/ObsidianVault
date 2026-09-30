@@ -13,7 +13,7 @@ Because of this he tries to keep things more casual, instead opting to speak on 
 
 -----
 ## Audience
-The audience would probably be a wide amount of Americans from all of the states. The show itself is very famous and so they try to keep it politically ambiguous - probably hence why the late night talk show is statistically America's most enjoyed talk show - Jimmy Fallon himself explicitly stating in an [[Interviews|Interview]] that he doesn't want to get into politics.
+The audience would probably be a wide amount of Americans from all of the states. The show itself is very famous and so they try to keep it politically ambiguous - probably hence why the late night talk show is statistically America's most enjoyed talk show - Jimmy Fallon himself explicitly stating in an [Interview](Interviews.md) that he doesn't want to get into politics.
 
 *Source: [As late night hosts get political, audiences get divided](https://pro.morningconsult.com/instant-intel/as-late-night-hosts-get-political-audiences-get-divided)*
 

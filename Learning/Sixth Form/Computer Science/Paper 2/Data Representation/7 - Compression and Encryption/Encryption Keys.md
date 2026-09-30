@@ -9,7 +9,7 @@
 -----
 ## How it works
 
-To decode something with a decryption key, an **XOR** (see [[! - Logic Gates]]) algorithm is used.
+To decode something with a decryption key, an **XOR** (see [! - Logic Gates](!%20-%20Logic%20Gates.md)) algorithm is used.
 
 Because the key is the same length as the data, the encoded binary value is compared with the decryption key's binary value
 

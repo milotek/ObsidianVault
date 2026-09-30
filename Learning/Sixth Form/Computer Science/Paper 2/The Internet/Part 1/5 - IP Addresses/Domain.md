@@ -7,7 +7,7 @@ For example:
 
 
 > [!TL:DR] Too Long Didn't Read
-> Domains effectively just redirect users to an [[IP Address|IP address]], but the reason they are used is because they are infinitely more readable and memorable than ugly IPv4 addresses.
+> Domains effectively just redirect users to an [IP address](IP%20Address.md), but the reason they are used is because they are infinitely more readable and memorable than ugly IPv4 addresses.
 
 ---
 ## Structure of a Domain Name
@@ -29,12 +29,12 @@ Example:  `www.example.com`
 	- The suffix that represents the highest level in the domain hierarchy. Common TLDs include `.com`, `.org`, `.net`, and many others.
 
 
-> [!WARNING]  Don't get a domain name confused with a [[URLs|URL]]!
+> [!WARNING]  Don't get a domain name confused with a [URL](URLs.md)!
 > - The **domain** only contains the `www.XXXXX.com`.
 > - **URLs** have the protocol (ex: `https://...`) and subdirectories (ex: `.../home/following)
 
 
-![[url_annotated_domain_name.png]]
+![url_annotated_domain_name](url_annotated_domain_name.png)
 
 ---
 ## Types of Top-Level Domains (TLDs)
@@ -55,7 +55,7 @@ Example:  `www.example.com`
 
 -----
 ## Internet registries 
-Internet registries, **not to be confused with [[Domains#Domain **registrars**|domain registrars]]** manage the allocation of IP addresses and domain names, to ensure global uniqueness and efficiency. They:
+Internet registries, **not to be confused with [](Domains#Domain%20**registrars**|domain%20registrars)** manage the allocation of IP addresses and domain names, to ensure global uniqueness and efficiency. They:
 
 - **Allocate IP addresses**: Distribute IPv4 and IPv6 addresses to ISPs and organizations regionally, preventing duplication and ensuring efficient usage.
 - **Manage domain names**: Coordinate the registration and maintenance of domain names in collaboration with ICANN.

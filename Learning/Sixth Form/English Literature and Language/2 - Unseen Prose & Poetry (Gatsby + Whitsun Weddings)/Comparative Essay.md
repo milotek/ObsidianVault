@@ -1,6 +1,6 @@
-We are tasked to write a comparative essay in regards to the the [[Gatsby Chapter 2]] and a poem or two from [[The Whitsun Weddings]].
+We are tasked to write a comparative essay in regards to the the [Gatsby Chapter 2](Gatsby%20Chapter%202.md) and a poem or two from [The Whitsun Weddings](The%20Whitsun%20Weddings).
 
-![[comparative_essay_structure.png]]
+![comparative_essay_structure](comparative_essay_structure.png)
 
 -----
 ## Planning
@@ -19,10 +19,10 @@ We are tasked to write a comparative essay in regards to the the [[Gatsby Chapte
 -----
 ## Rough Draft
 
-The theme of materialism is quite prevailing within both [[For Sidney Bechet]] and [[Gatsby Chapter 2]], as both Larkin and Nick hold a similar view in regards to their associates' partners.
+The theme of materialism is quite prevailing within both [For Sidney Bechet](For%20Sidney%20Bechet.md) and [Gatsby Chapter 2](Gatsby%20Chapter%202.md), as both Larkin and Nick hold a similar view in regards to their associates' partners.
 Phillip talks in regards to how at a party he does not feel like others, acting fairly reserved and instead choosing to appreciate the jazz music of the party, feeling enchanted by the flow of music as opposed to the rather material things in contrast of his associates, such as the "house girls" described, likewise to Nick's view on their rather objectified wives, as his sense of self seems lacking at this point in the story, still not fully confident in himself.
 
-In the poem [[For Sidney Bechet]] though, the last 2 lines of the 3rd stanza read "Others may license, grouping around their chairs, sporting house girls like circus tigers", which is similar to the themes present throughout the Great Gatsby, where the rapidly changing role of women within an american society could be seen being modernised (i.e: Daisy). In the 1920-1940s, around when both Larkin and Fitzgerald were around to write, post war both countries were imbued with reckless extravagance, when America was at an era where social and moral values were decayed. The men depicted as "sporting house girls" is a textbook symbol of objectiveness in people, likewise, how Daisy says "And I hope she’ll be a fool" in regards to a little girl, as if to submit to these post-WW1 American beliefs - as it may just be an easier life for her, to be overlooked, and considered only for looks. 
+In the poem [For Sidney Bechet](For%20Sidney%20Bechet.md) though, the last 2 lines of the 3rd stanza read "Others may license, grouping around their chairs, sporting house girls like circus tigers", which is similar to the themes present throughout the Great Gatsby, where the rapidly changing role of women within an american society could be seen being modernised (i.e: Daisy). In the 1920-1940s, around when both Larkin and Fitzgerald were around to write, post war both countries were imbued with reckless extravagance, when America was at an era where social and moral values were decayed. The men depicted as "sporting house girls" is a textbook symbol of objectiveness in people, likewise, how Daisy says "And I hope she’ll be a fool" in regards to a little girl, as if to submit to these post-WW1 American beliefs - as it may just be an easier life for her, to be overlooked, and considered only for looks. 
 
 -----
 ## Feedback
@@ -34,15 +34,15 @@ In the poem [[For Sidney Bechet]] though, the last 2 lines of the 3rd stanza rea
 -----
 ## Final Write-up
 
-The theme of materialism is quite prevailing within both the poem [[For Sidney Bechet]] and [[Gatsby Chapter 2]], as both Larkin and Nick hold a similar view in regards to their associates' partners.
+The theme of materialism is quite prevailing within both the poem [For Sidney Bechet](For%20Sidney%20Bechet.md) and [Gatsby Chapter 2](Gatsby%20Chapter%202.md), as both Larkin and Nick hold a similar view in regards to their associates' partners.
 
 Phillip talks in regards to how at a party he does not feel like others, acting fairly reserved and instead choosing to appreciate the jazz music of the party, feeling "enchanted by the flow of music" as opposed to the rather material things in contrast of his associates, such as the "house girls" described, similarly to Nick's view on their rather objectified wives. This is assumably so as his sense of self seems lacking at this point in the story, still not fully convinced in himself, seemingly still unconvinced with his new identity at this point in the story.
 
 
-In the poem [[For Sidney Bechet]] though, the last 2 lines of the 3rd stanza read "Others may license, grouping around their chairs, sporting house girls like circus tigers", which is similar to the themes present throughout the Great Gatsby, where the rapidly changing role of women within an american society could be seen being modernised (i.e: Daisy).
+In the poem [For Sidney Bechet](For%20Sidney%20Bechet.md) though, the last 2 lines of the 3rd stanza read "Others may license, grouping around their chairs, sporting house girls like circus tigers", which is similar to the themes present throughout the Great Gatsby, where the rapidly changing role of women within an american society could be seen being modernised (i.e: Daisy).
 In the 1920-1940s, around when both Larkin and Fitzgerald were around to write, post war both countries were **imbued with reckless extravagance**, when America was at an era where social and moral values were decayed. The men depicted as "sporting house girls" is a textbook symbol of objectiveness in people, likewise, how Daisy says "And I hope she’ll be a fool" in regards to a little girl, as if to submit to these post-WW1 american beliefs - as it may just be *an easier life for her, to be overlooked, and considered only for looks.* 
 
-Another poem by Larkin in connection to this could be [[Self's the Man]], where he speaks on both the theme of marriage from a rather cynical perspective.
+Another poem by Larkin in connection to this could be [Self's the Man](Self's%20the%20Man.md), where he speaks on both the theme of marriage from a rather cynical perspective.
 This is comparative to the character/role of Nick within Gatsby as he holds a judgemental view on the relationships between his rich companions and their respective partners, often speaking in the narrative on the Tom and his wife and mistress in a reflective manner.
 
 In self's the man, talking in regard to his mate Arnold's marriage, he says

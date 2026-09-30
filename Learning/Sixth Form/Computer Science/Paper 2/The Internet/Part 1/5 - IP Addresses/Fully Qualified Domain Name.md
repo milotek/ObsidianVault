@@ -2,7 +2,7 @@ A **FQDN** is the complete domain name that specifies a host’s exact location 
 
 Example:  `www.example.com.`
 
-- `www` - Hostname (specific server/service, in this case, the [[World Wide Web]])
+- `www` - Hostname (specific server/service, in this case, the [World Wide Web](World%20Wide%20Web))
 - `example` - Second-level domain (SLD)
 - `.com` - Top-level domain (TLD)
 - `.` - (trailing dot): Implies the DNS root (often omitted)
@@ -14,4 +14,4 @@ Why is it important, you ask?
 
 -----
 
-![[url_annotated_domain_name.png]]
+![url_annotated_domain_name](url_annotated_domain_name.png)

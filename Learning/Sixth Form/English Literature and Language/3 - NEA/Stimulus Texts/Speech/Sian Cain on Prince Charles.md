@@ -24,4 +24,4 @@ bleh
 
 -----
 ## Quote analysis
-![[whiteboard_picture.jpg]]
+![whiteboard_picture](whiteboard_picture.jpg)

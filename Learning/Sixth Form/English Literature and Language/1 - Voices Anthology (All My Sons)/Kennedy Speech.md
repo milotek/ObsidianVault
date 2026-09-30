@@ -2,7 +2,7 @@
 
 -----
 ## Context
-Kennedy (John F. Kennedy) was the president of the united states, like [[Obama & Leno|Obama]], but unfortuantely he was shot and killed by a sniper, putting his presidency to a premature end. 
+Kennedy (John F. Kennedy) was the president of the united states, like [Obama](Obama%20&%20Leno.md), but unfortuantely he was shot and killed by a sniper, putting his presidency to a premature end. 
 
 -----
 ## Purpose
@@ -25,4 +25,4 @@ He concludes with the phrase "**let us begin anew**", as if to establish and com
 ## Audience
 The audience of this speech would quite literally be almost all of the residents of the United States, as he speaks as if he's addressing everyone as a collective, so he tries to be neutral while also not coming off as uncertain while he speaks.
 
-![[IMG_4036 1.jpg|400]]
+![400](IMG_4036%201.jpg)

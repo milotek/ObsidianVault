@@ -2,20 +2,20 @@ File compression in computer science is a technique used to reduce the size of f
 
 There are two main types of file compression:
 
-1. [[Lossless Compression]]:
+1. [Lossless Compression](Lossless%20Compression.md):
     
     - Lossless compression algorithms reduce file size without losing any information.
     
     - This means the original file can be perfectly reconstructed from the compressed file. This type of compression is essential for text documents, source code, and certain image formats (like PNG) where loss of data would be unacceptable.
     
     - Common lossless compression algorithms include:
-	    - [[Huffman Encoding]]
-	    - [[Run-Length encoding]]
-	    - [[ZIP compression]]
+	    - [Huffman Encoding](Huffman%20Encoding.md)
+	    - [Run-Length encoding](Run-Length%20encoding.md)
+	    - [ZIP compression](ZIP%20compression)
 	
     - Lossless compression is generally preferred for archival purposes and for applications where data integrity is crucial.
     
-2. [[Lossy Compression]]:
+2. [Lossy Compression](Lossy%20Compression.md):
     
     - Lossy compression techniques reduce file size by eliminating redundant or less important information, making it impossible to recover the original file exactly. This type of compression is typically used for audio, video, and images, where a perfect reproduction of the original is not necessary for the file to still be useful or enjoyable.
     

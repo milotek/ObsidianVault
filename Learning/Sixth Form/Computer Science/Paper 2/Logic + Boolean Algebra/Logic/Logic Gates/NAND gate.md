@@ -1,1 +1,1 @@
-The NAND gate is a gate which works similarly to an [[AND gate]] but 
+The NAND gate is a gate which works similarly to an [AND gate](AND%20gate.md) but 

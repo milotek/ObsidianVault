@@ -130,7 +130,7 @@ In chapter 2 we are presented with the midlands, or "valley of ashes."
 	- By this point the reader assumably also knows they would be suspending their disbelief to think that Gatsby's lies are true.
 		- In this way, Nick is kind of used as a parallel to the reader, and nudges them into the right narrative - confirming or disregarding their beliefs about Gatsby accordingly. 
 	- This is a reason why Gatsby is so successful - it lures people in with the exaggerated golden Jazz age and the extravaganza of it all, and then pulls the rug on you to make the twists/tragedies all the more painful and powerful.
-		- If you compare this writing style to someone like [[Phillip Larkin]], you almost expect a cynical tone from him - you automatically, assume a depressing and sad tone.
+		- If you compare this writing style to someone like [Phillip Larkin](Phillip%20Larkin.md), you almost expect a cynical tone from him - you automatically, assume a depressing and sad tone.
 		- This is arguably why Gatsby is more well known and celebrated, as the slow reveal of the foreshadowed undertones come to the forefront by the end of the novel, making it enjoyable but also layered.
 	- You even question previous things thanks to this quote - wondering if Gatsby even really knew Nick in the first place.
 - "**...after she was free, they were to go back to Louisville and be married from her house - just as if it were five years ago.**"
@@ -154,7 +154,7 @@ In chapter 2 we are presented with the midlands, or "valley of ashes."
 - Gatsby's world of lies falls apart in this chapter.
 - You could argue that Nick's aspirations kind of shatter here. His idolisation of Gatsby has been turned upon him as he learns he has, in essense, been fooled.
 	- Gatsby, like the statue of Ozymandias, falls apart in the desert (not literally).
-	- You could argue this is literally the epitome, and flaw of The [[American Dream]] - to become rich, and die having made no meaningful impact on the world. Hedonism in effect - an eventful + happy, yet ultimately insignificant life.
+	- You could argue this is literally the epitome, and flaw of The [American Dream](American%20Dream.md) - to become rich, and die having made no meaningful impact on the world. Hedonism in effect - an eventful + happy, yet ultimately insignificant life.
 #### Quotes
 - **"It was when curiosity about Gatsby was at its highest that the lights in his house failed to go on one Saturday night - and, as obscurely as it had begun, his career as Trimalchio was over."**
 	- Trimalchio was a freed slave in ancient rome.

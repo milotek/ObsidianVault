@@ -1,1 +1,1 @@
-Polymorphism is the other side of [[Subclasses + Inheritance|inhereitance]]. I can override any of the methods that I _do_ want to change in the subclass. 
+Polymorphism is the other side of [inhereitance](Subclasses%20+%20Inheritance.md). I can override any of the methods that I _do_ want to change in the subclass. 

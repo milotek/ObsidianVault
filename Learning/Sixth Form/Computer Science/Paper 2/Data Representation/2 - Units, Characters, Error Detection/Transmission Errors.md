@@ -11,4 +11,4 @@ When data is transmitted, either via cable or wirelessly or over the internet et
 These errors can cause bits to flip from 1s and 0s to 0s and 1s
 
 How do we correct this?
-Well, for one you could use a [[]] for verification.
+Well, for one you could use a [Transmission Errors](.md) for verification.

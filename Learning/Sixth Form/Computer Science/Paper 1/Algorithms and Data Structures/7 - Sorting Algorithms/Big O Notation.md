@@ -28,19 +28,19 @@ If you have one like $n^2 - n + 1$, then the family would be **quadratic** as th
 > - **Average** is the average, typically time it would take on a typical dataset *of n length.*
 > - **Worst** is the performance it will have *at least* on any given dataset *of n length.*
 > - The **space complexity** is the amount of memory space required for the algorithm to work on a dataset *of n length*
-#### [[Bubble sort]]
+#### [Bubble sort](Bubble%20sort.md)
 - Worst-case time complexity: O(n^2)
 - Average-case time complexity: O(n^2)
 - Best-case time complexity: O(n)
 - Space complexity: O(1)
 
-#### [[Selection sort]]
+#### [Selection sort](Selection%20sort.md)
 - Worst-case time complexity: O(n^2)
 - Average-case time complexity: O(n^2)
 - Best-case time complexity: O(n^2)
 - Space complexity: O(1)
 
-#### [[Insertion Sort]]
+#### [Insertion Sort](Insertion%20Sort)
 - Worst-case time complexity: O(n^2)
 - Average-case time complexity: O(n^2)
 - Best-case time complexity: O(n)

@@ -1,11 +1,11 @@
-k>Unlike [[Lossy Compression]], some files *need* to retain **ALL** of their data or else they'll get corrupted!
+k>Unlike [Lossy Compression](Lossy%20Compression.md), some files *need* to retain **ALL** of their data or else they'll get corrupted!
 
 -----
 ## Run length encoding
 
 **Run length encoding (RLE)** is a *lossless* compression technique.
 It works by finding runs of repeated colours in a row of an images' pixels
-(see [[Bitmap Graphics]])
+(see [Bitmap Graphics](Bitmap%20Graphics.md))
 
 Instead of these pixels having their binary colour pattern repeated constantly, which would take up valuable bytes, instead the colours codes are replaced with a colour code followed by the number of times they repeat
 

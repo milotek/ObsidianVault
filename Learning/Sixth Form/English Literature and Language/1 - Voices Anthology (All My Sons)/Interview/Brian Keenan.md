@@ -45,7 +45,7 @@ In April 1986, Brian Keenan was taken hostage by Islamic Jihad in Beirut. He was
 
 -----
 ## Notes
-**Make notes on how Keenan creates a sense of voice.  Try to use as much terminology as possible.  We are going to compare Keenan's presentation of his experience in prison with [[De Profundis]].
+**Make notes on how Keenan creates a sense of voice.  Try to use as much terminology as possible.  We are going to compare Keenan's presentation of his experience in prison with [De Profundis](De%20Profundis.md).
 
 Keenan creates a sense of voice through many 
 For instances, his utterances, which didn't *have* to be transcribed, were kept in, and it adds a layer of authenticity to his voice, and makes it a bit reflective of his nervousness perhaps too.

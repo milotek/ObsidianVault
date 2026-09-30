@@ -31,7 +31,7 @@ I'm a third, no, forth generation migrant and I'm incredibly happy that I am whe
 
 Here's food for thought - the odds of being born in a **first world country** and **above the poverty line** is around [12.5%](https://reddit.com/r/theydidthemath/comments/29sn87/request_what_are_the_odds_of_being_born_in_a/). To visualise that for you, imagine if when you were born, you were told to pick a randomly chosen slice of a pizza cut into 8ths.
 
-![[CleanShot 2024-06-18 at 00.05.20@2x.png|300]]
+![300](CleanShot%202024-06-18%20at%2000.05.20@2x.png)
 
 If you choose correctly, you'll get to live a (hopefully) good and typical life like we think of. Obviously, considering you are currently reading this article, well done!
 

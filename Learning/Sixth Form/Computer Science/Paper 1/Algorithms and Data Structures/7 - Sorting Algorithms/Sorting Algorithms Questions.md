@@ -2,7 +2,7 @@ Some questions on sorting algorithms.
 
 -----
 ## Question 1
-![[CleanShot 2024-10-14 at 17.45.19@2x.png]]
+![CleanShot 2024-10-14 at 17.45.19@2x](CleanShot%202024-10-14%20at%2017.45.19@2x.png)
 
 | Comment                                  | Count | **rp** | **max** | **cp** | **temp** | **1** | **2** | **3** |
 | ---------------------------------------- | ----- | ------ | ------- | ------ | -------- | ----- | ----- | ----- |
@@ -21,17 +21,17 @@ Some questions on sorting algorithms.
 
 
 
-![[CleanShot 2024-10-14 at 21.07.29@2x.png]]
+![CleanShot 2024-10-14 at 21.07.29@2x](CleanShot%202024-10-14%20at%2021.07.29@2x.png)
 
-[[Insertion Sort]]
+[Insertion Sort](Insertion%20Sort)
 
-![[CleanShot 2024-10-14 at 21.30.06@2x.png]]
+![CleanShot 2024-10-14 at 21.30.06@2x](CleanShot%202024-10-14%20at%2021.30.06@2x.png)
 
 The number would need to be compared a lot of times thanks to how insertion sort works. In the worst case scenario it would take around 498 comparisons.
 
 -----
 ## Question 2
-![[CleanShot 2024-10-14 at 22.08.54@2x 1.png]]
+![CleanShot 2024-10-14 at 22.08.54@2x 1](CleanShot%202024-10-14%20at%2022.08.54@2x%201.png)
 
 
 | Pass | **3** | **5** | **8** | **1** | **6** | **4** |

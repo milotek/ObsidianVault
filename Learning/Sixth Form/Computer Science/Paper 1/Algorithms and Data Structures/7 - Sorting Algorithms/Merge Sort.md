@@ -1,8 +1,8 @@
 Merge sort is a sorting algorithm that works by splitting t
 
 -----
-## [[Learning/Sixth Form/Computer Science/Paper 1/Algorithms and Data Structures/7 - Sorting Algorithms/Big O Notation]]
-Merge sort's [[Learning/Sixth Form/Computer Science/Paper 1/Algorithms and Data Structures/7 - Sorting Algorithms/Big O Notation]] is $O(n \log n)$
+## [Big O Notation](Learning/Sixth%20Form/Computer%20Science/Paper%201/Algorithms%20and%20Data%20Structures/7%20-%20Sorting%20Algorithms/Big%20O%20Notation.md)
+Merge sort's [Big O Notation](Learning/Sixth%20Form/Computer%20Science/Paper%201/Algorithms%20and%20Data%20Structures/7%20-%20Sorting%20Algorithms/Big%20O%20Notation.md) is $O(n \log n)$
 
 If you have 8 elements in your list, merge sort will split it 3 times.
 If you have 16, split 4 times.

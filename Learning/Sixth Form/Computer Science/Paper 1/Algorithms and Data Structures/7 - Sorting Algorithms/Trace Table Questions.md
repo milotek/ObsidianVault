@@ -1,9 +1,9 @@
-Some questions on [[Trace Tables]]. 
+Some questions on [Trace Tables](Trace%20Tables.md). 
 
 -----
 ## Question 1
 
-![[CleanShot 2024-10-15 at 13.51.15@2x.png]]
+![CleanShot 2024-10-15 at 13.51.15@2x](CleanShot%202024-10-15%20at%2013.51.15@2x.png)
 
 
 | **X** | **Y** | **N** | [0] | [1] | [2] | [3] |     |
@@ -20,7 +20,7 @@ Some questions on [[Trace Tables]].
 -----
 ## Question 2
 
-![[CleanShot 2024-10-14 at 22.08.54@2x 1.png]]
+![CleanShot 2024-10-14 at 22.08.54@2x 1](CleanShot%202024-10-14%20at%2022.08.54@2x%201.png)
 
 | Pass | **3** | **5** | **8** | **1** | **6** | **4** |
 | ---- | ----- | ----- | ----- | ----- | ----- | ----- |
@@ -34,12 +34,12 @@ Some questions on [[Trace Tables]].
 ## Question 3
 
 > [!NOTE]- AQA Assembly Language - cheat sheet
-> ![[CleanShot 2024-10-15 at 21.20.47@2x.png|400]]
-> ![[CleanShot 2024-10-15 at 21.22.02@2x.png|400]]
+> ![400](CleanShot%202024-10-15%20at%2021.20.47@2x.png)
+> ![400](CleanShot%202024-10-15%20at%2021.22.02@2x.png)
 
 
-![[CleanShot 2024-10-15 at 20.59.43@2x.png]]
-![[CleanShot 2024-10-15 at 21.00.13@2x.png]]
+![CleanShot 2024-10-15 at 20.59.43@2x](CleanShot%202024-10-15%20at%2020.59.43@2x.png)
+![CleanShot 2024-10-15 at 21.00.13@2x](CleanShot%202024-10-15%20at%2021.00.13@2x.png)
 
 | R0         | R1          | R2          | R3         | R4         |
 | ---------- | ----------- | ----------- | ---------- | ---------- |
@@ -57,7 +57,7 @@ Some questions on [[Trace Tables]].
 
 
 
-![[CleanShot 2024-10-15 at 22.35.47@2x.png]]
+![CleanShot 2024-10-15 at 22.35.47@2x](CleanShot%202024-10-15%20at%2022.35.47@2x.png)
 
 Division and Modulus (remainder) calculator of two numbers: $R1 \div R2$, where `R1` is the result and `R2` is the remainder.
 
@@ -65,8 +65,8 @@ Division and Modulus (remainder) calculator of two numbers: $R1 \div R2$, where 
 
 -----
 ## Question 4
-![[CleanShot 2024-10-15 at 22.45.34@2x.png]]
-![[CleanShot 2024-10-15 at 23.17.25@2x.png]]
+![CleanShot 2024-10-15 at 22.45.34@2x](CleanShot%202024-10-15%20at%2022.45.34@2x.png)
+![CleanShot 2024-10-15 at 23.17.25@2x](CleanShot%202024-10-15%20at%2023.17.25@2x.png)
 
 | X   | Result | Output |
 | --- | ------ | ------ |
@@ -79,9 +79,9 @@ Division and Modulus (remainder) calculator of two numbers: $R1 \div R2$, where 
 
 
 
-![[CleanShot 2024-10-15 at 23.44.40@2x.png]]
+![CleanShot 2024-10-15 at 23.44.40@2x](CleanShot%202024-10-15%20at%2023.44.40@2x.png)
 
-Ok so this stupid question goes against all laws of programming (more specifically getting [[While loops|while loops]] mixed up with [[Do-While loops|do-while loops]]) so it makes no sense. The answer it wanted was to have the output incorrectly be **14 and not 15??**
+Ok so this stupid question goes against all laws of programming (more specifically getting [while loops](While%20loops.md) mixed up with [do-while loops](Do-While%20loops.md)) so it makes no sense. The answer it wanted was to have the output incorrectly be **14 and not 15??**
 
 If this was coded to add the sentinel value first, then it that's wrong - it should check the value to be added `result` is NOT the sentinel value.
 
@@ -90,8 +90,8 @@ If this was coded to add the sentinel value first, then it that's wrong - it sho
 -----
 ## Question 5
 
-![[CleanShot 2024-10-15 at 23.43.58@2x.png]]
-![[CleanShot 2024-10-16 at 00.58.10@2x.png]]
+![CleanShot 2024-10-15 at 23.43.58@2x](CleanShot%202024-10-15%20at%2023.43.58@2x.png)
+![CleanShot 2024-10-16 at 00.58.10@2x](CleanShot%202024-10-16%20at%2000.58.10@2x.png)
 
 
 | x   | MyValue | y   | y > -1? | Numbers[y] | Numbers[y] < MyValue? | [0] | [1] | [2] |
@@ -109,7 +109,7 @@ If this was coded to add the sentinel value first, then it that's wrong - it sho
 
 
 
-![[CleanShot 2024-10-16 at 02.34.57@2x.png]]
+![CleanShot 2024-10-16 at 02.34.57@2x](CleanShot%202024-10-16%20at%2002.34.57@2x.png)
 
 Bubble sort.
 
@@ -117,8 +117,8 @@ Bubble sort.
 
 -----
 ## Question 6
-![[CleanShot 2024-10-16 at 02.35.36@2x.png]]
-![[CleanShot 2024-10-16 at 02.40.28@2x 1.png]]
+![CleanShot 2024-10-16 at 02.35.36@2x](CleanShot%202024-10-16%20at%2002.35.36@2x.png)
+![CleanShot 2024-10-16 at 02.40.28@2x 1](CleanShot%202024-10-16%20at%2002.40.28@2x%201.png)
 
 | Number | Root | d   | FactorFound | r   | Output |
 | ------ | ---- | --- | ----------- | --- | ------ |
@@ -131,7 +131,7 @@ Bubble sort.
 
 
 
-![[CleanShot 2024-10-16 at 02.50.53@2x.png]]
+![CleanShot 2024-10-16 at 02.50.53@2x](CleanShot%202024-10-16%20at%2002.50.53@2x.png)
 
 | Number | Root | d   | FactorFound | r   | Output    |
 | ------ | ---- | --- | ----------- | --- | --------- |

@@ -9,4 +9,4 @@
 - These works share a critical lens on societal constructs, human desires, and the inherent struggles individuals face in navigating life's complexities.
 
 - The two writers very much blur the lines between illusion and reality, and write on how lives are very falsified by the ideas of a good life - think the american dream.
-- In the [[The Whitsun Weddings]] he speaks on how we lie to ourselves and sell our own minds a dream, while [[The Great Gatsby]] is about how t
+- In the [The Whitsun Weddings](The%20Whitsun%20Weddings) he speaks on how we lie to ourselves and sell our own minds a dream, while [The Great Gatsby](The%20Great%20Gatsby.md) is about how t
