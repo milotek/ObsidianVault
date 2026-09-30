@@ -1,7 +1,3 @@
----
-sticker: lucide//timer-reset
----
-
 ## [[De Profundis]]
 De Profundis is a deeply personal letter written by writer Oscar Wilde during his imprisonment, reflecting on his suffering, past mistakes, and personal identity. It serves as both a confession and a meditation on art, love, and redemption. As an autobiography, it follows conventions synonymous with the genre, such as first-person narration, introspection, and a focus on key life events, even though it was originally intended as a letter to his lover.
 

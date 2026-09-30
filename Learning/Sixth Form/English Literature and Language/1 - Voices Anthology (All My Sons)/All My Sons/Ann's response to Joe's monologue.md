@@ -1,6 +1,3 @@
----
-sticker: lucide//codesandbox
----
 Answer the question below in a paragraph in Class Notebook:
 How does Miller use language and stagecraft to present Ann’s response to Joe’s defence, p33?
 

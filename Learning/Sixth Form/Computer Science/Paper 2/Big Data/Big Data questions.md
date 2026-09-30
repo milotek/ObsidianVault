@@ -1,6 +1,5 @@
 ---
 tags: comp-sci, questions, uncomplete
-sticker: lucide//file-question
 ---
 ## Question 1
 pic

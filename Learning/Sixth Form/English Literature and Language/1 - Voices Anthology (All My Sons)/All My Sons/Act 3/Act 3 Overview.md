@@ -1,7 +1,3 @@
----
-banner: Other/Attachments/Pasted image 20241106142601.png
-sticker: lucide//dice-3
----
 In act 3 everything has come to light, and the day is coming to a close, the place being set in darkness. This is the final act, and houses the climax, falling action and denouement of [[All My Sons Overview|All My Sons]].
 
 [Massolit lecture on Act 3.](https://massolit.io/courses/miller-all-my-sons/act-3-to-him-they-were-all-my-sons-pp-78-84?autoplay=true)

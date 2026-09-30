@@ -1,5 +1,4 @@
 ---
-sticker: lucide//file-question
 tags: questions, comp-sci, completed
 ---
 ## Question 1

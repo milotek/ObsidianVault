@@ -1,6 +1,3 @@
----
-sticker: lucide//file-question
----
 ## Question 1
 
 ![[Pasted image 20241216221650.png]]![[CleanShot 2024-12-16 at 22.20.51@2x.png]]
