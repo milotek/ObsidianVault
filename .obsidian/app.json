@@ -1,7 +1,7 @@
 {
   "readableLineLength": true,
   "alwaysUpdateLinks": true,
-  "newFileLocation": "current",
+  "newFileLocation": "root",
   "pdfExportSettings": {
     "includeName": false,
     "pageSize": "Letter",
