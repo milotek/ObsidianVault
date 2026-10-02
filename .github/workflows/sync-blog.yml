@@ -94,19 +94,35 @@ jobs:
               return `[${alt}](./${cleanName})`;
             });
 
-            text = text.replace(/!\[(.*?)\]\(\.\/([^)]+)\)/g, (full, alt, relPath) => {
-              const name = path.basename(relPath.trim());
-              const source = attachments.get(name);
-              if (source) {
-                const ext = path.extname(name).toLowerCase();
-                const cleanName = slugify(path.parse(name).name) + ext;
-                used.set(cleanName, source);
-                return `![${alt}](./${cleanName})`;
+            // Markdown-style links (Obsidian "useMarkdownLinks"): relative, URL-encoded,
+            // optionally prefixed with ./ — e.g. ![500](Pasted%20image%201.png)
+            text = text.replace(/!\[(.*?)\]\((?!\w+:|\/|#)([^)]+)\)/g, (full, alt, relPath) => {
+              let decoded;
+              try {
+                decoded = decodeURIComponent(relPath.trim());
+              } catch {
+                decoded = relPath.trim();
               }
-              return full;
+              const name = path.basename(decoded.replace(/\\+$/, ''));
+              const source = attachments.get(name);
+              if (!source) {
+                console.warn(`  missing attachment: ${name}`);
+                return '';
+              }
+              const ext = path.extname(name).toLowerCase();
+              const base = path.parse(name).name;
+              const cleanName = slugify(base) + ext;
+              used.set(cleanName, source);
+              const isSize = !alt.trim() || /^\s*\d+(?:x\d+)?\s*$/.test(alt);
+              return `![${isSize ? base : alt}](./${cleanName})`;
             });
 
             return text;
+          }
+
+          function rewriteNoteLinks(body) {
+            // [label](Other%20Note.md#Heading) -> label, same as wikilinks
+            return body.replace(/(?<!!)\[([^\]]+)\]\((?!\w+:|\/|#)[^)]*?\.md(?:#[^)]*)?\)/g, '$1');
           }
 
           function rewriteWikilinks(body) {
@@ -198,6 +214,7 @@ jobs:
             const used = new Map();
             let text = rewriteEmbeds(body, attachments, used);
             text = rewriteWikilinks(text);
+            text = rewriteNoteLinks(text);
             text = dropEmptyLinks(text);
             text = rewriteCallouts(text);
             text = matchObsidianLineBreaks(text);
