@@ -9,3 +9,6 @@ Private/
 
 # Google Drive stubs
 *.gdoc
+
+# macOS custom folder icons (Google Drive)
+Icon
