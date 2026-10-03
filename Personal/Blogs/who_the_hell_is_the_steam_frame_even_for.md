@@ -4,13 +4,15 @@ published: 2026-08-25
 ---
 # Who the hell is the Steam Frame even for?
 Do valve even know? 🤔
+
+THIS ISNT COMPLETE AND READS AWFULLY RIGHT NOW LOL
 ## Valve's history of headsets
 Valve have a long and extensive history in VR. 
 
 They practically pioneered the first "big boom" of consumer virtual reality by collaborating with HTC to make the [HTC Vive](https://en.wikipedia.org/wiki/HTC_Vive). But, we're discussing explicitly *their* headsets here, which are:
 
-1. [#Valve Index](#Valve%20Index)
-2. [#Steam Frame](#Steam%20Frame)
+1. [Valve Index](#Valve%20Index)
+2. [Steam Frame](#Steam%20Frame)
 
 ### Valve Index
 When it was released all the way back in 2019 (wow, time flies, huh), the Valve Index was **the** greatest virtual reality headset money could buy you - and it was a **damn good deal too!**
