@@ -44,8 +44,7 @@ I'm so disappointed.
 
 At least I get to leave.
 
-I think I've finally nailed down what I'm disappointed in. I'm going to put
-the people at Google into two categories. The Mormon boy in me wants to
+I think I've finally nailed down what I'm disappointed in. I'm going to put the people at Google into two categories. The Mormon boy in me wants to
 call them "believers" and "apostates". I like this because it has a rather
 vicious emotional valence. The athiest in me is concerned that using those
 as categories will trigger a bunch of unpleasant type-1 thinking I should
