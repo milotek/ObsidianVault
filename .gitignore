@@ -1,14 +1,12 @@
-# Confidential work and private notes — kept in Google Drive only
-Work/
-Private/
-
-# Obsidian noise
+# Obsidian crap
 .trash/
 .obsidian/workspace*.json
-.obsidian/cache
 
-# Google Drive stubs
+# Google Drive crap
 *.gdoc
-
-# macOS / Google Drive folder icon files (Icon\r)
 Icon?
+
+# Confidential work + private notes
+# (sync via gdrive only)
+Work/
+Private/
