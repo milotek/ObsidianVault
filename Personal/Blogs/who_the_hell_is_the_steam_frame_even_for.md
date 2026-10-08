@@ -2,6 +2,7 @@
 aliases:
 published: 2026-08-25
 ---
+
 # Who the hell is the Steam Frame even for?
 Do valve even know? 🤔
 
