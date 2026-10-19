@@ -1,8 +1,8 @@
 [
-  "obsidian-style-settings",
+  "google-plugin-manager-googleinternal",
+  "obsidian-style-settings-googleinternal",
   "folders2graph",
-  "calendar",
-  "linkify",
-  "obsidian-git",
-  "obsidian-link-converter"
+  "calendar-googleinternal",
+  "linkify-googleinternal",
+  "obsidian-git"
 ]

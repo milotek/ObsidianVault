@@ -1,37 +1,37 @@
 {
   "rules": [
     {
-      "regexp": "g:([a-zA-Z0-9.-]*)",
+      "regexp": "(?<![\\w/.:@+=%-])g:([\\w.+-]*\\w)",
       "link": "http://google.com/search?q=$1",
       "cssclass": ""
     },
     {
-      "regexp": "go/([a-zA-Z0-9#.-]+)",
+      "regexp": "(?<![\\w/.:@+=%-])go/([\\w#/?=&%+~.-]*[\\w#/=&%+~])",
       "link": "http://go/$1",
       "cssclass": ""
     },
     {
-      "regexp": "b/([a-zA-Z0-9#.-]+)",
+      "regexp": "(?<![\\w/.:@+=%-])b/(\\d+(?:#[\\w-]+)?)(?!\\w)",
       "link": "http://b/$1",
       "cssclass": ""
     },
     {
-      "regexp": "cl/([a-zA-Z0-9#.-]+)",
+      "regexp": "(?<![\\w/.:@+=%-])cl/(\\d+(?:#[\\w-]+)?)(?!\\w)",
       "link": "http://cl/$1",
       "cssclass": ""
     },
     {
-      "regexp": "who/([a-zA-Z0-9#.-]+)",
+      "regexp": "(?<![\\w/.:@+=%-])who/([\\w.-]*\\w)",
       "link": "http://who/$1",
       "cssclass": ""
     },
     {
-      "regexp": "([a-zA-Z0-9#.-]+)@google\\.com",
+      "regexp": "(?<![\\w/.:@+=%-])([a-zA-Z0-9._-]*[a-zA-Z0-9])@google\\.com(?![\\w.-]*\\w)",
       "link": "http://who/$1",
       "cssclass": ""
     },
     {
-      "regexp": "([a-zA-Z0-9#.-]+)@(?!\\w)",
+      "regexp": "(?<![\\w/.:@+=%-])([a-zA-Z0-9._-]*[a-zA-Z0-9])@(?!\\w)",
       "link": "http://who/$1",
       "cssclass": ""
     }
