@@ -1,10 +1,11 @@
 {
-  "id": "calendar",
+  "id": "calendar-googleinternal",
   "name": "Calendar",
-  "description": "Calendar view of your daily notes",
+  "description": "[Google-internal fork] Calendar view of your daily notes",
   "version": "1.5.10",
   "author": "Liam Cain",
   "authorUrl": "https://github.com/liamcain/",
+  "fundingUrl": "https://www.buymeacoffee.com/liamcain",
   "isDesktopOnly": false,
   "minAppVersion": "0.9.11"
 }

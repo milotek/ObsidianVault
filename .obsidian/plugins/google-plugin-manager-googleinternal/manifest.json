@@ -1,0 +1,10 @@
+{
+	"id": "google-plugin-manager-googleinternal",
+	"name": "Google Plugin Manager",
+	"version": "0.1.1",
+	"minAppVersion": "1.5.12",
+	"description": "[Google internal] Provides a plugin listing for Google-internal forks of plugins which is the safest, recommended way to install Obsidian plugins.",
+	"author": "Google",
+	"authorUrl": "https://goto.corp.google.com/obsidian",
+	"isDesktopOnly": true
+}
