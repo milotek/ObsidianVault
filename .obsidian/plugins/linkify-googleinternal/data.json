@@ -1,0 +1,430 @@
+{
+  "rules": [
+    {
+      "regexp": "(?<![\\w/])g:([\\w.-]+)",
+      "link": "http://google.com/search?q=$1",
+      "cssclass": "",
+      "name": "Google search"
+    },
+    {
+      "regexp": "(?<!\\/)\\b(?:go|goto)\\/([\\w_!#-&(-;=?@^\\|-~]*[\\w\\d#$%&*+\\/=@^_|~\\-])",
+      "link": "https://goto.google.com/$1",
+      "cssclass": "",
+      "name": "Go Links"
+    },
+    {
+      "regexp": "(?<!\\/)\\b(?:borgcron\\/)([a-z\\d](?:[a-z\\d\\-_]*[a-z\\d])?)",
+      "link": "https://borgcron-dashboard.corp.google.com/#user=$1",
+      "cssclass": "",
+      "name": "Borgcron"
+    },
+    {
+      "regexp": "(?<!\\/)\\b(?:b\\/|[Bb]ug(?: +|\\/))(\\d+(?:#comment\\d+)?)",
+      "link": "https://b.corp.google.com/issues/$1",
+      "cssclass": "",
+      "name": "Buganizer > bugs"
+    },
+    {
+      "regexp": "(?<!\\/)\\bb\\/([\\w\\-]+:[\\w%\\-]+(?:[\\w+\\-]+(:[\\w%\\-]+)*)*)",
+      "link": "https://b.corp.google.com/issues?q=$1",
+      "cssclass": "",
+      "name": "Buganizer > queries"
+    },
+    {
+      "regexp": "(?<!\\/)\\b(?:b\\/hotlists\\/|(?:[Bb]ug(?:anizer)? )?hotlist(?: +|\\/))(\\d+)",
+      "link": "https://b.corp.google.com/hotlists/$1",
+      "cssclass": "",
+      "name": "Buganizer > hotlists"
+    },
+    {
+      "regexp": "(?<!\\/)\\b(?:b|bug)\\/(?:issues\\/)?new(?:\\/|\\?component=)(\\d+(?:&template=\\d+)?)",
+      "link": "https://b.corp.google.com/issues/new?component=$1",
+      "cssclass": "",
+      "name": "Buganizer > bug creation"
+    },
+    {
+      "regexp": "(?<!\\/)\\b(?:b|bug)\\/savedsearches\\/(\\d+)",
+      "link": "https://b.corp.google.com/savedsearches/$1",
+      "cssclass": "",
+      "name": "Buganizer > saved searches"
+    },
+    {
+      "regexp": "(?<!\\/)\\b(?:b|bug)\\/bookmark-groups\\/(\\d+)",
+      "link": "https://b.corp.google.com/bookmark-groups/$1",
+      "cssclass": "",
+      "name": "Buganizer > bookmark groups"
+    },
+    {
+      "regexp": "(?<!\\/)\\b(?:b|bug)\\/dashboard\\/(\\d+)",
+      "link": "https://b.corp.google.com/dashboard/$1",
+      "cssclass": "",
+      "name": "Buganizer > dashboards"
+    },
+    {
+      "regexp": "(?<!\\/)\\b(?:b|bug)\\/components\\/(\\d+)",
+      "link": "https://b.corp.google.com/components/$1",
+      "cssclass": "",
+      "name": "Buganizer > components"
+    },
+    {
+      "regexp": "(?<!\\/)\\b(?:changelist |cr\\/|o?cl(?: |\\/|=))(\\d+(?:-p\\d+)?)",
+      "link": "https://cl.corp.google.com/$1",
+      "cssclass": "",
+      "name": "Critique"
+    },
+    {
+      "regexp": "(?<!\\/)\\b\\blrt\\/(\\d+(-\\d+)?)",
+      "link": "https://legal-removals.corp.google.com/$1",
+      "cssclass": "",
+      "name": "Legal Removals Tool"
+    },
+    {
+      "regexp": "(?<!\\/)\\b\\blrt(-stg|-staging)\\\\/(\\d+(-\\d+)?)",
+      "link": "https://legal-removals-staging.corp.google.com/$2",
+      "cssclass": "",
+      "name": "Legal Removals Tool Staging"
+    },
+    {
+      "regexp": "(?<!\\/)\\b((?:rapid|rapid-qa))\\/([\\w_!#-&(-;=?@^\\|-~]*[\\w\\d#$%&*+\\/=@^_|~\\-])",
+      "link": "https://$1.corp.google.com/$2",
+      "cssclass": "",
+      "name": "Rapid"
+    },
+    {
+      "regexp": "(?<!\\/)\\b(?:who|teams)\\/([\\w_!#-&(-;=?@^\\|-~]*[\\w\\d#$%&*+\\/=@^_|~\\-])",
+      "link": "https://teams.googleplex.com/$1",
+      "cssclass": "",
+      "name": "Moma Teams"
+    },
+    {
+      "regexp": "(?<!\\/)\\b([a-z0-9]+)@(?:google\\.com)?(?![\\w.@]\\w)",
+      "link": "https://teams.googleplex.com/$1",
+      "cssclass": "",
+      "name": "Moma Teams > User mention"
+    },
+    {
+      "regexp": "(?<!\\/)\\bcdpush\\/([\\w_!#-&(-;=?@^\\|-~]*[\\w\\d#$%&*+\\/=@^_|~\\-])?",
+      "link": "https://cdpush.corp.google.com/$1",
+      "cssclass": "",
+      "name": "CDPush"
+    },
+    {
+      "regexp": "(?<!\\/)\\b(sigma|conga|mpmbrowse)\\/([\\w_!#-&(-;=?@^\\|-~]*[\\w\\d#$%&*+\\/=@^_|~\\-])?",
+      "link": "https://$1.corp.google.com/$2",
+      "cssclass": "",
+      "name": "Sigma & conga & mpmbrowse"
+    },
+    {
+      "regexp": "(?<!\\/)\\bg\\/([a-z0-9][a-z0-9.+_-]+[a-z0-9](?:\\/[\\w_!#-&(-;=?@^\\|-~]*[\\w\\d#$%&*+\\/=@^_|~\\-])?)",
+      "link": "https://g.corp.google.com/$1",
+      "cssclass": "",
+      "name": "Groups"
+    },
+    {
+      "regexp": "(?<!\\/)\\bo\\/(\\d{3,})",
+      "link": "https://o.corp.google.com/$1",
+      "cssclass": "",
+      "name": "Outalator"
+    },
+    {
+      "regexp": "(?<!\\/)\\b(omg|omgtool)\\/(\\d+)",
+      "link": "https://$1.corp.google.com/$2",
+      "cssclass": "",
+      "name": "Incidents > OMG"
+    },
+    {
+      "regexp": "(?<!\\/)\\birm\\/([\\w_!#-&(-;=?@^\\|-~]*[\\w\\d#$%&*+\\/=@^_|~\\-])",
+      "link": "https://irm.corp.google.com/$1",
+      "cssclass": "",
+      "name": "Incidents > IRM"
+    },
+    {
+      "regexp": "(?<!\\/)\\b(?:launch|ariane)\\/(\\d+)",
+      "link": "https://ariane.googleplex.com/launch/$1",
+      "cssclass": "",
+      "name": "Launch"
+    },
+    {
+      "regexp": "(?<!\\/)\\b(?:mdb:|mdb\\/|mdbuser\\/|mdbgroup\\/)([a-z\\d](?:[a-z\\d\\-_]*[a-z\\d])?)",
+      "link": "https://ganpati.corp.google.com/$1",
+      "cssclass": "",
+      "name": "Ganpati"
+    },
+    {
+      "regexp": "(?<!\\/)\\b(?:ganpati2\\/|g2\\/)((?:user\\/|group\\/)[a-z\\d](?:[a-z\\d\\-_]*[a-z\\d])?(?:\\.corp|\\.prod))",
+      "link": "https://ganpati2.corp.google.com/$1",
+      "cssclass": "",
+      "name": "Ganpati2"
+    },
+    {
+      "regexp": "(?<!\\/)\\b(t|tick|ticket)\\/(\\d+)",
+      "link": "https://t.corp.google.com/$2",
+      "cssclass": "",
+      "name": "Guts > Tickets"
+    },
+    {
+      "regexp": "(?<!\\/)\\byaqs(?:.googleplex.com|.corp.google.com)?\\/(\\S*[^\\])}>.,:'\"\\s])",
+      "link": "https://yaqs.corp.google.com/$1",
+      "cssclass": "",
+      "name": "YAQS"
+    },
+    {
+      "regexp": "(?<!\\/)\\bpcr\\/(\\d+)",
+      "link": "https://pcms.corp.google.com/pcr/view/$1",
+      "cssclass": "",
+      "name": "Incidents > PCR"
+    },
+    {
+      "regexp": "(?<!\\/)\\btorx\\/(\\d+)",
+      "link": "https://torx.corp.google.com/pcr/$1",
+      "cssclass": "",
+      "name": "Incidents > TORX"
+    },
+    {
+      "regexp": "(?<!\\/)\\bsv\\/(\\d+)",
+      "link": "https://skyvine.corp.google.com/issues/$1",
+      "cssclass": "",
+      "name": "Guts > V4"
+    },
+    {
+      "regexp": "(?<!\\/)\\b(?:(?:\\/\\/)?depot\\/)([\\w_!#-&(-;=?@^\\|-~]*[\\w\\d#$%&*+\\/=@^_|~\\-])",
+      "link": "https://cs.corp.google.com/piper///depot/$1",
+      "cssclass": "",
+      "name": "depot path"
+    },
+    {
+      "regexp": "(?<!\\/)\\bgoogle3\\/([\\w_!#-&(-;=?@^\\|-~]*[\\w\\d#$%&*+\\/=@^_|~\\-])",
+      "link": "https://cs.corp.google.com/piper///depot/google3/$1",
+      "cssclass": "",
+      "name": "google3 paths"
+    },
+    {
+      "regexp": "(?<!\\/)\\b(?:java\\/com\\/google|j\\/c\\/g)\\/([\\w_!#-&(-;=?@^\\|-~]*[\\w\\d#$%&*+\\/=@^_|~\\-])",
+      "link": "https://cs.corp.google.com/piper///depot/google3/java/com/google/$1",
+      "cssclass": "",
+      "name": "java paths"
+    },
+    {
+      "regexp": "(?<!\\/)\\b(?:javatests\\/com\\/google|jt\\/c\\/g)\\/([\\w_!#-&(-;=?@^\\|-~]*[\\w\\d#$%&*+\\/=@^_|~\\-])",
+      "link": "https://cs.corp.google.com/piper///depot/google3/javatests/com/google/$1",
+      "cssclass": "",
+      "name": "javatests paths"
+    },
+    {
+      "regexp": "(?<!\\/)\\b(\\/(?:cns|namespace|placer|ls)\\/\\S*[^\\])}>.,:'\"\\s])",
+      "link": "https://cnsviewer.corp.google.com$1",
+      "cssclass": "",
+      "name": "CNS paths"
+    },
+    {
+      "regexp": "(?<!\\/)\\bg3doc\\/([\\w_!#-&(-;=?@^\\|-~]*[\\w\\d#$%&*+\\/=@^_|~\\-])",
+      "link": "https://g3doc.corp.google.com/$1",
+      "cssclass": "",
+      "name": "g3doc"
+    },
+    {
+      "regexp": "(?<!\\/)\\b(?:playbook|playbooks|engplay)\\/([\\w_!#-&(-;=?@^\\|-~]*[\\w\\d#$%&*+\\/=@^_|~\\-])",
+      "link": "https://playbooks.corp.google.com/$1",
+      "cssclass": "",
+      "name": "g3doc > playbooks"
+    },
+    {
+      "regexp": "(?<!\\/)\\bcrbug(?:\\.com)?\\/(\\w+\\/)?(new|\\d+)",
+      "link": "https://crbug.com/$1$2",
+      "cssclass": "",
+      "name": "Crbug"
+    },
+    {
+      "regexp": "(?<!\\/)\\bcrsrc.org\\/([\\w_!#-&(-;=?@^\\|-~]*[\\w\\d#$%&*+\\/=@^_|~\\-])",
+      "link": "https://crsrc.org/$1",
+      "cssclass": "",
+      "name": "Chrome Code Search"
+    },
+    {
+      "regexp": "(?<!\\/)\\bcrrev(?:\\.com)?\\/(c\\/|i\\/)?([0-9a-fA-F]+)",
+      "link": "https://crrev.com/$1$2",
+      "cssclass": "",
+      "name": "Gerrit > Chromium"
+    },
+    {
+      "regexp": "(?<!\\/)\\bmhcr\\/(\\d+)",
+      "link": "https://moohan-private-review.googlesource.com/$1",
+      "cssclass": "",
+      "name": "Gerrit > Moohan-private"
+    },
+    {
+      "regexp": "(?<!\\/)\\bfxr\\/([1-9]\\d*)",
+      "link": "https://fuchsia-review.googlesource.com/$1",
+      "cssclass": "",
+      "name": "Gerrit > Fuchsia"
+    },
+    {
+      "regexp": "(?<!\\/)\\btqr\\/([1-9]\\d*)",
+      "link": "https://turquoise-internal-review.googlesource.com/$1",
+      "cssclass": "",
+      "name": "Gerrit > Turquoise-internal"
+    },
+    {
+      "regexp": "(?<!\\/)\\bgpar\\/(\\d+)",
+      "link": "https://googleplex-polygon-android-review.git.corp.google.com/$1",
+      "cssclass": "",
+      "name": "Gerrit > Googleplex-Polygon-Android"
+    },
+    {
+      "regexp": "(?<!\\/)\\bfxb\\/([1-9]\\d*)",
+      "link": "https://fxbug.dev/$1",
+      "cssclass": "",
+      "name": "Fxb"
+    },
+    {
+      "regexp": "(?<!\\/)\\b(?:^|[^\\w.?\\/\\-])ag\\/(I?[0-9a-fA-F]{8,}|\\d+)",
+      "link": "https://ag.corp.google.com/$1",
+      "cssclass": "",
+      "name": "Gerrit > Android"
+    },
+    {
+      "regexp": "(?<!\\/)\\bac\\/([\\w_!#-&(-;=?@^\\|-~]*[\\w\\d#$%&*+\\/=@^_|~\\-])",
+      "link": "https://source.corp.google.com/h/googleplex-android/platform/superproject/main/+/main:$1",
+      "cssclass": "",
+      "name": "CS > Gerrit > Android"
+    },
+    {
+      "regexp": "(?<!\\/)\\b(?:^|[^\\w.?\\/\\-])aosp\\/(I?[0-9a-fA-F]{8,}|\\d+)",
+      "link": "https://aosp.corp.google.com/$1",
+      "cssclass": "",
+      "name": "Gerrit > AOSP"
+    },
+    {
+      "regexp": "(?<!\\/)\\baosc\\/([\\w_!#-&(-;=?@^\\|-~]*[\\w\\d#$%&*+\\/=@^_|~\\-])",
+      "link": "https://source.corp.google.com/h/android/platform/superproject/main/+/main:$1",
+      "cssclass": "",
+      "name": "CS > Gerrit > AOSP"
+    },
+    {
+      "regexp": "(?<!\\/)\\bgkecl\\/(\\d+)",
+      "link": "https://gke-internal-review.googlesource.com/$1",
+      "cssclass": "",
+      "name": "Gerrit > GKE"
+    },
+    {
+      "regexp": "(?<!\\/)\\b(?:^|[^\\w.?\\/\\-])legit\\/(\\d+)",
+      "link": "https://devrel-review.git.corp.google.com/$1",
+      "cssclass": "",
+      "name": "Gerrit > DevRel"
+    },
+    {
+      "regexp": "(?<!\\/)\\b(?:sponge2?)\\/([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})",
+      "link": "https://fusion2.corp.google.com/invocations/$1",
+      "cssclass": "",
+      "name": "Sponge"
+    },
+    {
+      "regexp": "(?<!\\/)\\bdm\\/([\\w_!#-&(-;=?@^\\|-~]*[\\w\\d#$%&*+\\/=@^_|~\\-])",
+      "link": "https://dm.corp.google.com/$1",
+      "cssclass": "",
+      "name": "DeepMind"
+    },
+    {
+      "regexp": "(?<!\\/)\\b(rh|mh)\\/([\\w_!#-&(-;=?@^\\|-~]*[\\w\\d#$%&*+\\/=@^_|~\\-])",
+      "link": "https://$1.corp.google.com/$2",
+      "cssclass": "",
+      "name": "DeepMind > Mission Hub"
+    },
+    {
+      "regexp": "(?<!\\/)\\b(?:xids?)\\/(\\d+)",
+      "link": "https://xids.corp.google.com/$1",
+      "cssclass": "",
+      "name": "DeepMind > XManager"
+    },
+    {
+      "regexp": "(?<!\\/)\\b(boq|camel|chg|conductor|cs|dash|easyokrs|ganpati|ganpati2|kg|legislator|monitoring|ms|oncall|pcon|pod|pusher|screen|screencast|screenshot|shortn|sites|surfin|tap|vi|wiki)\\/([\\w_!#-&(-;=?@^\\|-~]*[\\w\\d#$%&*+\\/=@^_|~\\-])",
+      "link": "https://$1.corp.google.com/$2",
+      "cssclass": "",
+      "name": "General shortlinks"
+    },
+    {
+      "regexp": "(?<!\\/)\\b(?:^|[^\\w\\\\/])(?:((landspeeder)\\\\/(\\d+)\\b))",
+      "link": "https://$2.corp.google.com/launch/view/$3",
+      "cssclass": "",
+      "name": "Landspeeder"
+    },
+    {
+      "regexp": "(?<!\\/)\\b(?:^|[^\\w\\\\/])(?:((landspeeder-staging)\\\\/(\\d+)\\b))",
+      "link": "https://$2.corp.google.com/launch/view/$3",
+      "cssclass": "",
+      "name": "Landspeeder Staging"
+    },
+    {
+      "regexp": "(?<!\\/)\\b(?:^|[^\\w\\\\/])(?:((stacks)\\\\/(product|domain)\\/(.+)\\b))",
+      "link": "https://$2.corp.google.com/$3/$4",
+      "cssclass": "",
+      "name": "Stacks"
+    },
+    {
+      "regexp": "(?<!\\/)\\bjump\\/([\\w_!#-&(-;=?@^\\|-~]*[\\w\\d#$%&*+\\/=@^_|~\\-])",
+      "link": "https://jumper.googleplex.com/$1",
+      "cssclass": "",
+      "name": "Jumper"
+    },
+    {
+      "regexp": "(?<!\\/)\\b(data|data-staging|data-staging-test|data-autopush)\\/details\\/([^\\/.]+).([^\\/.]+).([^\\/.]+)(?:[\\w_!#-&(-;=?@^\\|-~]*[\\w\\d#$%&*+\\/=@^_|~\\-])?",
+      "link": "https://$1.corp.google.com/details/projects/$2/datasets/$3/entries/$4",
+      "cssclass": "",
+      "name": "Data Marketplace > Details"
+    },
+    {
+      "regexp": "(?<!\\/)\\btable\\/([\\w_!#-&(-;=?@^\\|-~]*[\\w\\d#$%&*+\\/=@^_|~\\-])",
+      "link": "https://table.corp.google.com/$1",
+      "cssclass": "",
+      "name": "Data Marketplace > Table"
+    },
+    {
+      "regexp": "(?<!\\/)\\bgo.dev\\/(cl|issue|play|doc|ref|blog)\\/(\\S*[^\\])}>.,:'\"\\s])",
+      "link": "https://go.dev/$1/$2",
+      "cssclass": "",
+      "name": "Go Devsite"
+    },
+    {
+      "regexp": "(?<!\\/)\\bchat\\/room\\/([^\\/]+(?:\\/([^\\/]+))?)",
+      "link": "https://mail.google.com/chat/#chat/space/$1",
+      "cssclass": "",
+      "name": "Chat > Spaces"
+    },
+    {
+      "regexp": "(?<!\\/)\\bbamach\\/(\\S*[^\\])}>.,:'\"\\s])",
+      "link": "https://bamach.corp.google.com/$1",
+      "cssclass": "",
+      "name": "Bandaid Machine Redirector"
+    },
+    {
+      "regexp": "(?<!\\/)\\bgrants\\/(add|rm)\\/([\\w_!#-&(-;=?@^\\|-~]*[\\w\\d#$%&*+\\/=@^_|~\\-])",
+      "link": "https://grants.corp.google.com/$1/$2",
+      "cssclass": "",
+      "name": "Access on Demand grants (AoD)"
+    },
+    {
+      "regexp": "(?<!\\/)\\bvendorgateway\\/([\\w_!#-&(-;=?@^\\|-~]*[\\w\\d#$%&*+\\/=@^_|~\\-])?",
+      "link": "https://vendorgateway.corp.google.com/$1",
+      "cssclass": "",
+      "name": "VendorGateway UI"
+    },
+    {
+      "regexp": "(?<!\\/)\\bdory\\/([\\w_!#-&(-;=?@^\\|-~]*[\\w\\d#$%&*+\\/=@^_|~\\-])?",
+      "link": "https://dory.corp.google.com/$1",
+      "cssclass": "",
+      "name": "Dory"
+    },
+    {
+      "regexp": "(?<!\\/)\\bjiffy\\/([\\w_!#-&(-;=?@^\\|-~]*[\\w\\d#$%&*+\\/=@^_|~\\-])?",
+      "link": "https://jiffy.corp.google.com/$1",
+      "cssclass": "",
+      "name": "Jiffy"
+    },
+    {
+      "regexp": "(?<!\\/)\\bsimhub\\/([\\w_!#-&(-;=?@^\\|-~]*[\\w\\d#$%&*+\\/=@^_|~\\-])?",
+      "link": "https://simhub.corp.google.com/$1",
+      "cssclass": "",
+      "name": "Waymo - SimHub"
+    }
+  ]
+}
