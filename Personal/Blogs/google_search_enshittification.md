@@ -1,21 +1,28 @@
 # The expected trajectory of the internet makes me sad
-"Is the internet getting worse? No, it's the 
+"Is Google Search getting worse?"
+"No, it's the internet that is."
+Oh, and that's a bigger problem than the former, IMO.
+
+![](Pasted%20image%2020261030162739.png)
 
 
 > [!WARNING] Disclaimer
 > My job, as of writing, is working on Google search.
 > As a result, please assume some level of bias.
 
+The modern internet sucks = Reddit sucks = walled garden platforms suck = it's not going to get any better.
 
 ---
-### ... where AI was the top result
+### This is how much of my results were AI
+
+Here I do an investigation into the authenticity of the top result that Google gave me for each query (in **bold** at the top, before each one).
+
 **"is google not profitable"**
 1. [r/ValueInvesting - I basically stopped clicking Google links months ago. Their quarter just explained why that doesn't matter.](https://www.reddit.com/r/ValueInvesting/comments/1v42rra/i_basically_stopped_clicking_google_links_months/)
-	- You can obviously tell this is slop because of the shitty LLM prose.
+	- You can obviously tell this POST is AI written and slop because of the shitty LLM prose.
 	- Also, just look at the post history.
 	- ![](Pasted%20image%2020261003020508.png)
 	- Yeah, whatever, man. I don't fucking care anymore. Fuck you.
-	- x
 2. **"will ai kill off junior swe roles"**
 	- [r/ArtificialInteligence [sic] - Is AI quietly killing the junior developer role?](https://www.reddit.com/r/ArtificialInteligence/comments/1rv4rcb/is_ai_quietly_killing_the_junior_developer_role/)
 		- Ok so straight off the bat, the subreddit name is spelt wrong. Let's look at the post.
@@ -35,8 +42,12 @@
 					- ![](Pasted%20image%2020261003023609.png)
 					- Oops! All bot comments for future GEO farming!
 
-Some brainless moron is going to say "ok and whats wrong with AI answers ROFL??" I assume.
+Some brainless moron reading this right now might be thinking - "ok, and whats wrong with AI answers ROFL?", to which I don't have the energy to respond to.
 
 ---
 
-Much like my thoughts on politics in my country, I once again feel like I have a different (probably somewhat misinformed and ignorant) opinion to the majority, and there's no clear direction for me to go from here. 
+Much like my thoughts on politics in my country, I once again feel like:
+- I have a different (probably somewhat misinformed and ignorant) opinion to the majority
+- There's no clear direction for me, or us, to go from here. 
+
+I'm going to miss you, pre-AI internet. You might have been filled with spam, but you were filled with less spam. Can we just hit the [undelete button already](https://worldofgoo.fandom.com/wiki/Deliverance)?
