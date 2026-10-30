@@ -3,7 +3,7 @@
   "name": "Copy Google link",
   "version": "0.1.0",
   "minAppVersion": "1.4.0",
-  "description": "Right-click a note to publish it to go/milo-notes and copy its link.",
+  "description": "Right-click a note to publish it to go/milotek-notes and copy its link.",
   "author": "milotek",
   "isDesktopOnly": false
 }

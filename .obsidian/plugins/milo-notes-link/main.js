@@ -1,6 +1,6 @@
 const { Plugin, Notice, TFile } = require("obsidian");
 
-const BASE = "go/milo-notes/";
+const BASE = "go/milotek-notes/";
 
 // Same rules as Quartz's slugifyFilePath, so the link matches the built page.
 function slugify(path) {
